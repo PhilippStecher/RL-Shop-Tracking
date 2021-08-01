@@ -11,11 +11,23 @@ var request = require('request'),
         jar: true
     });
 
+var globalTunnel = require('global-tunnel');
+
+/* globalTunnel.initialize({
+  host: "172.67.255.214",
+    port: 3128,
+    socket: 50
+}); */
+
 var lastseen_Featured_md5 = crypto.createHash('md5');
 
 //#region Startparameters
 const BaseURL = "rocket-league.com";
-const URLpath = "/items/shop/"
+const URLpath = "/items/shop"
+
+const lastseenPath = "./data/last-seen.json";
+const currentItemPath = "./data/current-items.json";
+const MassivStoragePath = "./data/data-storage.json";
 
 var TheInterval;
 
@@ -24,12 +36,19 @@ FixInterval_FitPerfect = () => {
 }
 //#endregion
 
+
+//#region On update store data
 class DataStoring {
     constructor() {
 
     }
 }
+SaveData = (FEATURED = null, DAILY = null) => {
+    //!fs.writeFileSync("./test.json", LastSeen_feat)
+}
+//#endregion
 
+//#region Last seen idk
 class lastseenData {
     constructor(F, D) {
         this.FeaturedHash = F;
@@ -37,38 +56,47 @@ class lastseenData {
     }
 }
 
-class CurrItemStoring {
-    constructor(ObjF, ObjD) {
-        this.Featured_Items = ObjF;
-        this.DailyItems = ObjD;
-    }
-}
-
-SaveData = (FEATURED = null, DAILY = null) => {
-    //!fs.writeFileSync("./test.json", LastSeen_feat)
-}
-
-SaveCurrItems = (Obj) => {
-    fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj), "utf-8");
-}
-
 ReturnHashes = (Obj) => {
-    Obj.slice("iName")
-    /* for (var x = 0; x < Obj.length; x++) {
+    for (var x = 0; x < Obj.length; x++) {
         delete Obj[x].iUpvote;
         delete Obj[x].iDownvote;
         delete Obj[x].pulltimeCode;
         delete Obj[x].pulltimeText;
-    } */
-    console.log(Obj)
+    }
     var Obj_Md5 = crypto.createHash('md5');
     Obj_Md5.update(JSON.stringify(Obj))
     return Obj_Md5.digest("hex")
 }
 
-CheckIfUpdated = (FEATURED, DAILY) => {
-
+WriteLastSeen = (FEATURED, DAILY) => {
+    fs.writeFileSync(lastseenPath, JSON.stringify(new lastseenData(FEATURED, DAILY)), "utf-8")
 }
+
+CheckIfUpdated = (FEATURED, DAILY) => {
+    Feathash = ReturnHashes(FEATURED);
+    DailyHash = ReturnHashes(DAILY);
+
+    LS_content = fs.readFileSync(lastseenPath, "utf8")
+    if (LS_content.length == 0) {
+        console.log("ERROR: Last seen file empty");
+        WriteLastSeen(Feathash, DailyHash);
+        return true;
+    }
+
+    var formated = JSON.parse(LS_content);
+
+    if (formated.FeaturedHash == Feathash && formated.DailyHash == DailyHash) {
+        console.log("Shop doesn't updated!");
+        return false;
+    } else {
+        console.log("Shop updated!");
+        //!WriteLastSeen(Feathash, DailyHash);
+        //todo ...
+        return true;
+    }
+    return false;
+}
+//#endregion
 
 class FeaturedConstruct {
     constructor(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote) {
@@ -86,6 +114,17 @@ class FeaturedConstruct {
             d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
         this.pulltimeText = datestring
     }
+}
+
+class CurrItemStoring {
+    constructor(ObjF, ObjD) {
+        this.Featured_Items = ObjF;
+        this.DailyItems = ObjD;
+    }
+}
+
+SaveCurrItems = (Obj) => {
+    fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj), "utf-8");
 }
 
 ParseHTML = (html) => {
@@ -164,18 +203,13 @@ ParseHTML = (html) => {
         DailyIArr.push(new FeaturedConstruct(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote))
     }
     //!----------------------------------------------
-    FeatForHash = FeaturedIArr;
-    DailyForHash = DailyIArr;
-    /* Delete for Hashing */
-
-
-    /* lastseen_Featured_md5.update(JSON.stringify(DailyForHash))
-    var LastSeen_feat = lastseen_Featured_md5.digest("hex") */
     SaveCurrItems(new CurrItemStoring(FeaturedIArr, DailyIArr));
-    console.log(ReturnHashes(FeatForHash))
-    console.log(ReturnHashes(DailyForHash))
-    
+    //!----------------------------------------------
+    if (CheckIfUpdated(FeaturedIArr, DailyIArr)) { //?The Store Updated
 
+    } else { //?The Store doesn't updated.
+
+    }
 }
 
 CheckShop = () => {
@@ -201,7 +235,9 @@ CheckShop = () => {
                 str += part;
             });
             resp.on('end', function (part) {
+                /* fs.writeFileSync("./ip.html", str, 'utf8'); */
                 ParseHTML(str)
+                /* console.log(str) */
             });
 
             resp.on('error', function (e) {
