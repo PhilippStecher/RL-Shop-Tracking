@@ -13,6 +13,7 @@ var request = require('request'),
 
 var globalTunnel = require('global-tunnel');
 
+//?todo Randomize IP
 
 var lastseen_Featured_md5 = crypto.createHash('md5');
 
@@ -23,6 +24,7 @@ const URLpath = "/items/shop/"
 const lastseenPath = "./data/last-seen.json";
 const currentItemPath = "./data/current-items.json";
 const MassivStoragePath = "./data/data-storage.json";
+const AllItemsPath = "./data/itemstoring.json";
 
 var TheInterval;
 
@@ -33,45 +35,116 @@ FixInterval_FitPerfect = () => {
 
 //#region Warnsystem
 TriggerWarning = (msg) => {
-    
+    //todo
+}
+//#endregion
+
+//#region Item to ID
+GetIDofItem = (iName, iType, iColor, iPrice) => {
+    return new crypto.createHash('md5').update(iName + iType + iColor + iPrice).digest('hex');
+}
+
+class ItemToID {
+    constructor(iName, iType, iColor, iPrice, DailyORFeatured) {
+        this.iID = GetIDofItem(iName, iType, iColor, iPrice);
+        this.iName = iName;
+        this.iType = iType;
+        this.iColor = iColor;
+        this.iPrice = iPrice;
+        this.ForD = DailyORFeatured;
+    }
+}
+
+ItemToStorage = (ItemID, ItemObj) => {
+    /* console.log("A item id = " + ItemID) */
+    var Itemstorage = fs.readFileSync(AllItemsPath, 'utf8');
+
+
+    //!Check if Item already exists
+
+    var ItemAllreadyExists = false;
+    if (Itemstorage.length != 0) {
+        var tempParse = JSON.parse(Itemstorage)
+        /* Check if Item is already in storage */
+        tempParse.forEach(item => {
+            if (item.iID == ItemID) {
+                ItemAllreadyExists = true;
+                return
+            }
+        })
+    }
+
+    if (ItemAllreadyExists)
+        return;
+
+
+    if (Itemstorage.length == 0) {
+        var ItemStorageCNT = [];
+        ItemStorageCNT.push(ItemObj)
+    } else {
+        var ItemStorageCNT = JSON.parse(Itemstorage)
+        ItemStorageCNT.push(ItemObj)
+    }
+    fs.writeFileSync(AllItemsPath, JSON.stringify(ItemStorageCNT), "utf-8");
+    console.log("New item saved to DataBase");
+
+
 }
 //#endregion
 
 //#region On update store data
 class Packaging {
     constructor(FObj, DObj) {
-        this.featured = FeaturedObj;
-        this.daily = DailyObj;
+        this.featured = FObj;
+        this.daily = DObj;
     }
 }
 class DataStoring {
     constructor(thePackedObj) {
         this.items = thePackedObj
+        var d = new Date();
+        this.pulltimeCode = Date.now();
+        var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
+            d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+        this.pulltimeText = datestring
     }
 }
-SaveData = (FEATURED = null, DAILY = null) => {
-    //!fs.writeFileSync("./test.json", LastSeen_feat)
-}
+
 
 StoreData = (FEATURED = null, DAILY = null) => {
-    
     var time = Date.now();
-    var d = Date();
+    var d = new Date();
     var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
-            d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+        d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+
+
+    var ShrinkDataF = [];
+    var ShrinkDataD = [];
+    FEATURED.forEach((Fitem) => {
+        var iHash = GetIDofItem(Fitem.iName, Fitem.iType, Fitem.iColor, Fitem.iPrice);
+        ItemToStorage(iHash, new ItemToID(Fitem.iName, Fitem.iType, Fitem.iColor, Fitem.iPrice, "FEATURED"))
+        ShrinkDataF.push({ "iID": iHash, "pulltimeCode": Fitem.pulltimeCode, "pulltimeText": Fitem.pulltimeText })
+    })
+    DAILY.forEach((Ditem) => {
+        var iHash = GetIDofItem(Ditem.iName, Ditem.iType, Ditem.iColor, Ditem.iPrice);
+        ItemToStorage(iHash, new ItemToID(Ditem.iName, Ditem.iType, Ditem.iColor, Ditem.iPrice, "DAILY"))
+        ShrinkDataD.push({ "iID": iHash, "pulltimeCode": Ditem.pulltimeCode, "pulltimeText": Ditem.pulltimeText })
+    })
+
+
 
     var CurrentResults = fs.readFileSync(MassivStoragePath, "utf-8");
-    if (CurrentResults.lenght > 2) {
-        var jsoncnt = JSON.parse(CurrentResults)
-
-        jsoncnt.push(new DataStoring(new Packaging(FEATURED, DAILY)))
-
-        fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt), "utf-8");
-        console.log("New shop content saved.");
-    } else {
+    if (CurrentResults.length == 0) {
         console.log("ERROR: Data-Storage is empty!")
         TriggerWarning("Data-Storage file is empty!")
+        var jsoncnt = [];
+        jsoncnt.push(new DataStoring(new Packaging(ShrinkDataF, ShrinkDataD)))
+    } else {
+        var jsoncnt = JSON.parse(CurrentResults)
+        jsoncnt.push(new DataStoring(new Packaging(ShrinkDataF, ShrinkDataD)))
     }
+    fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt), "utf-8");
+    console.log("New shop content saved.");
 }
 //#endregion
 
@@ -109,6 +182,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
         TriggerWarning("LastSeen file is empty!!!");
         WriteLastSeen(Feathash, DailyHash);
         return true;
+        CheckShop();
     }
 
     var formated = JSON.parse(LS_content);
@@ -118,8 +192,6 @@ CheckIfUpdated = (FEATURED, DAILY) => {
         return false;
     } else {
         console.log("Shop updated!");
-        //!WriteLastSeen(Feathash, DailyHash);
-        //todo ...
         return true;
     }
     return false;
@@ -128,9 +200,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
 
 class FeaturedConstruct {
     constructor(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote) {
-        var RandomMD5 = crypto.createHash('md5');
-        RandomMD5.update(iName + iColor + iType);
-        this.iID = RandomMD5.digest('hex');
+        this.iID = GetIDofItem(iName, iType, iColor, iPrice)
         this.iName = iName;
         this.iType = iType;
         this.iColor = iColor;
@@ -166,7 +236,7 @@ ParseHTML = (html) => {
     for (var x = 1; x <= 2; x++) {
         var CurrFeat = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__featured > div:nth-child(" + x + ")").html()
         if (CurrFeat == null || CurrFeat == undefined) {
-            console.log("ERROR: Something is wrong here!!!")
+            console.log("ERROR: The HTML pulled is invalid!")
             TriggerWarning("The HTML pulled is invalid!")
             return;
         }
@@ -174,7 +244,6 @@ ParseHTML = (html) => {
         var iName = CurrCheer("div.rlg-item-shop__item-content > h1").text().trim();
         var iType = CurrCheer("div.rlg-item-shop__item-content > div.rlg-item-shop__item-category").html().replace("<br>", " ");
         var iColor = CurrCheer("div.rlg-item-shop__image-meta > div.rlg-item-shop__paint").text().trim();
-
         /* !..! */
         var iCertification;
         if (CurrCheer("div.rlg-item-shop__image-meta > div.rlg-item-shop__cert").text().trim() != "") {
@@ -202,7 +271,7 @@ ParseHTML = (html) => {
     for (var x = 1; x <= 6; x++) {
         var CurrDaily = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__daily > div:nth-child(" + x + ")").html()
         if (CurrDaily == null || CurrDaily == undefined) {
-            console.log("ERROR: Something is wrong here!!!")
+            console.log("ERROR: The HTML pulled is invalid!")
             TriggerWarning("The HTML pulled is invalid!")
             return;
         }
@@ -247,6 +316,7 @@ ParseHTML = (html) => {
 }
 
 CheckShop = () => {
+    console.log("----------------------------------------------")
     console.log("Checking RL Shop");
     var str = '';
     var uri = BaseURL;
@@ -269,13 +339,15 @@ CheckShop = () => {
                 str += part;
             });
             resp.on('end', function (part) {
-                fs.writeFileSync("./ip.html", str, 'utf8');
-                if (str.lenght > 2) {
-                    ParseHTML(str)
+                fs.writeFileSync("./lastRequest.html", str, 'utf8');
+                ParseHTML(str)
+                /* if (str.lenght < 2) {
+                    
                 } else {
+                    console.log("HTML Response empty")
                     TriggerWarning("HTML Response empty")
-                }
-                
+                } */
+
                 /* console.log(str) */
             });
 
@@ -291,7 +363,7 @@ onstart = () => {
     CheckShop();
     TheInterval = setInterval(() => {
         CheckShop();
-    }, 3600000);
+    }, 900000);
 }
 
 onstart();

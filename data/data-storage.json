@@ -1,0 +1,36 @@
+[
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "c4e0c65eb5ce853856316dd59a999fe0"
+                },
+                {
+                    "iID": "ba90c1f7b5ff81ab4a1950595498abd2"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "1c78f5bc6a1017aeb7342ab8cf5bc019"
+                },
+                {
+                    "iID": "5c94ce3ac2d55426a5670eedab5d74a5"
+                },
+                {
+                    "iID": "bc0a8f06e218f6b9f21ed0c24d70eb7e"
+                },
+                {
+                    "iID": "d148daa92936f8bf84285e03a4f325ab"
+                },
+                {
+                    "iID": "76eedc8f0f9a91a05145555e4bced4b2"
+                },
+                {
+                    "iID": "0f5173b36acd1327c4b332361b89f35a"
+                }
+            ]
+        },
+        "pulltimeCode": 1627934245713,
+        "pulltimeText": "02-08-2021 21:57:25"
+    }
+]
