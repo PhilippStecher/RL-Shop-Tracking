@@ -31,17 +31,22 @@ FixInterval_FitPerfect = () => {
 }
 //#endregion
 
+//#region Warnsystem
+TriggerWarning = (msg) => {
+    
+}
+//#endregion
 
 //#region On update store data
 class Packaging {
     constructor(FObj, DObj) {
-        
+        this.featured = FeaturedObj;
+        this.daily = DailyObj;
     }
 }
 class DataStoring {
-    constructor(FeaturedObj, DailyObj) {
-        this.featured = FeaturedObj;
-        this.daily = DailyObj;
+    constructor(thePackedObj) {
+        this.items = thePackedObj
     }
 }
 SaveData = (FEATURED = null, DAILY = null) => {
@@ -50,6 +55,23 @@ SaveData = (FEATURED = null, DAILY = null) => {
 
 StoreData = (FEATURED = null, DAILY = null) => {
     
+    var time = Date.now();
+    var d = Date();
+    var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
+            d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+
+    var CurrentResults = fs.readFileSync(MassivStoragePath, "utf-8");
+    if (CurrentResults.lenght > 2) {
+        var jsoncnt = JSON.parse(CurrentResults)
+
+        jsoncnt.push(new DataStoring(new Packaging(FEATURED, DAILY)))
+
+        fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt), "utf-8");
+        console.log("New shop content saved.");
+    } else {
+        console.log("ERROR: Data-Storage is empty!")
+        TriggerWarning("Data-Storage file is empty!")
+    }
 }
 //#endregion
 
@@ -84,6 +106,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
     LS_content = fs.readFileSync(lastseenPath, "utf8")
     if (LS_content.length == 0) {
         console.log("ERROR: Last seen file empty");
+        TriggerWarning("LastSeen file is empty!!!");
         WriteLastSeen(Feathash, DailyHash);
         return true;
     }
@@ -144,6 +167,7 @@ ParseHTML = (html) => {
         var CurrFeat = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__featured > div:nth-child(" + x + ")").html()
         if (CurrFeat == null || CurrFeat == undefined) {
             console.log("ERROR: Something is wrong here!!!")
+            TriggerWarning("The HTML pulled is invalid!")
             return;
         }
         CurrCheer = cheerio.load(CurrFeat.toString());
@@ -179,6 +203,7 @@ ParseHTML = (html) => {
         var CurrDaily = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__daily > div:nth-child(" + x + ")").html()
         if (CurrDaily == null || CurrDaily == undefined) {
             console.log("ERROR: Something is wrong here!!!")
+            TriggerWarning("The HTML pulled is invalid!")
             return;
         }
         CurrCheer = cheerio.load(CurrDaily.toString());
@@ -245,12 +270,18 @@ CheckShop = () => {
             });
             resp.on('end', function (part) {
                 fs.writeFileSync("./ip.html", str, 'utf8');
-                ParseHTML(str)
+                if (str.lenght > 2) {
+                    ParseHTML(str)
+                } else {
+                    TriggerWarning("HTML Response empty")
+                }
+                
                 /* console.log(str) */
             });
 
             resp.on('error', function (e) {
                 console.log('Problem with request: ' + e.message);
+                TriggerWarning('Problem with request: ' + e.message)
             });
         }
     }).end(str);
