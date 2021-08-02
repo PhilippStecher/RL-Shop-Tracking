@@ -33,13 +33,23 @@ FixInterval_FitPerfect = () => {
 
 
 //#region On update store data
+class Packaging {
+    constructor(FObj, DObj) {
+        
+    }
+}
 class DataStoring {
-    constructor() {
-
+    constructor(FeaturedObj, DailyObj) {
+        this.featured = FeaturedObj;
+        this.daily = DailyObj;
     }
 }
 SaveData = (FEATURED = null, DAILY = null) => {
     //!fs.writeFileSync("./test.json", LastSeen_feat)
+}
+
+StoreData = (FEATURED = null, DAILY = null) => {
+    
 }
 //#endregion
 
@@ -95,6 +105,9 @@ CheckIfUpdated = (FEATURED, DAILY) => {
 
 class FeaturedConstruct {
     constructor(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote) {
+        var RandomMD5 = crypto.createHash('md5');
+        RandomMD5.update(iName + iColor + iType);
+        this.iID = RandomMD5.digest('hex');
         this.iName = iName;
         this.iType = iType;
         this.iColor = iColor;
@@ -160,9 +173,6 @@ ParseHTML = (html) => {
 
         FeaturedIArr.push(new FeaturedConstruct(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote))
     }
-    //*console.table(ObjFeatLeft)
-    //*console.table(ObjFeatRight)
-
     //!----------------------------------------------
     var DailyIArr = [];
     for (var x = 1; x <= 6; x++) {
@@ -198,11 +208,15 @@ ParseHTML = (html) => {
         DailyIArr.push(new FeaturedConstruct(iName, iType, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote))
     }
     //!----------------------------------------------
+    //*console.log(FeaturedIArr);
+    //*console.log(DailyIArr);
     SaveCurrItems(new CurrItemStoring(FeaturedIArr, DailyIArr));
     //!----------------------------------------------
-    if (CheckIfUpdated(FeaturedIArr, DailyIArr)) { //?The Store Updated
-
-    } else { //?The Store doesn't updated.
+    if (CheckIfUpdated(FeaturedIArr, DailyIArr)) { //?The Store Updated everything
+        StoreData(FeaturedIArr, DailyIArr);
+        //todo Fix the interval so it fit perfect
+        WriteLastSeen(ReturnHashes(FeaturedIArr), ReturnHashes(DailyIArr));
+    } else {
 
     }
 }
@@ -245,6 +259,7 @@ CheckShop = () => {
 onstart = () => {
     CheckShop();
     TheInterval = setInterval(() => {
+        CheckShop();
     }, 3600000);
 }
 
