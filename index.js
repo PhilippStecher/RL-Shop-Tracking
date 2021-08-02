@@ -14,8 +14,11 @@ var request = require('request'),
 var globalTunnel = require('global-tunnel');
 
 //?todo Randomize IP
+//https://astexplorer.net/
+//https://github.com/acornjs/acorn
 //https://www.npmjs.com/package/ast-parser 
-//const {Parser} = require("acorn")
+//https://www.npmjs.com/package/acorn
+//https://blog.sessionstack.com/how-javascript-works-parsing-abstract-syntax-trees-asts-5-tips-on-how-to-minimize-parse-time-abfcf7e8a0c8
 
 var lastseen_Featured_md5 = crypto.createHash('md5');
 
