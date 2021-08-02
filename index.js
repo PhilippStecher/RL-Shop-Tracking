@@ -13,17 +13,12 @@ var request = require('request'),
 
 var globalTunnel = require('global-tunnel');
 
-/* globalTunnel.initialize({
-  host: "172.67.255.214",
-    port: 3128,
-    socket: 50
-}); */
 
 var lastseen_Featured_md5 = crypto.createHash('md5');
 
 //#region Startparameters
 const BaseURL = "rocket-league.com";
-const URLpath = "/items/shop"
+const URLpath = "/items/shop/"
 
 const lastseenPath = "./data/last-seen.json";
 const currentItemPath = "./data/current-items.json";
@@ -235,7 +230,7 @@ CheckShop = () => {
                 str += part;
             });
             resp.on('end', function (part) {
-                /* fs.writeFileSync("./ip.html", str, 'utf8'); */
+                fs.writeFileSync("./ip.html", str, 'utf8');
                 ParseHTML(str)
                 /* console.log(str) */
             });
