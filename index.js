@@ -14,6 +14,8 @@ var request = require('request'),
 var globalTunnel = require('global-tunnel');
 
 //?todo Randomize IP
+//https://www.npmjs.com/package/ast-parser 
+//const {Parser} = require("acorn")
 
 var lastseen_Featured_md5 = crypto.createHash('md5');
 
