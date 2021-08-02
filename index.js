@@ -135,7 +135,7 @@ ParseHTML = (html) => {
         }
         CurrCheer = cheerio.load(CurrFeat.toString());
         var iName = CurrCheer("div.rlg-item-shop__item-content > h1").text().trim();
-        var iType = CurrCheer("div.rlg-item-shop__item-content > div.rlg-item-shop__item-category").html().replaceAll("<br>", " ");
+        var iType = CurrCheer("div.rlg-item-shop__item-content > div.rlg-item-shop__item-category").html().replace("<br>", " ");
         var iColor = CurrCheer("div.rlg-item-shop__image-meta > div.rlg-item-shop__paint").text().trim();
 
         /* !..! */
@@ -173,7 +173,7 @@ ParseHTML = (html) => {
         }
         CurrCheer = cheerio.load(CurrDaily.toString());
         var iName = CurrCheer("div.rlg-item-shop__item-content > h1").text().trim();
-        var iType = CurrCheer("div.rlg-item-shop__item-content > div.rlg-item-shop__item-category").html().replaceAll("<br>", " ");
+        var iType = CurrCheer("div.rlg-item-shop__item-content > div.rlg-item-shop__item-category").html().replace("<br>", " ");
         var iColor = CurrCheer("div.rlg-item-shop__image-meta > div.rlg-item-shop__paint").text().trim();
 
         /* !..! */
