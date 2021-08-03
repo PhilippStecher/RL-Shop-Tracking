@@ -1,1 +1,114 @@
+<<<<<<< HEAD
 {"Featured_Items":[{"iID":"c4e0c65eb5ce853856316dd59a999fe0","iName":"Gravity Bomb","iType":"Black Market Goal Explosion","iColor":"Forest Green","iCertification":null,"iEdition":null,"iPrice":"2200","iUpvote":"1310","iDownvote":"4399","pulltimeCode":1627994117682,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"ba90c1f7b5ff81ab4a1950595498abd2","iName":"Glaive","iType":"Very Rare Wheels","iColor":"Burnt Sienna","iCertification":"Guardian","iEdition":"Inverted","iPrice":"400","iUpvote":"289","iDownvote":"4868","pulltimeCode":1627994117687,"pulltimeText":"03-08-2021 14:35:17"}],"DailyItems":[{"iID":"1c78f5bc6a1017aeb7342ab8cf5bc019","iName":"Octane: Buzz Kill","iType":"Rare Decal","iColor":"Burnt Sienna","iCertification":null,"iEdition":null,"iPrice":"50","iUpvote":"121","iDownvote":"2223","pulltimeCode":1627994117690,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"5c94ce3ac2d55426a5670eedab5d74a5","iName":"Hexphase","iType":"Very Rare Rocket Boost","iColor":"Titanium White","iCertification":null,"iEdition":null,"iPrice":"400","iUpvote":"1714","iDownvote":"967","pulltimeCode":1627994117697,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"bc0a8f06e218f6b9f21ed0c24d70eb7e","iName":"Gaiden","iType":"Very Rare Wheels","iColor":"","iCertification":null,"iEdition":null,"iPrice":"200","iUpvote":"304","iDownvote":"2061","pulltimeCode":1627994117701,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"d148daa92936f8bf84285e03a4f325ab","iName":"Octane: Royal Tyrant","iType":"Rare Decal","iColor":"Black","iCertification":null,"iEdition":null,"iPrice":"100","iUpvote":"550","iDownvote":"1775","pulltimeCode":1627994117704,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"76eedc8f0f9a91a05145555e4bced4b2","iName":"X-Devil Mk2","iType":"Import Body","iColor":"Saffron","iCertification":null,"iEdition":null,"iPrice":"800","iUpvote":"111","iDownvote":"2160","pulltimeCode":1627994117706,"pulltimeText":"03-08-2021 14:35:17"},{"iID":"0f5173b36acd1327c4b332361b89f35a","iName":"IO: Infinite","iType":"Import Wheels","iColor":"Forest Green","iCertification":"Acrobat","iEdition":null,"iPrice":"900","iUpvote":"151","iDownvote":"2048","pulltimeCode":1627994117709,"pulltimeText":"03-08-2021 14:35:17"}]}
+=======
+{
+    "Featured_Items": [
+        {
+            "iID": "c4e0c65eb5ce853856316dd59a999fe0",
+            "iName": "Gravity Bomb",
+            "iType": "Black Market Goal Explosion",
+            "iColor": "Forest Green",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "2200",
+            "iUpvote": "1230",
+            "iDownvote": "4216",
+            "pulltimeCode": 1627974128132,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "ba90c1f7b5ff81ab4a1950595498abd2",
+            "iName": "Glaive",
+            "iType": "Very Rare Wheels",
+            "iColor": "Burnt Sienna",
+            "iCertification": "Guardian",
+            "iEdition": "Inverted",
+            "iPrice": "400",
+            "iUpvote": "270",
+            "iDownvote": "4670",
+            "pulltimeCode": 1627974128141,
+            "pulltimeText": "03-08-2021 09:02:08"
+        }
+    ],
+    "DailyItems": [
+        {
+            "iID": "1c78f5bc6a1017aeb7342ab8cf5bc019",
+            "iName": "Octane: Buzz Kill",
+            "iType": "Rare Decal",
+            "iColor": "Burnt Sienna",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "50",
+            "iUpvote": "108",
+            "iDownvote": "1988",
+            "pulltimeCode": 1627974128145,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "5c94ce3ac2d55426a5670eedab5d74a5",
+            "iName": "Hexphase",
+            "iType": "Very Rare Rocket Boost",
+            "iColor": "Titanium White",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "400",
+            "iUpvote": "1533",
+            "iDownvote": "874",
+            "pulltimeCode": 1627974128152,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "bc0a8f06e218f6b9f21ed0c24d70eb7e",
+            "iName": "Gaiden",
+            "iType": "Very Rare Wheels",
+            "iColor": "",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "200",
+            "iUpvote": "268",
+            "iDownvote": "1855",
+            "pulltimeCode": 1627974128156,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "d148daa92936f8bf84285e03a4f325ab",
+            "iName": "Octane: Royal Tyrant",
+            "iType": "Rare Decal",
+            "iColor": "Black",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "100",
+            "iUpvote": "502",
+            "iDownvote": "1577",
+            "pulltimeCode": 1627974128159,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "76eedc8f0f9a91a05145555e4bced4b2",
+            "iName": "X-Devil Mk2",
+            "iType": "Import Body",
+            "iColor": "Saffron",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "800",
+            "iUpvote": "95",
+            "iDownvote": "1937",
+            "pulltimeCode": 1627974128161,
+            "pulltimeText": "03-08-2021 09:02:08"
+        },
+        {
+            "iID": "0f5173b36acd1327c4b332361b89f35a",
+            "iName": "IO: Infinite",
+            "iType": "Import Wheels",
+            "iColor": "Forest Green",
+            "iCertification": "Acrobat",
+            "iEdition": null,
+            "iPrice": "900",
+            "iUpvote": "131",
+            "iDownvote": "1836",
+            "pulltimeCode": 1627974128165,
+            "pulltimeText": "03-08-2021 09:02:08"
+        }
+    ]
+}
+>>>>>>> 7fe7d58d650b2ad757975794b7f787a37144df7a
