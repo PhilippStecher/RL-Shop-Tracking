@@ -62,5 +62,69 @@
         "iColor": "Forest Green",
         "iPrice": "900",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "2472582fad7dd1ec8a17115b8d5c9ca5",
+        "iName": "Dire Wolf",
+        "iType": "Exotic Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "e3ba8b52a061dbc4bb880c061f9405b2",
+        "iName": "Takumi RX-T",
+        "iType": "Import Body",
+        "iColor": "Crimson",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "c0076075edee10a0b4e4357b482939bc",
+        "iName": "Spiralis",
+        "iType": "Very Rare Wheels",
+        "iColor": "Crimson",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "af64f8a657fa9f46f9bafd53ff056de6",
+        "iName": "Battle-Stars",
+        "iType": "Rare Rocket Boost",
+        "iColor": "Crimson",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "78eb3eb83e6a85a879fe54bb76a1e9f8",
+        "iName": "Clodhopper",
+        "iType": "Rare Wheels",
+        "iColor": "Saffron",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "74880e81b986edfa77548ede37dc5dec",
+        "iName": "Octane: Lone Wolf",
+        "iType": "Rare Decal",
+        "iColor": "Saffron",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c833367d194b63e5c321ea9f2f2cc18a",
+        "iName": "Octane: Piñata Monster",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "f6ea5fa19f9ed8eead945d593d44c498",
+        "iName": "Octane: Venus Trapper",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]

@@ -1,12 +1,13 @@
 {
     "Featured_Items": [
         {
-            "iID": "c4e0c65eb5ce853856316dd59a999fe0",
-            "iName": "Gravity Bomb",
-            "iType": "Black Market Goal Explosion",
-            "iColor": "Forest Green",
+            "iID": "2472582fad7dd1ec8a17115b8d5c9ca5",
+            "iName": "Dire Wolf",
+            "iType": "Exotic Wheels",
+            "iColor": "Sky Blue",
             "iCertification": null,
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "2200",
             "iUpvote": "1346",
             "iDownvote": "4472",
@@ -25,86 +26,153 @@
             "iDownvote": "4945",
             "pulltimeCode": 1628002281454,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "900",
+            "iUpvote": "630",
+            "iDownvote": "1448",
+            "pulltimeCode": 1628020923469,
+            "pulltimeText": "03-08-2021 22:02:03"
+        },
+        {
+            "iID": "e3ba8b52a061dbc4bb880c061f9405b2",
+            "iName": "Takumi RX-T",
+            "iType": "Import Body",
+            "iColor": "Crimson",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "700",
+            "iUpvote": "332",
+            "iDownvote": "1706",
+            "pulltimeCode": 1628020923474,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         }
     ],
     "DailyItems": [
         {
-            "iID": "1c78f5bc6a1017aeb7342ab8cf5bc019",
-            "iName": "Octane: Buzz Kill",
-            "iType": "Rare Decal",
-            "iColor": "Burnt Sienna",
-            "iCertification": null,
+            "iID": "c0076075edee10a0b4e4357b482939bc",
+            "iName": "Spiralis",
+            "iType": "Very Rare Wheels",
+            "iColor": "Crimson",
+            "iCertification": "Goalkeeper",
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "50",
             "iUpvote": "132",
             "iDownvote": "2311",
             "pulltimeCode": 1628002281461,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "300",
+            "iUpvote": "203",
+            "iDownvote": "1488",
+            "pulltimeCode": 1628020923477,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         },
         {
-            "iID": "5c94ce3ac2d55426a5670eedab5d74a5",
-            "iName": "Hexphase",
-            "iType": "Very Rare Rocket Boost",
-            "iColor": "Titanium White",
+            "iID": "af64f8a657fa9f46f9bafd53ff056de6",
+            "iName": "Battle-Stars",
+            "iType": "Rare Rocket Boost",
+            "iColor": "Crimson",
             "iCertification": null,
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "400",
             "iUpvote": "1799",
             "iDownvote": "995",
             "pulltimeCode": 1628002281469,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "150",
+            "iUpvote": "169",
+            "iDownvote": "1510",
+            "pulltimeCode": 1628020923481,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         },
         {
-            "iID": "bc0a8f06e218f6b9f21ed0c24d70eb7e",
-            "iName": "Gaiden",
-            "iType": "Very Rare Wheels",
-            "iColor": "",
-            "iCertification": null,
+            "iID": "78eb3eb83e6a85a879fe54bb76a1e9f8",
+            "iName": "Clodhopper",
+            "iType": "Rare Wheels",
+            "iColor": "Saffron",
+            "iCertification": "Striker",
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "200",
             "iUpvote": "319",
             "iDownvote": "2140",
             "pulltimeCode": 1628002281475,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "150",
+            "iUpvote": "64",
+            "iDownvote": "1569",
+            "pulltimeCode": 1628020923484,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         },
         {
-            "iID": "d148daa92936f8bf84285e03a4f325ab",
-            "iName": "Octane: Royal Tyrant",
+            "iID": "74880e81b986edfa77548ede37dc5dec",
+            "iName": "Octane: Lone Wolf",
             "iType": "Rare Decal",
-            "iColor": "Black",
+            "iColor": "Saffron",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "100",
+<<<<<<< HEAD
             "iUpvote": "572",
             "iDownvote": "1849",
             "pulltimeCode": 1628002281478,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iUpvote": "327",
+            "iDownvote": "1340",
+            "pulltimeCode": 1628020923486,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         },
         {
-            "iID": "76eedc8f0f9a91a05145555e4bced4b2",
-            "iName": "X-Devil Mk2",
-            "iType": "Import Body",
-            "iColor": "Saffron",
+            "iID": "c833367d194b63e5c321ea9f2f2cc18a",
+            "iName": "Octane: Piñata Monster",
+            "iType": "Rare Decal",
+            "iColor": "Grey",
             "iCertification": null,
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "800",
             "iUpvote": "120",
             "iDownvote": "2247",
             "pulltimeCode": 1628002281481,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "200",
+            "iUpvote": "94",
+            "iDownvote": "1519",
+            "pulltimeCode": 1628020923488,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         },
         {
-            "iID": "0f5173b36acd1327c4b332361b89f35a",
-            "iName": "IO: Infinite",
-            "iType": "Import Wheels",
-            "iColor": "Forest Green",
-            "iCertification": "Acrobat",
+            "iID": "f6ea5fa19f9ed8eead945d593d44c498",
+            "iName": "Octane: Venus Trapper",
+            "iType": "Rare Decal",
+            "iColor": "Pink",
+            "iCertification": null,
             "iEdition": null,
+<<<<<<< HEAD
             "iPrice": "900",
             "iUpvote": "164",
             "iDownvote": "2125",
             "pulltimeCode": 1628002281485,
             "pulltimeText": "03-08-2021 16:51:21"
+=======
+            "iPrice": "100",
+            "iUpvote": "93",
+            "iDownvote": "1462",
+            "pulltimeCode": 1628020923489,
+            "pulltimeText": "03-08-2021 22:02:03"
+>>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
         }
     ]
 }
