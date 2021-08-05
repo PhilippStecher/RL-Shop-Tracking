@@ -7,31 +7,11 @@
             "iColor": "Sky Blue",
             "iCertification": null,
             "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "2200",
-            "iUpvote": "1346",
-            "iDownvote": "4472",
-            "pulltimeCode": 1628002281445,
-            "pulltimeText": "03-08-2021 16:51:21"
-        },
-        {
-            "iID": "ba90c1f7b5ff81ab4a1950595498abd2",
-            "iName": "Glaive",
-            "iType": "Very Rare Wheels",
-            "iColor": "Burnt Sienna",
-            "iCertification": "Guardian",
-            "iEdition": "Inverted",
-            "iPrice": "400",
-            "iUpvote": "300",
-            "iDownvote": "4945",
-            "pulltimeCode": 1628002281454,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
             "iPrice": "900",
-            "iUpvote": "630",
-            "iDownvote": "1448",
-            "pulltimeCode": 1628020923469,
-            "pulltimeText": "03-08-2021 22:02:03"
+            "iUpvote": "1934",
+            "iDownvote": "4126",
+            "pulltimeCode": 1628142792981,
+            "pulltimeText": "05-08-2021 07:53:12"
         },
         {
             "iID": "e3ba8b52a061dbc4bb880c061f9405b2",
@@ -41,138 +21,90 @@
             "iCertification": null,
             "iEdition": null,
             "iPrice": "700",
-            "iUpvote": "332",
-            "iDownvote": "1706",
-            "pulltimeCode": 1628020923474,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
+            "iUpvote": "935",
+            "iDownvote": "4753",
+            "pulltimeCode": 1628142792993,
+            "pulltimeText": "05-08-2021 07:53:12"
         }
     ],
     "DailyItems": [
         {
-            "iID": "c0076075edee10a0b4e4357b482939bc",
-            "iName": "Spiralis",
-            "iType": "Very Rare Wheels",
-            "iColor": "Crimson",
-            "iCertification": "Goalkeeper",
+            "iID": "8220e2b7049c40c16480a8d76f467887",
+            "iName": "Polygonal",
+            "iType": "Very Rare Rocket Boost",
+            "iColor": "Cobalt",
+            "iCertification": "Juggler",
             "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "50",
-            "iUpvote": "132",
-            "iDownvote": "2311",
-            "pulltimeCode": 1628002281461,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
             "iPrice": "300",
-            "iUpvote": "203",
-            "iDownvote": "1488",
-            "pulltimeCode": 1628020923477,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
+            "iUpvote": "251",
+            "iDownvote": "1859",
+            "pulltimeCode": 1628142792999,
+            "pulltimeText": "05-08-2021 07:53:12"
         },
         {
-            "iID": "af64f8a657fa9f46f9bafd53ff056de6",
-            "iName": "Battle-Stars",
-            "iType": "Rare Rocket Boost",
-            "iColor": "Crimson",
-            "iCertification": null,
-            "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "400",
-            "iUpvote": "1799",
-            "iDownvote": "995",
-            "pulltimeCode": 1628002281469,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
-            "iPrice": "150",
-            "iUpvote": "169",
-            "iDownvote": "1510",
-            "pulltimeCode": 1628020923481,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
-        },
-        {
-            "iID": "78eb3eb83e6a85a879fe54bb76a1e9f8",
-            "iName": "Clodhopper",
-            "iType": "Rare Wheels",
-            "iColor": "Saffron",
-            "iCertification": "Striker",
-            "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "200",
-            "iUpvote": "319",
-            "iDownvote": "2140",
-            "pulltimeCode": 1628002281475,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
-            "iPrice": "150",
-            "iUpvote": "64",
-            "iDownvote": "1569",
-            "pulltimeCode": 1628020923484,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
-        },
-        {
-            "iID": "74880e81b986edfa77548ede37dc5dec",
-            "iName": "Octane: Lone Wolf",
-            "iType": "Rare Decal",
+            "iID": "a6170682539fce4c76334fd3467ee460",
+            "iName": "Fireplug",
+            "iType": "Very Rare Wheels",
             "iColor": "Saffron",
             "iCertification": null,
             "iEdition": null,
-            "iPrice": "100",
-<<<<<<< HEAD
-            "iUpvote": "572",
-            "iDownvote": "1849",
-            "pulltimeCode": 1628002281478,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
-            "iUpvote": "327",
-            "iDownvote": "1340",
-            "pulltimeCode": 1628020923486,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
+            "iPrice": "300",
+            "iUpvote": "175",
+            "iDownvote": "1906",
+            "pulltimeCode": 1628142793009,
+            "pulltimeText": "05-08-2021 07:53:13"
         },
         {
-            "iID": "c833367d194b63e5c321ea9f2f2cc18a",
-            "iName": "Octane: Piñata Monster",
+            "iID": "589415371b67ccfc93b4fdfc03b84bf0",
+            "iName": "Breakout: Chainsaw",
             "iType": "Rare Decal",
-            "iColor": "Grey",
+            "iColor": "Burnt Sienna",
             "iCertification": null,
             "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "800",
-            "iUpvote": "120",
-            "iDownvote": "2247",
-            "pulltimeCode": 1628002281481,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
-            "iPrice": "200",
-            "iUpvote": "94",
-            "iDownvote": "1519",
-            "pulltimeCode": 1628020923488,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
+            "iPrice": "50",
+            "iUpvote": "65",
+            "iDownvote": "1973",
+            "pulltimeCode": 1628142793015,
+            "pulltimeText": "05-08-2021 07:53:13"
         },
         {
-            "iID": "f6ea5fa19f9ed8eead945d593d44c498",
-            "iName": "Octane: Venus Trapper",
+            "iID": "d881874949dd1e230a1fa58ec24e4ecd",
+            "iName": "Breakout: 9 Lives",
             "iType": "Rare Decal",
-            "iColor": "Pink",
+            "iColor": "Sky Blue",
             "iCertification": null,
             "iEdition": null,
-<<<<<<< HEAD
-            "iPrice": "900",
-            "iUpvote": "164",
-            "iDownvote": "2125",
-            "pulltimeCode": 1628002281485,
-            "pulltimeText": "03-08-2021 16:51:21"
-=======
             "iPrice": "100",
             "iUpvote": "93",
-            "iDownvote": "1462",
-            "pulltimeCode": 1628020923489,
-            "pulltimeText": "03-08-2021 22:02:03"
->>>>>>> 5827fc8872887df6895c12dcecdec8d33e27f97a
+            "iDownvote": "1906",
+            "pulltimeCode": 1628142793019,
+            "pulltimeText": "05-08-2021 07:53:13"
+        },
+        {
+            "iID": "b0345befb49e1b596f30851e8a0d94e7",
+            "iName": "Octane: Vaporwave",
+            "iType": "Rare Decal",
+            "iColor": "Titanium White",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "250",
+            "iUpvote": "1653",
+            "iDownvote": "770",
+            "pulltimeCode": 1628142793021,
+            "pulltimeText": "05-08-2021 07:53:13"
+        },
+        {
+            "iID": "4311d860dff88677f3f8715f6f1b8110",
+            "iName": "Lift-Off",
+            "iType": "Very Rare Banner",
+            "iColor": "Sky Blue",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "300",
+            "iUpvote": "387",
+            "iDownvote": "1611",
+            "pulltimeCode": 1628142793024,
+            "pulltimeText": "05-08-2021 07:53:13"
         }
     ]
 }

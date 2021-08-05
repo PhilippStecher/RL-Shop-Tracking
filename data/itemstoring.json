@@ -126,5 +126,53 @@
         "iColor": "Pink",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "8220e2b7049c40c16480a8d76f467887",
+        "iName": "Polygonal",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a6170682539fce4c76334fd3467ee460",
+        "iName": "Fireplug",
+        "iType": "Very Rare Wheels",
+        "iColor": "Saffron",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "589415371b67ccfc93b4fdfc03b84bf0",
+        "iName": "Breakout: Chainsaw",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d881874949dd1e230a1fa58ec24e4ecd",
+        "iName": "Breakout: 9 Lives",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b0345befb49e1b596f30851e8a0d94e7",
+        "iName": "Octane: Vaporwave",
+        "iType": "Rare Decal",
+        "iColor": "Titanium White",
+        "iPrice": "250",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "4311d860dff88677f3f8715f6f1b8110",
+        "iName": "Lift-Off",
+        "iType": "Very Rare Banner",
+        "iColor": "Sky Blue",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
