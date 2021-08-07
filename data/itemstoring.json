@@ -174,5 +174,69 @@
         "iColor": "Sky Blue",
         "iPrice": "300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "b242ee7136a60f3f17c3b1f1b09a5382",
+        "iName": "Shattered",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Crimson",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "d350834990bf2015121edbd63bf1fe6e",
+        "iName": "Pyrrhos",
+        "iType": "Exotic Wheels",
+        "iColor": "Saffron",
+        "iPrice": "1300",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "03e46757a7903246ad01e1b037654d4e",
+        "iName": "Global: Goop",
+        "iType": "Very Rare Decal",
+        "iColor": "Lime",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9ac280fdbef38c13df510b42e02a70c8",
+        "iName": "Stella: Inverted",
+        "iType": "Import Wheels",
+        "iColor": "Lime",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "734767e5009296f325b6aebe5b856ed2",
+        "iName": "Carrot Thief",
+        "iType": "Rare Banner",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8f8de6c131f48e4c9b3504f570a05f0d",
+        "iName": "Cutter",
+        "iType": "Very Rare Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "bf797bafeae165fda20f186717a6634d",
+        "iName": "Octane: Chantico",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "bb5f3391c68aea95200a44e74fe18b62",
+        "iName": "Enchanter",
+        "iType": "Import Rocket Boost",
+        "iColor": "Crimson",
+        "iPrice": "600",
+        "ForD": "DAILY"
     }
 ]
