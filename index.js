@@ -90,7 +90,7 @@ ItemToStorage = (ItemID, ItemObj) => {
         var ItemStorageCNT = JSON.parse(Itemstorage)
         ItemStorageCNT.push(ItemObj)
     }
-    fs.writeFileSync(AllItemsPath, JSON.stringify(ItemStorageCNT), "utf-8");
+    fs.writeFileSync(AllItemsPath, JSON.stringify(ItemStorageCNT, null, 4), "utf-8");
     console.log("New item saved to DataBase");
 
 
@@ -148,7 +148,7 @@ StoreData = (FEATURED = null, DAILY = null) => {
         var jsoncnt = JSON.parse(CurrentResults)
         jsoncnt.push(new DataStoring(new Packaging(ShrinkDataF, ShrinkDataD)))
     }
-    fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt), "utf-8");
+    fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt, null, 4), "utf-8");
     console.log("New shop content saved.");
 }
 //#endregion
@@ -169,12 +169,12 @@ ReturnHashes = (Obj) => {
         delete Obj[x].pulltimeText;
     }
     var Obj_Md5 = crypto.createHash('md5');
-    Obj_Md5.update(JSON.stringify(Obj))
+    Obj_Md5.update(JSON.stringify(Obj, null, 4))
     return Obj_Md5.digest("hex")
 }
 
 WriteLastSeen = (FEATURED, DAILY) => {
-    fs.writeFileSync(lastseenPath, JSON.stringify(new lastseenData(FEATURED, DAILY)), "utf-8")
+    fs.writeFileSync(lastseenPath, JSON.stringify(new lastseenData(FEATURED, DAILY), null, 4), "utf-8")
 }
 
 CheckIfUpdated = (FEATURED, DAILY) => {
@@ -230,7 +230,7 @@ class CurrItemStoring {
 }
 
 SaveCurrItems = (Obj) => {
-    fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj), "utf-8");
+    fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj, null, 4), "utf-8");
 }
 
 ParseHTML = (html) => {
