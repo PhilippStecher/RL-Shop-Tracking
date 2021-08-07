@@ -12,6 +12,8 @@ var request = require('request'),
     });
 
 var globalTunnel = require('global-tunnel');
+const { Console } = require('console');
+const { exec } = require("child_process");
 
 //?todo Randomize IP
 //https://astexplorer.net/
@@ -41,6 +43,7 @@ FixInterval_FitPerfect = () => {
 //#region Warnsystem
 TriggerWarning = (msg) => {
     //todo
+    console.log("ERROR: " + msg)
 }
 //#endregion
 
@@ -173,8 +176,47 @@ ReturnHashes = (Obj) => {
     return Obj_Md5.digest("hex")
 }
 
+Github_Reload = () => {
+    console.log("Github update")
+    const a = "../Hidden/Gitpull_RL_Updater.json"
+    var b = fs.readFileSync(a, 'utf8');
+    if (b.length > 0) {
+        var c = JSON.parse(b);
+        exec(c.pull, (error, data, getter) => {
+            if (error) {
+                TriggerWarning(error.message)
+                return;
+            }
+            if (getter) {
+                console.log("Sucess gitpull!");
+                exec(c.commit, (error, data, getter) => {
+                    if (error) {
+                        TriggerWarning(error.message)
+                        return;
+                    }
+                    if (getter) {
+                        console.log("Sucess commit!");
+                        exec(c.push, (error, data, getter) => {
+                            if (error) {
+                                TriggerWarning(error.message)
+                                return;
+                            }
+                            if (getter) {
+                                console.log("Sucess push!");
+                            }
+                        })
+                    }
+                })
+            }
+        });
+    } else {
+        TriggerWarning("Git error 0x0023")
+    }
+}
+
 WriteLastSeen = (FEATURED, DAILY) => {
     fs.writeFileSync(lastseenPath, JSON.stringify(new lastseenData(FEATURED, DAILY), null, 4), "utf-8")
+    
 }
 
 CheckIfUpdated = (FEATURED, DAILY) => {
@@ -231,6 +273,7 @@ class CurrItemStoring {
 
 SaveCurrItems = (Obj) => {
     fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj, null, 4), "utf-8");
+    Github_Reload();
 }
 
 ParseHTML = (html) => {
