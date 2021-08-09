@@ -238,5 +238,69 @@
         "iColor": "Crimson",
         "iPrice": "600",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "9c8099a3571766c4fc8e8a16e7358604",
+        "iName": "Exalter",
+        "iType": "Black Market Decal",
+        "iColor": "Titanium White",
+        "iPrice": "2500",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "2a9d797cb356d65bee59cd6adfe1d7f5",
+        "iName": "X-Tempo",
+        "iType": "Import Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "09d3ec121ae20986476b2ab305e75fc4",
+        "iName": "Circuit Board",
+        "iType": "Very Rare Banner",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "4a2438bed36684804633400e3a5d480f",
+        "iName": "Wrench-Roller",
+        "iType": "Rare Wheels",
+        "iColor": "Black",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "683a39f10f80e6ed1c340b658d623da1",
+        "iName": "Octane: Roadkill",
+        "iType": "Rare Decal",
+        "iColor": "",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e093f4528cda7f8a9502b260f61525e4",
+        "iName": "Octane: Island King",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8d17f8ae4b14e2155e575616a01df788",
+        "iName": "Venom: Dot Matrix",
+        "iType": "Very Rare Decal",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "5bd0f69cfd7c329e2521b06aabcbeaf8",
+        "iName": "Tremor",
+        "iType": "Exotic Wheels",
+        "iColor": "",
+        "iPrice": "700",
+        "ForD": "DAILY"
     }
 ]

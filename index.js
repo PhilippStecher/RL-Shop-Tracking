@@ -177,6 +177,7 @@ ReturnHashes = (Obj) => {
 }
 
 Github_Reload = () => {
+    return
     console.log("Github update")
     const a = "../Hidden/Gitpull_RL_Updater.json"
     var b = fs.readFileSync(a, 'utf8');
