@@ -22,3 +22,6 @@
 2021-08-11T22:27:01: New item saved to DataBase
 2021-08-11T22:27:01: New item saved to DataBase
 2021-08-11T22:27:01: New shop content saved.
+2021-08-11T22:42:01: ----------------------------------------------
+2021-08-11T22:42:01: Checking RL Shop
+2021-08-11T22:42:01: Shop doesn't updated!
