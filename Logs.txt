@@ -1,0 +1,24 @@
+2021-08-11T22:17:39: ----------------------------------------------
+2021-08-11T22:17:39: Checking RL Shop
+2021-08-11T22:17:39: Shop updated!
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New item saved to DataBase
+2021-08-11T22:17:39: New shop content saved.
+2021-08-11T22:27:01: ----------------------------------------------
+2021-08-11T22:27:01: Checking RL Shop
+2021-08-11T22:27:01: Shop updated!
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New item saved to DataBase
+2021-08-11T22:27:01: New shop content saved.

@@ -302,5 +302,69 @@
         "iColor": "",
         "iPrice": "700",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "4fe10b80889d9ea76ae5f59fef32f608",
+        "iName": "Hex Tide",
+        "iType": "Black Market Decal",
+        "iColor": "Black",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "7c11995200e451f1af83a7fe48a64c90",
+        "iName": "Gnome Light",
+        "iType": "Very Rare Wheels",
+        "iColor": "Black",
+        "iPrice": "300",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "026f8dbfab2cbcff40f5b0f5aab9e65b",
+        "iName": "Masamune",
+        "iType": "Very Rare Body",
+        "iColor": "Pink",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "044f68f6a23f70f60a548569b83f390f",
+        "iName": "Masamune: Kawaii",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "efd5bafd6e34575fb4d35bf0de42a3de",
+        "iName": "FSL-B",
+        "iType": "Very Rare Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6cccc4a64ece2cc7c2972885dc0d149f",
+        "iName": "Masamune: Trihedron",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "39540db321f4f0870e015645ec81b62c",
+        "iName": "Masamune: Druk",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c06c2ffa9fdeb8c83893b09b101e60dc",
+        "iName": "Hikari P5",
+        "iType": "Exotic Wheels",
+        "iColor": "Pink",
+        "iPrice": "900",
+        "ForD": "DAILY"
     }
 ]
