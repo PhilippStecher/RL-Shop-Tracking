@@ -239,7 +239,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
     var formated = JSON.parse(LS_content);
 
     if (formated.FeaturedHash == Feathash && formated.DailyHash == DailyHash) {
-        console.log("Shop doesn't updated!");
+        //console.log("Shop doesn't updated!");
         return false;
     } else {
         console.log("Shop updated!");
