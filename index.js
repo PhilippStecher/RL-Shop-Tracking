@@ -120,6 +120,9 @@ class DataStoring {
 
 
 StoreData = (FEATURED = null, DAILY = null) => {
+    
+console.log("----------------------------------------------")
+console.log("Checking RL Shop");
     var time = Date.now();
     var d = new Date();
     var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
@@ -365,8 +368,6 @@ ParseHTML = (html) => {
 }
 
 CheckShop = () => {
-    console.log("----------------------------------------------")
-    console.log("Checking RL Shop");
     var str = '';
     var uri = BaseURL;
 
