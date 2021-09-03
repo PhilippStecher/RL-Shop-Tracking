@@ -9,3 +9,22 @@
 2021-09-03T17:19:04: Pulled
 2021-09-03T17:27:54: Pulled
 2021-09-03T17:29:40: Pulled
+2021-09-03T17:31:09: Its Error
+2021-09-03T17:31:09: error Command failed: git pull
+2021-09-03T17:31:09: warning: "fetch" aktualisierte die Spitze des aktuellen Branches.
+2021-09-03T17:31:09: Spule Ihr Arbeitsverzeichnis von Commit e692d6e52015148d6d00b0f6b79c5b76edf6353b vor.
+2021-09-03T17:31:09: error: Ihre lokalen Änderungen in den folgenden Dateien würden durch den Merge
+2021-09-03T17:31:09: überschrieben werden:
+2021-09-03T17:31:09: 	Logs.txt
+2021-09-03T17:31:09: 	data/current-items.json
+2021-09-03T17:31:09: 	lastRequest.html
+2021-09-03T17:31:09: Bitte committen oder stashen Sie Ihre Änderungen, bevor sie mergen.
+2021-09-03T17:31:09: Abbruch
+2021-09-03T17:31:09: fatal: Kann Arbeitsverzeichnis nicht vorspulen.
+2021-09-03T17:31:09: Nachdem Sie sichergestellt haben, alles Schützenswerte der Ausgabe von
+2021-09-03T17:31:09: $ git diff e692d6e52015148d6d00b0f6b79c5b76edf6353b
+2021-09-03T17:31:09: gespeichert zu haben. Führen Sie
+2021-09-03T17:31:09: $ git reset --hard
+2021-09-03T17:31:09: zur Wiederherstellung aus.
+2021-09-03T17:31:09: 
+2021-09-03T17:31:10: Its Getter
