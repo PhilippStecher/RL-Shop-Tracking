@@ -7288,3 +7288,8 @@ Have fun :)
 2021-09-03T16:56:41: Checking RL Shop
 2021-09-03T16:56:41: Shop doesn't updated!
 2021-09-03T17:10:18: Shop doesn't updated!
+2021-09-03T17:19:04: Shop updated!
+2021-09-03T17:19:04: ----------------------------------------------
+2021-09-03T17:19:04: Checking RL Shop
+2021-09-03T17:19:04: New shop content saved.
+2021-09-03T17:19:04: Pulled
