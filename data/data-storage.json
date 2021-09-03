@@ -780,39 +780,5 @@
         },
         "pulltimeCode": 1630609901507,
         "pulltimeText": "02-09-2021 21:11:41"
-    },
-    {
-        "items": {
-            "featured": [
-                {
-                    "iID": "5cad2274098ac14264e877bcc4ef767c"
-                },
-                {
-                    "iID": "c7fa58285c06982aa8205b5b1b03e56c"
-                }
-            ],
-            "daily": [
-                {
-                    "iID": "aa0a7265c2f49d0063bd35267ef4781f"
-                },
-                {
-                    "iID": "65159b3e7217ab0760e6e053c56ebffa"
-                },
-                {
-                    "iID": "a3222b6b3d48a778e3f21c8b51400230"
-                },
-                {
-                    "iID": "120519a2cb1bec2b06d46f65d6997505"
-                },
-                {
-                    "iID": "0ebf02bf0629b7fc114874da3a277a8f"
-                },
-                {
-                    "iID": "b4ca16406d33af54410e42db7187a705"
-                }
-            ]
-        },
-        "pulltimeCode": 1630682344521,
-        "pulltimeText": "03-09-2021 17:19:04"
     }
 ]
