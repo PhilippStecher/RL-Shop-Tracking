@@ -414,7 +414,7 @@ onstart = () => {
 
         if(error){
             console.log("Its Error")
-            console.log("error",error.message);
+            //console.log("error",error.message);
             return;
         }
         if(getter){
@@ -428,7 +428,7 @@ onstart = () => {
 
         if(error){
             console.log("Its Error")
-            console.log("error",error.message);
+            //console.log("error",error.message);
             return;
         }
         if(getter){
@@ -442,7 +442,7 @@ onstart = () => {
 
             if(error){
                 console.log("Its Error")
-                console.log("error",error.message);
+                //console.log("error",error.message);
                 return;
             }
             if(getter){
@@ -452,7 +452,19 @@ onstart = () => {
             console.log("Pulled");
         });
         CheckShop();
-        
+        exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
+
+            if(error){
+                console.log("Its Error")
+                //console.log("error",error.message);
+                return;
+            }
+            if(getter){
+                console.log("Its Getter")
+                return;
+            }
+            console.log("Pushed");
+        });
     }, 900000);
 }
 
