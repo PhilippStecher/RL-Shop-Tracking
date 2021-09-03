@@ -1254,5 +1254,53 @@
         "iColor": "Crimson",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "9da796bf5a1428f3c4c44af86731ae9e",
+        "iName": "Air Strike",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Purple",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "95e40e045721191d76116fd49295100f",
+        "iName": "Stella: Inverted",
+        "iType": "Import Wheels",
+        "iColor": "Orange",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "1aec3854c6a462cc5e45dc66692e15bc",
+        "iName": "Neo-Thermal",
+        "iType": "Import Rocket Boost",
+        "iColor": "Saffron",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "95d3580a92c7dc853d3862a227c5a6d7",
+        "iName": "Bomb Pole",
+        "iType": "Uncommon Antenna",
+        "iColor": "Lime",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "4483d30ab1261ee0d81c290fc3579bf4",
+        "iName": "Road hog: Sundae",
+        "iType": "Rare Decal",
+        "iColor": "Lime",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b24e7b85ba4eed88e0f4da5119c944f9",
+        "iName": "Flim-Flam",
+        "iType": "Very Rare Wheels",
+        "iColor": "Lime",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
