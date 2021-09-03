@@ -362,6 +362,19 @@ ParseHTML = (html) => {
         StoreData(FeaturedIArr, DailyIArr);
         //todo Fix the interval so it fit perfect
         WriteLastSeen(ReturnHashes(FeaturedIArr), ReturnHashes(DailyIArr));
+        exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
+
+            if(error){
+                console.log("Its Error")
+                console.log("error",error.message);
+                return;
+            }
+            if(getter){
+                console.log("Its Getter")
+                return;
+            }
+            console.log("Pushed");
+        });
     } else {
 
     }
@@ -410,6 +423,19 @@ CheckShop = () => {
 }
 
 onstart = () => {
+    exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
+
+        if(error){
+            console.log("Its Error")
+            console.log("error",error.message);
+            return;
+        }
+        if(getter){
+            console.log("Its Getter")
+            return;
+        }
+        console.log("Pulled");
+    });
     CheckShop();
     TheInterval = setInterval(() => {
         CheckShop();
