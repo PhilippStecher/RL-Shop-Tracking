@@ -1366,5 +1366,53 @@
         "iColor": "Titanium White",
         "iPrice": "700",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "eec68fd2a05bd9d5e1276c842648de9c",
+        "iName": "Dominus: OR-AISE",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6d0c88f15710c2cf510d1fec4e13bb98",
+        "iName": "Draco: Holographic",
+        "iType": "Exotic Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "1300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "1e69179f7eb8cff8f4e6b5e9ebdb4ec8",
+        "iName": "Geo Soul",
+        "iType": "Import Rocket Boost",
+        "iColor": "Cobalt",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "379cf32ab6da7d8c92bdf9b90414e84c",
+        "iName": "Dominus: Huntress",
+        "iType": "Very Rare Decal",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "cac0238cff731e4023682ab7b030498b",
+        "iName": "Dominus: Suji",
+        "iType": "Rare Decal",
+        "iColor": "Black",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "124749b22b04e591fe30f4b55442031d",
+        "iName": "Dominus: Funny Book",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
