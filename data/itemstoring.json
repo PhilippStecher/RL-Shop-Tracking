@@ -1414,5 +1414,69 @@
         "iColor": "Grey",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "8f2ec6c5d718e892dd1d0df373569684",
+        "iName": "Global: Smokescreen",
+        "iType": "Import Decal",
+        "iColor": "Black",
+        "iPrice": "500",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "b79621b0b5629217220cf93c4b3d4e30",
+        "iName": "Glaive",
+        "iType": "Very Rare Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "600",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "4c322d4fc435def2f8e1897486032cfe",
+        "iName": "Ripper",
+        "iType": "Very Rare Body",
+        "iColor": "Saffron",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "378fbf9f7df9bf5500f7da58025cd511",
+        "iName": "Luminous",
+        "iType": "Very Rare Trail",
+        "iColor": "Saffron",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e3bc03232a874a515c6df338f54d4135",
+        "iName": "Storm Watch",
+        "iType": "Black Market Decal",
+        "iColor": "",
+        "iPrice": "2000",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8b547ec22edc556e6934974b73b7fa01",
+        "iName": "Ultralex",
+        "iType": "Exotic Wheels",
+        "iColor": "Saffron",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d900ba123abce1265ad26c53ea60b481",
+        "iName": "Spanner",
+        "iType": "Very Rare Wheels",
+        "iColor": "Pink",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d8fdda171b80028a4d706f0120661fcd",
+        "iName": "X-devil: Vector",
+        "iType": "Very Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "200",
+        "ForD": "DAILY"
     }
 ]
