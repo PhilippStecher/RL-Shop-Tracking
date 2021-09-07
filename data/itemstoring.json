@@ -1478,5 +1478,53 @@
         "iColor": "Orange",
         "iPrice": "200",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "4526faec976d3cef32d0b4f63f5ac669",
+        "iName": "Cruxe",
+        "iType": "Exotic Wheels",
+        "iColor": "Pink",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "ea61bf91e2e504919a940b4611e2723a",
+        "iName": "Global: Meteoroid",
+        "iType": "Import Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "67163601a923d8b4f3b0e641b6e792c2",
+        "iName": "Torrent",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Grey",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0da19cfa1db897ba5025c77d8e686af8",
+        "iName": "Toon Hydro",
+        "iType": "Limited Trail",
+        "iColor": "Grey",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "857e01b2ede747544d867b8223ce9732",
+        "iName": "Bravado",
+        "iType": "Very Rare Wheels",
+        "iColor": "Purple",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "55c90065d2a09c9eafa76e966af0fd3d",
+        "iName": "Octane: Griffon",
+        "iType": "Rare Decal",
+        "iColor": "Lime",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
