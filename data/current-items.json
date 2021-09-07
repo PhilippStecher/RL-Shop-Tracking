@@ -8,10 +8,10 @@
             "iCertification": null,
             "iEdition": null,
             "iPrice": "500",
-            "iUpvote": "561",
-            "iDownvote": "2727",
-            "pulltimeCode": 1631017952204,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iUpvote": "564",
+            "iDownvote": "2735",
+            "pulltimeCode": 1631018852190,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "b79621b0b5629217220cf93c4b3d4e30",
@@ -21,10 +21,10 @@
             "iCertification": "Tactician",
             "iEdition": "Inverted",
             "iPrice": "600",
-            "iUpvote": "874",
-            "iDownvote": "2399",
-            "pulltimeCode": 1631017952207,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iUpvote": "877",
+            "iDownvote": "2405",
+            "pulltimeCode": 1631018852193,
+            "pulltimeText": "07-09-2021 14:47:32"
         }
     ],
     "DailyItems": [
@@ -37,9 +37,9 @@
             "iEdition": null,
             "iPrice": "400",
             "iUpvote": "293",
-            "iDownvote": "2592",
-            "pulltimeCode": 1631017952209,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iDownvote": "2598",
+            "pulltimeCode": 1631018852195,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "378fbf9f7df9bf5500f7da58025cd511",
@@ -49,10 +49,10 @@
             "iCertification": null,
             "iEdition": null,
             "iPrice": "300",
-            "iUpvote": "417",
-            "iDownvote": "2360",
-            "pulltimeCode": 1631017952213,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iUpvote": "418",
+            "iDownvote": "2364",
+            "pulltimeCode": 1631018852199,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "e3bc03232a874a515c6df338f54d4135",
@@ -62,10 +62,10 @@
             "iCertification": null,
             "iEdition": null,
             "iPrice": "2000",
-            "iUpvote": "770",
-            "iDownvote": "2431",
-            "pulltimeCode": 1631017952215,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iUpvote": "771",
+            "iDownvote": "2435",
+            "pulltimeCode": 1631018852201,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "8b547ec22edc556e6934974b73b7fa01",
@@ -76,9 +76,9 @@
             "iEdition": null,
             "iPrice": "900",
             "iUpvote": "220",
-            "iDownvote": "2459",
-            "pulltimeCode": 1631017952217,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iDownvote": "2465",
+            "pulltimeCode": 1631018852203,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "d900ba123abce1265ad26c53ea60b481",
@@ -89,9 +89,9 @@
             "iEdition": null,
             "iPrice": "400",
             "iUpvote": "70",
-            "iDownvote": "2586",
-            "pulltimeCode": 1631017952219,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iDownvote": "2592",
+            "pulltimeCode": 1631018852205,
+            "pulltimeText": "07-09-2021 14:47:32"
         },
         {
             "iID": "d8fdda171b80028a4d706f0120661fcd",
@@ -102,9 +102,9 @@
             "iEdition": null,
             "iPrice": "200",
             "iUpvote": "110",
-            "iDownvote": "2523",
-            "pulltimeCode": 1631017952221,
-            "pulltimeText": "07-09-2021 14:32:32"
+            "iDownvote": "2529",
+            "pulltimeCode": 1631018852208,
+            "pulltimeText": "07-09-2021 14:47:32"
         }
     ]
 }
