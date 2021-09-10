@@ -1638,5 +1638,69 @@
         "iColor": "",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "85c15ad584e58ea536491db1e92ab184",
+        "iName": "EKG-OMG",
+        "iType": "Very Rare Trail",
+        "iColor": "Titanium White",
+        "iPrice": "400",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "94737cf609a85742cea9fa830e47e015",
+        "iName": "Slipstream",
+        "iType": "Black Market Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "261d469270abe556151d1266038caec8",
+        "iName": "Octane: Slimline",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c771ce3789497ad8fd640f1568ab0f71",
+        "iName": "Chakram",
+        "iType": "Very Rare Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "691545d771ba9522b8d91aab3c3ab742",
+        "iName": "Breakout: Stitches",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "ff0529a0b73f4f5e762e363904132311",
+        "iName": "Creeper",
+        "iType": "Exotic Wheels",
+        "iColor": "Grey",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9b45f3357a26422f3fa12a6b8ce26861",
+        "iName": "Octane: Dragon Lord",
+        "iType": "Rare Decal",
+        "iColor": "Forest Green",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "ac38080add30819a56a1021678aadcaf",
+        "iName": "Triton",
+        "iType": "Very Rare Body",
+        "iColor": "Orange",
+        "iPrice": "400",
+        "ForD": "DAILY"
     }
 ]
