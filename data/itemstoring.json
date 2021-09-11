@@ -1702,5 +1702,53 @@
         "iColor": "Orange",
         "iPrice": "400",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "d1fa0e186c6d75e5faffd10ac62295e7",
+        "iName": "Cutter",
+        "iType": "Very Rare Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d72c4407d09bacd2bbf2a8b239600e5e",
+        "iName": "Octane: Thanatos",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "014a97c06ed97e11440104a809891ba3",
+        "iName": "Hanasha JRL",
+        "iType": "Import Wheels",
+        "iColor": "Grey",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "2c44c7a81e901f17f0834efe82ea597d",
+        "iName": "Octane: Kana",
+        "iType": "Very Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "65a9590d93e3c21b7b929cf48a13943d",
+        "iName": "Zombie",
+        "iType": "Very Rare Banner",
+        "iColor": "Saffron",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "28b2a6baefbdc10d146abfd5a0c59963",
+        "iName": "Hypernova",
+        "iType": "Import Rocket Boost",
+        "iColor": "Burnt Sienna",
+        "iPrice": "400",
+        "ForD": "DAILY"
     }
 ]
