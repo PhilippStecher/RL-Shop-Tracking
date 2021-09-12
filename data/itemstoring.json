@@ -1750,5 +1750,69 @@
         "iColor": "Burnt Sienna",
         "iPrice": "400",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "992e6eb4f3d9f87ce92088daad18324a",
+        "iName": "Dingo",
+        "iType": "Import Body",
+        "iColor": "Cobalt",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "8523cb966c437a1cac25e6c0214fb8d6",
+        "iName": "Global: Humid Haze",
+        "iType": "Exotic Decal",
+        "iColor": "Cobalt",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "87554a2e71257b424017c9a88f9c3891",
+        "iName": "Dingo: Figurator",
+        "iType": "Rare Decal",
+        "iColor": "Cobalt",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a5706c73a02435ecf26c421005577856",
+        "iName": "Dingo: Rascal Stripes",
+        "iType": "Rare Decal",
+        "iColor": "Saffron",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d56441ad3bedf103a9bdb2e329a5fa13",
+        "iName": "Raijin",
+        "iType": "Exotic Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "84f456c9a6662bcab04dddf556e465ed",
+        "iName": "Octane: Vaporwave",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "35894f5f33f5835f70543d0f17b9367d",
+        "iName": "FSL-B",
+        "iType": "Very Rare Wheels",
+        "iColor": "Lime",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c2d5ac1d106cb262759d633291079126",
+        "iName": "X-Tempo",
+        "iType": "Very Rare Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "400",
+        "ForD": "DAILY"
     }
 ]
