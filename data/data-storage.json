@@ -1120,5 +1120,39 @@
         },
         "pulltimeCode": 1631473352422,
         "pulltimeText": "12-09-2021 21:02:32"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "992e6eb4f3d9f87ce92088daad18324a"
+                },
+                {
+                    "iID": "8523cb966c437a1cac25e6c0214fb8d6"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "a92d865ac3b6856f6905425e02f1f7ee"
+                },
+                {
+                    "iID": "cbaca9001316940de3d0ee21bea53b1c"
+                },
+                {
+                    "iID": "80094ae6ce7958c2c14f5030c0ec99ed"
+                },
+                {
+                    "iID": "7cd36d696d40c411badac78c2f27dfa5"
+                },
+                {
+                    "iID": "4a45e2542ae74d2fdbc62eb80146365e"
+                },
+                {
+                    "iID": "3795ae5d0b876b5f8d8f3b87654ce937"
+                }
+            ]
+        },
+        "pulltimeCode": 1631559752424,
+        "pulltimeText": "13-09-2021 21:02:32"
     }
 ]

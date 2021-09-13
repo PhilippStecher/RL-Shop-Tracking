@@ -1814,5 +1814,53 @@
         "iColor": "Titanium White",
         "iPrice": "400",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "a92d865ac3b6856f6905425e02f1f7ee",
+        "iName": "Nucleon Clutch",
+        "iType": "Import Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "cbaca9001316940de3d0ee21bea53b1c",
+        "iName": "Dingo: Silencer",
+        "iType": "Rare Decal",
+        "iColor": "Cobalt",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "80094ae6ce7958c2c14f5030c0ec99ed",
+        "iName": "Discotheque",
+        "iType": "Very Rare Trail",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "7cd36d696d40c411badac78c2f27dfa5",
+        "iName": "Shark Fin",
+        "iType": "Rare Topper",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "4a45e2542ae74d2fdbc62eb80146365e",
+        "iName": "Kyrios",
+        "iType": "Import Wheels",
+        "iColor": "Pink",
+        "iPrice": "700",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "3795ae5d0b876b5f8d8f3b87654ce937",
+        "iName": "Octane: Piñata Monster",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
