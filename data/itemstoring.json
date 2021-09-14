@@ -1862,5 +1862,69 @@
         "iColor": "Pink",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "c2dc77e6921cfb8171dddc8441eeb710",
+        "iName": "Global: Encryption",
+        "iType": "Black Market Decal",
+        "iColor": "Purple",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "23751808507ca432fc113cc580f9b321",
+        "iName": "Glitch",
+        "iType": "Import Wheels",
+        "iColor": "Purple",
+        "iPrice": "600",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "63b2c16c6c410df1859e80e5cd38853a",
+        "iName": "Glitch",
+        "iType": "Import Rocket Boost",
+        "iColor": "Purple",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e8c844f2ab4d124732ced2f98f21ac0f",
+        "iName": "Truth Beam",
+        "iType": "Very Rare Trail",
+        "iColor": "Pink",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "fc4098471e9e0053357c9b0ecfbe533f",
+        "iName": "CNTCT-1",
+        "iType": "Very Rare Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "1edb5d8ed9ffbcc84a058380439df45b",
+        "iName": "Shortquarter: Inverted",
+        "iType": "Import Wheels",
+        "iColor": "",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "de0248fb50a95a8f997f6c0a166c49ed",
+        "iName": "Octane: Royal Tyrant",
+        "iType": "Rare Decal",
+        "iColor": "Purple",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d8595e7cb0722c70ffb8d665ea6b3617",
+        "iName": "Mantis: Pixel Love",
+        "iType": "Rare Decal",
+        "iColor": "Lime",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
