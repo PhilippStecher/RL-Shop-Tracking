@@ -1974,5 +1974,69 @@
         "iColor": "Burnt Sienna",
         "iPrice": "200",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "9ac5608b4fbd41ec3c94d5e11964fc2c",
+        "iName": "Scarab",
+        "iType": "Very Rare Body",
+        "iColor": "Crimson",
+        "iPrice": "400",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "fb6a02107948991b78b9e012b353d894",
+        "iName": "Exalter",
+        "iType": "Black Market Decal",
+        "iColor": "Orange",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "8e71994909e675d9bf9c894535f135a2",
+        "iName": "Quasar",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Orange",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a7041f24d9ef60e5d7c4139069830074",
+        "iName": "Scarab: Sea Trow",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "76c7936247c82e1b717f4b6111fc2c86",
+        "iName": "Global: Meteoroid",
+        "iType": "Import Decal",
+        "iColor": "Grey",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "2a5e850e99e161f9657337d2d0ba7759",
+        "iName": "Meteor Storm",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Grey",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "029fc9e403fe1b2fae03a6f7acb26b11",
+        "iName": "Doughnut",
+        "iType": "Very Rare Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "7c79a73241f1fefad91106e0172312d6",
+        "iName": "Migraine",
+        "iType": "Very Rare Banner",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
     }
 ]
