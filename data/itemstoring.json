@@ -2038,5 +2038,53 @@
         "iColor": "",
         "iPrice": "200",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "b865c62b668814e40cf9cc4c629b940d",
+        "iName": "Scarab: Ankylo",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9907e7b1c322076b3b1d5783b72b3bdf",
+        "iName": "Scarab: Stripes",
+        "iType": "Rare Decal",
+        "iColor": "Forest Green",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "2dbfe441ae1357a245e451406dece3ad",
+        "iName": "Santa Fe",
+        "iType": "Exotic Wheels",
+        "iColor": "Crimson",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8ea7fdc33467e7348ec961700036fc32",
+        "iName": "Grog",
+        "iType": "Very Rare Body",
+        "iColor": "Orange",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0d778dcc1993a614f73dc0313fdd0307",
+        "iName": "Anthesis",
+        "iType": "Very Rare Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "608728652bd17c82d59879f84adcb3a7",
+        "iName": "Geo Soul",
+        "iType": "Import Rocket Boost",
+        "iColor": "",
+        "iPrice": "400",
+        "ForD": "DAILY"
     }
 ]
