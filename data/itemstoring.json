@@ -2086,5 +2086,69 @@
         "iColor": "",
         "iPrice": "400",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "08dfe17b868777ce7e5a33e68fc3a6d1",
+        "iName": "Draco",
+        "iType": "Exotic Wheels",
+        "iColor": "Black",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "db6ebf134a0da04deccaea6584de8186",
+        "iName": "Dueling Dragons",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Crimson",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "3614f017761975fc2888c49520ec525c",
+        "iName": "Venom: Dot Matrix",
+        "iType": "Very Rare Decal",
+        "iColor": "Forest Green",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8a17d21648f59fcc8b0a380fcdc9f109",
+        "iName": "Octane: Dragon Lord",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "94011a9588ef45e4188c58414a32c5bf",
+        "iName": "Roulette",
+        "iType": "Exotic Wheels",
+        "iColor": "Lime",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9573b30a61772b9520af8d7030b19284",
+        "iName": "Astro-CSX",
+        "iType": "Very Rare Wheels",
+        "iColor": "Orange",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "167002d19e31c5d5a5f5ae9c8ecc92f6",
+        "iName": "Marauder",
+        "iType": "Very Rare Body",
+        "iColor": "Orange",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b4be2f01066bae3f1b8f4a1726100b95",
+        "iName": "Marauder: XVIII",
+        "iType": "Rare Decal",
+        "iColor": "Cobalt",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
