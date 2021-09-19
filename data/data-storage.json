@@ -1324,5 +1324,39 @@
         },
         "pulltimeCode": 1631991752533,
         "pulltimeText": "18-09-2021 21:02:32"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "08dfe17b868777ce7e5a33e68fc3a6d1"
+                },
+                {
+                    "iID": "db6ebf134a0da04deccaea6584de8186"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "6f290b5dc438eb4429297afb20198439"
+                },
+                {
+                    "iID": "45ed660ab05b84cbd3e14f9041fcfcfa"
+                },
+                {
+                    "iID": "2db52fe42988fd4d63c87cbb1a2afc0e"
+                },
+                {
+                    "iID": "abe8b973ec88d439fb6c47a80ad3929b"
+                },
+                {
+                    "iID": "de03adba9df7601b23d8379da1947562"
+                },
+                {
+                    "iID": "59bf65dcda258dc9ebe0b58116aaeded"
+                }
+            ]
+        },
+        "pulltimeCode": 1632078152626,
+        "pulltimeText": "19-09-2021 21:02:32"
     }
 ]

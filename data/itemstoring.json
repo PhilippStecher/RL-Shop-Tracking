@@ -2150,5 +2150,53 @@
         "iColor": "Cobalt",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "6f290b5dc438eb4429297afb20198439",
+        "iName": "Road Hog XL",
+        "iType": "Import Body",
+        "iColor": "Burnt Sienna",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "45ed660ab05b84cbd3e14f9041fcfcfa",
+        "iName": "Road hog xl: Circuit Pro",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "2db52fe42988fd4d63c87cbb1a2afc0e",
+        "iName": "Road hog xl: Kinda Koi",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "abe8b973ec88d439fb6c47a80ad3929b",
+        "iName": "Breakout: Egged",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "de03adba9df7601b23d8379da1947562",
+        "iName": "Asik",
+        "iType": "Import Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "800",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "59bf65dcda258dc9ebe0b58116aaeded",
+        "iName": "IO: Infinite",
+        "iType": "Import Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "900",
+        "ForD": "DAILY"
     }
 ]
