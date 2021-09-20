@@ -2198,5 +2198,69 @@
         "iColor": "Sky Blue",
         "iPrice": "900",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "d4375cdf1a9b4bdf81983440d282c437",
+        "iName": "Pixelated Shades",
+        "iType": "Very Rare Topper",
+        "iColor": "Titanium White",
+        "iPrice": "150",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "31dfa6335c79c0f4ae88dbcdd1555210",
+        "iName": "Global: Speeder Meter",
+        "iType": "Import Decal",
+        "iColor": "Titanium White",
+        "iPrice": "600",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "af2428bdc60c6585ab894e0e1ab7ccec",
+        "iName": "Air Strike",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Pink",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "7d30615f6f736a8e4a4151a487aa516f",
+        "iName": "Octane: Thanatos",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "17b3966b01de1b109562f1c0c24a8cab",
+        "iName": "Cristiano: Infinite",
+        "iType": "Import Wheels",
+        "iColor": "",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b2ed17c8efe1991bcbb92a6e1e94a689",
+        "iName": "Electroshock",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Forest Green",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "34fe331463a177a777a199554a62fd22",
+        "iName": "Breakout: Astaroth",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "597ea991a07897a2b144a01dfc0efa5c",
+        "iName": "Octane: Vertebrate",
+        "iType": "Rare Decal",
+        "iColor": "Saffron",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]

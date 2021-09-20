@@ -9977,3 +9977,17 @@
 2021-09-20T20:32:33: Its Error
 2021-09-20T20:47:32: Its Error
 2021-09-20T20:47:33: Its Error
+2021-09-20T21:02:32: Shop updated!
+2021-09-20T21:02:32: ----------------------------------------------
+2021-09-20T21:02:32: Checking RL Shop
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New item saved to DataBase
+2021-09-20T21:02:32: New shop content saved.
+2021-09-20T21:02:32: Its Error
+2021-09-20T21:02:33: Its Error
