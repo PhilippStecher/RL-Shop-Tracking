@@ -2262,5 +2262,53 @@
         "iColor": "Saffron",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "11ef91e1bce211bb0b2e9ead2a7daa2d",
+        "iName": "Venom: Retro Sun",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0f5a80c8ccbaad47764e4abc4cdc1a34",
+        "iName": "Photon",
+        "iType": "Exotic Wheels",
+        "iColor": "Orange",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "091f5a8b10d277008f4ac0ad3166658a",
+        "iName": "Octane: Abtruse",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0df64a34c7ed7e7e4bae8c5f5f137731",
+        "iName": "Dey KC",
+        "iType": "Very Rare Wheels",
+        "iColor": "Crimson",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c867d07a91893c7f0413b744d30da671",
+        "iName": "Fireworks",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Orange",
+        "iPrice": "2300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0933d536552ca0cfd9b05927991e6d10",
+        "iName": "Binary",
+        "iType": "Very Rare Trail",
+        "iColor": "Crimson",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
