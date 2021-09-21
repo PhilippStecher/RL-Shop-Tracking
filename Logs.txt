@@ -6,3 +6,8 @@
 2021-09-21T14:17:24: New shop content saved.
 2021-09-21T14:17:24: Pulled
 2021-09-21T14:17:24: Its Getter
+2021-09-21T14:22:46: Github update
+2021-09-21T14:22:46: Pulled
+2021-09-21T14:22:46: Its Getter
+2021-09-21T14:22:47: ERROR: Command failed: git pull && pm2 relaod RL-Shop-Tracker
+2021-09-21T14:22:47: 
