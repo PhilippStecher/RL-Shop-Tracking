@@ -11,3 +11,5 @@
 2021-09-21T14:22:46: Its Getter
 2021-09-21T14:22:47: ERROR: Command failed: git pull && pm2 relaod RL-Shop-Tracker
 2021-09-21T14:22:47: 
+2021-09-21T14:25:22: Its Error
+2021-09-21T14:25:23: Its Getter
