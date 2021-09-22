@@ -2310,5 +2310,69 @@
         "iColor": "Crimson",
         "iPrice": "300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "4821e097d3f7e895211c2758af53755f",
+        "iName": "Octane ZSR",
+        "iType": "Import Body",
+        "iColor": "Pink",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "5eeef06c5fa64f458e81f5a36d0a2a8a",
+        "iName": "Astro-CSX",
+        "iType": "Exotic Wheels",
+        "iColor": "Pink",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "94950a21528cb6249475513605f3be95",
+        "iName": "Octane zsr: Jiangshi",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "4493d988f6e8e00faa88e117ee314b0e",
+        "iName": "Battle-Stars",
+        "iType": "Rare Rocket Boost",
+        "iColor": "Sky Blue",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6ad3b41ec808fbfeb6f895e5d632dfc4",
+        "iName": "Asik: Infinite",
+        "iType": "Import Wheels",
+        "iColor": "Burnt Sienna",
+        "iPrice": "700",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "cbb7cb5e349f003eeaf38de045226b9d",
+        "iName": "Ouchie",
+        "iType": "Rare Banner",
+        "iColor": "Pink",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "fd8f909d82a7b8bdb5d69061b1d15dc6",
+        "iName": "Octane: Chantico",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6b696b54d10173b61eca9b2dcb78896c",
+        "iName": "Friction",
+        "iType": "Very Rare Trail",
+        "iColor": "Grey",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
