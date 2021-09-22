@@ -281,3 +281,5 @@
 2021-09-22T21:10:30: New item saved to DataBase
 2021-09-22T21:10:30: New item saved to DataBase
 2021-09-22T21:10:30: New shop content saved.
+2021-09-22T21:25:22: Its Error
+2021-09-22T21:25:23: Its Getter
