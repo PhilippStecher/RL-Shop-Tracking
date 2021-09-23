@@ -2374,5 +2374,53 @@
         "iColor": "Grey",
         "iPrice": "300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "467dca61b43da6db51dbd078f75b57b9",
+        "iName": "Octane zsr: Tribal",
+        "iType": "Rare Decal",
+        "iColor": "Lime",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d77ff8ce7c06aa94c1be46ada71abfb8",
+        "iName": "Zefram",
+        "iType": "Exotic Wheels",
+        "iColor": "Pink",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a85578fda67ac3f130bbbcbc5c601fe9",
+        "iName": "Octane zsr: Mechaceph",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "db9c077d843d7b4affe35d93ef6a34cf",
+        "iName": "Hot Rocks",
+        "iType": "Very Rare Trail",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "15681fe31150eae02f2a7995b7072c9b",
+        "iName": "Flim-Flam",
+        "iType": "Very Rare Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a30ccd4fc5adbc01138365a9c8975d2e",
+        "iName": "Xenosplash",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Purple",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
