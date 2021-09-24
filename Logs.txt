@@ -659,3 +659,7 @@
 2021-09-24T18:55:23: Its Getter
 2021-09-24T19:10:22: Its Error
 2021-09-24T19:10:23: Its Getter
+2021-09-24T19:25:22: ERROR: The HTML pulled is invalid!
+2021-09-24T19:25:22: ERROR: The HTML pulled is invalid!
+2021-09-24T19:25:22: Its Error
+2021-09-24T19:25:23: Its Getter
