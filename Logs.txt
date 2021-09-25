@@ -888,3 +888,5 @@
 2021-09-25T21:10:22: New item saved to DataBase
 2021-09-25T21:10:22: New item saved to DataBase
 2021-09-25T21:10:22: New shop content saved.
+2021-09-25T21:10:22: Pulled
+2021-09-25T21:10:24: Its Getter
