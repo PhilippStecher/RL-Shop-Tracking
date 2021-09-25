@@ -2486,5 +2486,45 @@
         "iColor": "",
         "iPrice": "700",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "bfad37d6ed6033fad0c3473435dd2a97",
+        "iName": "Fennec: Huntress",
+        "iType": "Very Rare Decal",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "816a6d5ffb12f3b000e54a019f442bc1",
+        "iName": "Confetti",
+        "iType": "Uncommon Rocket Boost",
+        "iColor": "Burnt Sienna",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "abf62f72350952ae9c1bc4bd5fc507ff",
+        "iName": "Bomb Pole",
+        "iType": "Uncommon Antenna",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d477070ce97686b6a3ea65dc697c435c",
+        "iName": "Zomba",
+        "iType": "Exotic Wheels",
+        "iColor": "Burnt Sienna",
+        "iPrice": "800",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e96281c552360e3f0da66a13e84ee31d",
+        "iName": "Fennec: Ombre",
+        "iType": "Very Rare Decal",
+        "iColor": "Titanium White",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
