@@ -2526,5 +2526,69 @@
         "iColor": "Titanium White",
         "iPrice": "300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "fa36c034283669c4eb3b07d136d25335",
+        "iName": "Octane: Framework",
+        "iType": "Import Decal",
+        "iColor": "Crimson",
+        "iPrice": "500",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "9f0f373b25b7b6e9d4d17083e1c7ca7d",
+        "iName": "Carbonator",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Crimson",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "948309372e9aee0952a2b3be0f6d853b",
+        "iName": "Incantor",
+        "iType": "Import Rocket Boost",
+        "iColor": "Cobalt",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a5b9a2f1ea78cc0f87d368211cc1d9b0",
+        "iName": "Incantor",
+        "iType": "Very Rare Trail",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c5f14d87df19bba0615e04aef641333a",
+        "iName": "Imperator dt5: Tevolo",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "f95c184eaa151e2c4c6ffb80f81d04c1",
+        "iName": "Dey KC: Schematized",
+        "iType": "Import Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c591c0b60bfbb8ab7fc1a33ca13e9695",
+        "iName": "Imperator DT5",
+        "iType": "Import Body",
+        "iColor": "Cobalt",
+        "iPrice": "800",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "17c091feff7c283e320700c9889cc48d",
+        "iName": "Imperator dt5: Mosher",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
     }
 ]
