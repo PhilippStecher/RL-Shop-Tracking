@@ -1596,5 +1596,73 @@
         },
         "pulltimeCode": 1632683422962,
         "pulltimeText": "26-09-2021 21:10:22"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "fa36c034283669c4eb3b07d136d25335"
+                },
+                {
+                    "iID": "9f0f373b25b7b6e9d4d17083e1c7ca7d"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "4c0f58852b794aff25f3766dea731764"
+                },
+                {
+                    "iID": "272b67a4355bcb80579393120e3f27aa"
+                },
+                {
+                    "iID": "d0220fbd5cda4e7cf0ae376cf0118b45"
+                },
+                {
+                    "iID": "da40ecad0889f2cf8536a46608c5aa2a"
+                },
+                {
+                    "iID": "ab801e529c329cb538f2fca8d73829d4"
+                },
+                {
+                    "iID": "e1910d359fe4c943e882f64fbe91a97c"
+                }
+            ]
+        },
+        "pulltimeCode": 1632769822926,
+        "pulltimeText": "27-09-2021 21:10:22"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "7b896bb7f297f8ad59c29427cc6ee2ad"
+                },
+                {
+                    "iID": "55b6adf90008585568b3f27b2e1f774e"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "a85d1073f75bd7d4a9adfe2ec4e0f91d"
+                },
+                {
+                    "iID": "e553a5f37e1647e91b4f12660bd1a7e6"
+                },
+                {
+                    "iID": "49001c263058c886ff8e3ae567cd67f8"
+                },
+                {
+                    "iID": "d5baa150aecbc6451676b1404579fd47"
+                },
+                {
+                    "iID": "29f7c7db5084d13060ffb20a15b5173e"
+                },
+                {
+                    "iID": "adeae8f4820149da60e4bbf0547ca993"
+                }
+            ]
+        },
+        "pulltimeCode": 1632856222940,
+        "pulltimeText": "28-09-2021 21:10:22"
     }
 ]

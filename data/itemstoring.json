@@ -2590,5 +2590,117 @@
         "iColor": "Burnt Sienna",
         "iPrice": "50",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "4c0f58852b794aff25f3766dea731764",
+        "iName": "Breakout: Taniwha",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "272b67a4355bcb80579393120e3f27aa",
+        "iName": "Hydraul1K",
+        "iType": "Import Wheels",
+        "iColor": "Crimson",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d0220fbd5cda4e7cf0ae376cf0118b45",
+        "iName": "Flamerate",
+        "iType": "Import Rocket Boost",
+        "iColor": "Pink",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "da40ecad0889f2cf8536a46608c5aa2a",
+        "iName": "Blazer",
+        "iType": "Very Rare Trail",
+        "iColor": "Pink",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "ab801e529c329cb538f2fca8d73829d4",
+        "iName": "Octane: Island King",
+        "iType": "Rare Decal",
+        "iColor": "Saffron",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e1910d359fe4c943e882f64fbe91a97c",
+        "iName": "Illuminata",
+        "iType": "Exotic Wheels",
+        "iColor": "Crimson",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "7b896bb7f297f8ad59c29427cc6ee2ad",
+        "iName": "Global: Encryption",
+        "iType": "Black Market Decal",
+        "iColor": "Lime",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "55b6adf90008585568b3f27b2e1f774e",
+        "iName": "Werewolf",
+        "iType": "Import Body",
+        "iColor": "Titanium White",
+        "iPrice": "800",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "a85d1073f75bd7d4a9adfe2ec4e0f91d",
+        "iName": "Power-Shot",
+        "iType": "Import Rocket Boost",
+        "iColor": "Forest Green",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e553a5f37e1647e91b4f12660bd1a7e6",
+        "iName": "Glitch: Glitched",
+        "iType": "Import Wheels",
+        "iColor": "Lime",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "49001c263058c886ff8e3ae567cd67f8",
+        "iName": "CNTCT-1",
+        "iType": "Very Rare Wheels",
+        "iColor": "Crimson",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d5baa150aecbc6451676b1404579fd47",
+        "iName": "Glitch",
+        "iType": "Import Rocket Boost",
+        "iColor": "Burnt Sienna",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "29f7c7db5084d13060ffb20a15b5173e",
+        "iName": "Global: Goop",
+        "iType": "Very Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "adeae8f4820149da60e4bbf0547ca993",
+        "iName": "Dominus: Funny Book",
+        "iType": "Rare Decal",
+        "iColor": "Cobalt",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
