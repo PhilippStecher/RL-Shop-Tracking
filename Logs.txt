@@ -1516,3 +1516,71 @@
 2021-09-28T22:40:24: Its Error
 2021-09-28T22:42:45: Pulled
 2021-09-28T22:42:46: Its Getter
+2021-09-28T22:57:45: Pulled
+2021-09-28T22:57:45: Its Getter
+2021-09-28T23:12:45: Its Error
+2021-09-28T23:12:45: Error: read ENOTCONN
+2021-09-28T23:12:45:     at tryReadStart (net.js:575:20)
+2021-09-28T23:12:45:     at Socket._read (net.js:586:5)
+2021-09-28T23:12:45:     at Socket.Readable.read (internal/streams/readable.js:462:10)
+2021-09-28T23:12:45:     at Socket.read (net.js:627:39)
+2021-09-28T23:12:45:     at new Socket (net.js:378:12)
+2021-09-28T23:12:45:     at Object.Socket (net.js:270:41)
+2021-09-28T23:12:45:     at createSocket (internal/child_process.js:314:14)
+2021-09-28T23:12:45:     at ChildProcess.spawn (internal/child_process.js:435:23)
+2021-09-28T23:12:45:     at spawn (child_process.js:667:9)
+2021-09-28T23:12:45:     at Object.execFile (child_process.js:319:17) {
+2021-09-28T23:12:45:   errno: -107,
+2021-09-28T23:12:45:   code: 'ENOTCONN',
+2021-09-28T23:12:45:   syscall: 'read'
+2021-09-28T23:12:45: }
+2021-09-28T23:12:46: Its Error
+2021-09-28T23:12:46: Error: read ENOTCONN
+2021-09-28T23:12:46:     at tryReadStart (net.js:575:20)
+2021-09-28T23:12:46:     at Socket._read (net.js:586:5)
+2021-09-28T23:12:46:     at Socket.Readable.read (internal/streams/readable.js:462:10)
+2021-09-28T23:12:46:     at Socket.read (net.js:627:39)
+2021-09-28T23:12:46:     at new Socket (net.js:378:12)
+2021-09-28T23:12:46:     at Object.Socket (net.js:270:41)
+2021-09-28T23:12:46:     at createSocket (internal/child_process.js:314:14)
+2021-09-28T23:12:46:     at ChildProcess.spawn (internal/child_process.js:435:23)
+2021-09-28T23:12:46:     at spawn (child_process.js:667:9)
+2021-09-28T23:12:46:     at Object.execFile (child_process.js:319:17) {
+2021-09-28T23:12:46:   errno: -107,
+2021-09-28T23:12:46:   code: 'ENOTCONN',
+2021-09-28T23:12:46:   syscall: 'read'
+2021-09-28T23:12:46: }
+2021-09-28T23:12:46: Its Error
+2021-09-28T23:12:46: Error: read ENOTCONN
+2021-09-28T23:12:46:     at tryReadStart (net.js:575:20)
+2021-09-28T23:12:46:     at Socket._read (net.js:586:5)
+2021-09-28T23:12:46:     at Socket.Readable.read (internal/streams/readable.js:462:10)
+2021-09-28T23:12:46:     at Socket.read (net.js:627:39)
+2021-09-28T23:12:46:     at new Socket (net.js:378:12)
+2021-09-28T23:12:46:     at Object.Socket (net.js:270:41)
+2021-09-28T23:12:46:     at createSocket (internal/child_process.js:314:14)
+2021-09-28T23:12:46:     at ChildProcess.spawn (internal/child_process.js:435:23)
+2021-09-28T23:12:46:     at spawn (child_process.js:667:9)
+2021-09-28T23:12:46:     at Object.execFile (child_process.js:319:17) {
+2021-09-28T23:12:46:   errno: -107,
+2021-09-28T23:12:46:   code: 'ENOTCONN',
+2021-09-28T23:12:46:   syscall: 'read'
+2021-09-28T23:12:46: }
+2021-09-28T23:12:47: Its Error
+2021-09-28T23:12:47: Error: read ENOTCONN
+2021-09-28T23:12:47:     at tryReadStart (net.js:575:20)
+2021-09-28T23:12:47:     at Socket._read (net.js:586:5)
+2021-09-28T23:12:47:     at Socket.Readable.read (internal/streams/readable.js:462:10)
+2021-09-28T23:12:47:     at Socket.read (net.js:627:39)
+2021-09-28T23:12:47:     at new Socket (net.js:378:12)
+2021-09-28T23:12:47:     at Object.Socket (net.js:270:41)
+2021-09-28T23:12:47:     at createSocket (internal/child_process.js:314:14)
+2021-09-28T23:12:47:     at ChildProcess.spawn (internal/child_process.js:435:23)
+2021-09-28T23:12:47:     at spawn (child_process.js:667:9)
+2021-09-28T23:12:47:     at Object.execFile (child_process.js:319:17) {
+2021-09-28T23:12:47:   errno: -107,
+2021-09-28T23:12:47:   code: 'ENOTCONN',
+2021-09-28T23:12:47:   syscall: 'read'
+2021-09-28T23:12:47: }
+2021-09-28T23:12:47: Its Error
+2021-09-28T23:12:48: Pulled
