@@ -2702,5 +2702,53 @@
         "iColor": "Cobalt",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "ef59215cd10e0248021d0e21e5983557",
+        "iName": "Dominus: Mondo",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b0205e67243927fcd88b53480673b144",
+        "iName": "Tremor",
+        "iType": "Exotic Wheels",
+        "iColor": "Lime",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "45d2d9026f4ce0a878cffec624fc4bb0",
+        "iName": "Octane: Sticker Bomb",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "30aaeef762490281b5c3352e86b0721a",
+        "iName": "Enchanter",
+        "iType": "Import Rocket Boost",
+        "iColor": "Lime",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "34feac00268f7b378cf8f20074739290",
+        "iName": "Road hog: Sundae",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "7189980711c53092380381036de68821",
+        "iName": "Stella",
+        "iType": "Import Wheels",
+        "iColor": "Burnt Sienna",
+        "iPrice": "400",
+        "ForD": "DAILY"
     }
 ]
