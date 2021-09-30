@@ -1988,3 +1988,7 @@
 2021-09-30T22:42:48: Its Getter
 2021-09-30T22:57:48: Its Error
 2021-09-30T22:57:48: Its Getter
+2021-09-30T23:12:47: ERROR: The HTML pulled is invalid!
+2021-09-30T23:12:47: ERROR: The HTML pulled is invalid!
+2021-09-30T23:12:48: Its Error
+2021-09-30T23:12:50: Its Getter
