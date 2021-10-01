@@ -2170,3 +2170,15 @@
 2021-10-01T20:42:48: Its Getter
 2021-10-01T20:57:48: Its Error
 2021-10-01T20:57:49: Its Getter
+2021-10-01T21:12:47: Shop updated!
+2021-10-01T21:12:47: ----------------------------------------------
+2021-10-01T21:12:47: Checking RL Shop
+2021-10-01T21:12:47: New item saved to DataBase
+2021-10-01T21:12:48: New item saved to DataBase
+2021-10-01T21:12:48: New item saved to DataBase
+2021-10-01T21:12:48: New item saved to DataBase
+2021-10-01T21:12:48: New item saved to DataBase
+2021-10-01T21:12:48: New item saved to DataBase
+2021-10-01T21:12:48: New shop content saved.
+2021-10-01T21:12:48: Its Error
+2021-10-01T21:12:48: Its Getter

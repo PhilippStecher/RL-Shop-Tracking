@@ -2814,5 +2814,53 @@
         "iColor": "",
         "iPrice": "50",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "8a187d13ca97ae99b726f245fae2e1fd",
+        "iName": "Dominus: Suji",
+        "iType": "Rare Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8185e930d72ff20e8646ec5bbf1e288e",
+        "iName": "Octane: Dragon Lord",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9a03a4ac9cfc01918c02980f2fd0a8ae",
+        "iName": "Takumi: Sticker Bomb",
+        "iType": "Rare Decal",
+        "iColor": "Titanium White",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9485a76d8bc618c44b73fb279a42e381",
+        "iName": "Takumi",
+        "iType": "Very Rare Body",
+        "iColor": "Grey",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e7b9c0336939da8a604f82c04767571c",
+        "iName": "X-Tempo: Radiant",
+        "iType": "Import Wheels",
+        "iColor": "Burnt Sienna",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "692e05251397eefbcfd1974cf6f664f8",
+        "iName": "Octane: Buzz Kill",
+        "iType": "Rare Decal",
+        "iColor": "Purple",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
