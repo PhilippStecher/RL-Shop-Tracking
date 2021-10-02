@@ -2862,5 +2862,69 @@
         "iColor": "Purple",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "419a76dfae82233502dbf18d988b0eb3",
+        "iName": "Dingo",
+        "iType": "Import Body",
+        "iColor": "Crimson",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "f4480881cf8cdabe04e1f65d9febed28",
+        "iName": "Global: Humid Haze",
+        "iType": "Exotic Decal",
+        "iColor": "Crimson",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "1ae93969474d099d02ad3c6ab2ebd029",
+        "iName": "Dingo: Silencer",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "1b001c331c361b2d781ab46c3b4dff3a",
+        "iName": "Toon Sketch",
+        "iType": "Import Trail",
+        "iColor": "Grey",
+        "iPrice": "500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "75fdf177f8ddb9f8fd308218518dea0c",
+        "iName": "Dingo: Rascal Stripes",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "758993742c84903337d5cc81794feaac",
+        "iName": "Yuzo",
+        "iType": "Very Rare Wheels",
+        "iColor": "Lime",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9a540ecfe07afb48234da0b14204459d",
+        "iName": "IO",
+        "iType": "Import Wheels",
+        "iColor": "Lime",
+        "iPrice": "700",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e7069d466479d3dc11fb5b1a26a4b124",
+        "iName": "Toon Sketch",
+        "iType": "Import Rocket Boost",
+        "iColor": "Grey",
+        "iPrice": "600",
+        "ForD": "DAILY"
     }
 ]
