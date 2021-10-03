@@ -2926,5 +2926,53 @@
         "iColor": "Grey",
         "iPrice": "600",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "f5e375d0414f501802ade7864a5cf6bd",
+        "iName": "Dingo: Figurator",
+        "iType": "Rare Decal",
+        "iColor": "Black",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "395dc12a438e980c0de6cf3aaf382289",
+        "iName": "Dingo: Huntress",
+        "iType": "Very Rare Decal",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "2fd6ff05db097e837f686a10bfd84191",
+        "iName": "Krackle",
+        "iType": "Import Rocket Boost",
+        "iColor": "Saffron",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "706cc1c189c4be6f27fa53ff1327ae86",
+        "iName": "Grappler",
+        "iType": "Very Rare Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "f74187d4f4f8bb8b6651998554a00887",
+        "iName": "Roulette",
+        "iType": "Exotic Wheels",
+        "iColor": "Black",
+        "iPrice": "1000",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "3a7318576e0a8fe548bc429e89ed4006",
+        "iName": "Lustrum X10",
+        "iType": "Import Wheels",
+        "iColor": "Forest Green",
+        "iPrice": "600",
+        "ForD": "DAILY"
     }
 ]
