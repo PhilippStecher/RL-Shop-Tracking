@@ -2974,5 +2974,69 @@
         "iColor": "Forest Green",
         "iPrice": "600",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "c984ef3a47c927a33cd735119354288e",
+        "iName": "Fireworks",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Sky Blue",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "285b1b4f331981f592dd5413e65a3381",
+        "iName": "Octane: Framework",
+        "iType": "Import Decal",
+        "iColor": "Sky Blue",
+        "iPrice": "500",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "ab2ad3d03bd5e5717889485c1ce14164",
+        "iName": "Trinity",
+        "iType": "Import Rocket Boost",
+        "iColor": "Orange",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a5969f095e90c3fea40786bcaf99f43a",
+        "iName": "Dey KC",
+        "iType": "Very Rare Wheels",
+        "iColor": "Sky Blue",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0346e31e972035e644c89307f46561f9",
+        "iName": "Global: Meteoroid",
+        "iType": "Import Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "12949f4435a815a961cdcbfb64fb1147",
+        "iName": "Breakout: Astaroth",
+        "iType": "Rare Decal",
+        "iColor": "Purple",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b8031bbff74f1bd21934584d580c2e8e",
+        "iName": "Lucky Stars",
+        "iType": "Rare Banner",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d1b3218388a92f5113e4cf8703efedb1",
+        "iName": "Breakout: 9 Lives",
+        "iType": "Rare Decal",
+        "iColor": "Orange",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
