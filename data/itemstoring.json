@@ -3038,5 +3038,53 @@
         "iColor": "Orange",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "c994508c274ab112b67349b81644fa10",
+        "iName": "Xenosplash",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Saffron",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "3d32b5e759bce7aa84b9ea5cf564de60",
+        "iName": "Truth Beam",
+        "iType": "Very Rare Trail",
+        "iColor": "Forest Green",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "24a3b0526f868dd6065816f8ed8833b3",
+        "iName": "Flim-Flam",
+        "iType": "Very Rare Wheels",
+        "iColor": "Forest Green",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "08e6a3f31918449ceb1b7e5456a206be",
+        "iName": "Breakout Type-S",
+        "iType": "Import Body",
+        "iColor": "Pink",
+        "iPrice": "700",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "87fb0a5dac971ee7734bc458efbbca5d",
+        "iName": "Breakout type-s: Funny Book",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "c5622967fb9f826160a47f8e21e289d0",
+        "iName": "Breakout type-s: Mobo",
+        "iType": "Rare Decal",
+        "iColor": "Pink",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
