@@ -25714,3 +25714,17 @@
 2021-10-06T22:12:24: New shop content saved.
 2021-10-06T22:12:24: Its Error
 2021-10-06T22:12:25: Its Getter
+2021-10-12T20:49:57: Shop updated!
+2021-10-12T20:49:57: ----------------------------------------------
+2021-10-12T20:49:57: Checking RL Shop
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New item saved to DataBase
+2021-10-12T20:49:57: New shop content saved.
+2021-10-12T20:49:58: Its Error
+2021-10-12T20:49:59: Its Getter

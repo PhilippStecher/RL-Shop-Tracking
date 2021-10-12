@@ -3150,5 +3150,69 @@
         "iColor": "",
         "iPrice": "200",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "3eb823545770bcdccf590d5dd3427bd8",
+        "iName": "20XX",
+        "iType": "Black Market Decal",
+        "iColor": "Grey",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "46b553876bd512b5513fd994240f28c8",
+        "iName": "Draco",
+        "iType": "Exotic Wheels",
+        "iColor": "Grey",
+        "iPrice": "1300",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "837eb1d47d66f9aead8e4519cb70d4c4",
+        "iName": "Mic Drop",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Lime",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "30213be159600317af52280a1650bab0",
+        "iName": "Masamune",
+        "iType": "Very Rare Body",
+        "iColor": "Purple",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "84866a31864e3867e6d567320e53eada",
+        "iName": "Dey KC: Schematized",
+        "iType": "Import Wheels",
+        "iColor": "Lime",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "78aacd4d7f14873d49f30996a2e29ec9",
+        "iName": "Masamune: Druk",
+        "iType": "Rare Decal",
+        "iColor": "Purple",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a090c77ed0b59f4573d08fa15a9917b7",
+        "iName": "Masamune: Trihedron",
+        "iType": "Rare Decal",
+        "iColor": "Crimson",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e7f69cb197a6b6feb1a9d19c49f86b4d",
+        "iName": "Virtual Wave",
+        "iType": "Import Rocket Boost",
+        "iColor": "Purple",
+        "iPrice": "600",
+        "ForD": "DAILY"
     }
 ]
