@@ -25728,3 +25728,9 @@
 2021-10-12T20:49:57: New shop content saved.
 2021-10-12T20:49:58: Its Error
 2021-10-12T20:49:59: Its Getter
+2021-10-12T21:04:56: TypeError: Cannot read property 'replace' of null
+2021-10-12T21:04:56:     at ParseHTML (/home/Nodejs/RL-Shop-Tracking/index.js:297:107)
+2021-10-12T21:04:56:     at IncomingMessage.<anonymous> (/home/Nodejs/RL-Shop-Tracking/index.js:393:17)
+2021-10-12T21:04:56:     at IncomingMessage.emit (events.js:412:35)
+2021-10-12T21:04:56:     at endReadableNT (internal/streams/readable.js:1334:12)
+2021-10-12T21:04:56:     at processTicksAndRejections (internal/process/task_queues.js:82:21)
