@@ -37270,3 +37270,9 @@
 2021-10-12T21:32:30:     at IncomingMessage.emit (events.js:412:35)
 2021-10-12T21:32:30:     at endReadableNT (internal/streams/readable.js:1334:12)
 2021-10-12T21:32:30:     at processTicksAndRejections (internal/process/task_queues.js:82:21)
+2021-10-12T21:32:31: TypeError: Cannot read property 'replace' of null
+2021-10-12T21:32:31:     at ParseHTML (/home/Nodejs/RL-Shop-Tracking/index.js:297:107)
+2021-10-12T21:32:31:     at IncomingMessage.<anonymous> (/home/Nodejs/RL-Shop-Tracking/index.js:393:17)
+2021-10-12T21:32:31:     at IncomingMessage.emit (events.js:412:35)
+2021-10-12T21:32:31:     at endReadableNT (internal/streams/readable.js:1334:12)
+2021-10-12T21:32:31:     at processTicksAndRejections (internal/process/task_queues.js:82:21)
