@@ -25700,3 +25700,17 @@
 2021-10-06T22:12:23:     at IncomingMessage.emit (events.js:412:35)
 2021-10-06T22:12:23:     at endReadableNT (internal/streams/readable.js:1317:12)
 2021-10-06T22:12:23:     at processTicksAndRejections (internal/process/task_queues.js:82:21)
+2021-10-06T22:12:24: Shop updated!
+2021-10-06T22:12:24: ----------------------------------------------
+2021-10-06T22:12:24: Checking RL Shop
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New item saved to DataBase
+2021-10-06T22:12:24: New shop content saved.
+2021-10-06T22:12:24: Its Error
+2021-10-06T22:12:25: Its Getter

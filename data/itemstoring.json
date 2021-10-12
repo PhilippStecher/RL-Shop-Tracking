@@ -3086,5 +3086,69 @@
         "iColor": "Pink",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "edd748b4beca8762989710a2e49c1655",
+        "iName": "Dire Wolf",
+        "iType": "Exotic Wheels",
+        "iColor": "Saffron",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "70bec74508ae914bc7da02a913898109",
+        "iName": "Air Strike",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Saffron",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "9b8a738911cb96a7363cedce9506a1d1",
+        "iName": "Octane: Lone Wolf",
+        "iType": "Rare Decal",
+        "iColor": "Burnt Sienna",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0f8ba5903840280765ced33e33543e4c",
+        "iName": "Astro-CSX",
+        "iType": "Very Rare Wheels",
+        "iColor": "Forest Green",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "fd84d875d3a0df486d642d365dd8bdf9",
+        "iName": "Octane: Vertebrate",
+        "iType": "Rare Decal",
+        "iColor": "",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "1f056f3ac35e27f880613ea5cd0684ed",
+        "iName": "Road hog xl: Circuit Pro",
+        "iType": "Rare Decal",
+        "iColor": "Saffron",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "54e7d54115290d2487c027a99f772dcf",
+        "iName": "Road Hog XL",
+        "iType": "Import Body",
+        "iColor": "Lime",
+        "iPrice": "800",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "fad2fdb56c61ef05c7ed91319e5ce2eb",
+        "iName": "All Star",
+        "iType": "Import Anthem",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
     }
 ]
