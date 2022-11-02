@@ -3342,6 +3342,61 @@
         "iColor": "Grey",
         "iPrice": "1300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "15818c9e6dad3a1066c0fe0b0febfcce",
+        "iName": "Hellfire",
+        "iType": "Black Market Goal Explosion",
+        "iColor": "Purple",
+        "iPrice": "2200",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "93b19ef923f97d8658fc6687911e77f1",
+        "iName": "Spiralis",
+        "iType": "Very Rare Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "400",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "6421f1980000e128d97f5144111accce",
+        "iName": "Trigon",
+        "iType": "Black Market Decal",
+        "iColor": "",
+        "iPrice": "2000",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "61adfcfe4460e094243bfaeb511419b7",
+        "iName": "Hot Rocks",
+        "iType": "Very Rare Trail",
+        "iColor": "Forest Green",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9ba46db88ade69223ba9a4560c38537c",
+        "iName": "Nuts & Bolts",
+        "iType": "Rare Rocket Boost",
+        "iColor": "Saffron",
+        "iPrice": "150",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6dda6f0644137fd54c585b342b5ddc40",
+        "iName": "IO",
+        "iType": "Import Wheels",
+        "iColor": "",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "8d13c3519689983cf488fb4c0aa20bd5",
+        "iName": "Synthwave",
+        "iType": "Import Rocket Boost",
+        "iColor": "Lime",
+        "iPrice": "600",
+        "ForD": "DAILY"
     }
-    
 ]
