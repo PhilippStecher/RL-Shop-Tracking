@@ -286,7 +286,7 @@ ParseHTML = (html) => {
     /* Featured Items */
     var FeaturedIArr = [];
     for (var x = 1; x <= 2; x++) {
-        var CurrFeat = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__featured > div:nth-child(" + x + ")").html()
+        var CurrFeat = $(".rlg-item-shop__featured > a:nth-child(" + x + ")").html()
         if (CurrFeat == null || CurrFeat == undefined) {
             console.log("ERROR: The HTML pulled is invalid!")
             TriggerWarning("The HTML pulled is invalid!")
@@ -321,7 +321,7 @@ ParseHTML = (html) => {
     //!----------------------------------------------
     var DailyIArr = [];
     for (var x = 1; x <= 6; x++) {
-        var CurrDaily = $("body > main > section > div > div.rlg-item-shop > div.rlg-item-shop__daily > div:nth-child(" + x + ")").html()
+        var CurrDaily = $(".rlg-item-shop__daily > a:nth-child(" + x + ")").html()
         if (CurrDaily == null || CurrDaily == undefined) {
             console.log("ERROR: The HTML pulled is invalid!")
             TriggerWarning("The HTML pulled is invalid!")
@@ -411,59 +411,55 @@ CheckShop = () => {
 
 onstart = () => {
     exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-
         if(error){
-            console.log("Its Error")
+            console.log("[GIT]: Pull error")
             //console.log("error",error.message);
             return;
         }
         if(getter){
-            console.log("Its Getter")
+            console.log("[GIT]: Pull successful")
             return;
         }
-        console.log("Pulled");
+        console.log("[GIT]: Pulled");
     });
     CheckShop();
     exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-
         if(error){
-            console.log("Its Error")
+            console.log("[GIT]: Push error")
             //console.log("error",error.message);
             return;
         }
         if(getter){
-            console.log("Its Getter")
+            console.log("[GIT]: Push successful")
             return;
         }
-        console.log("Pushed");
+        console.log("[GIT]: Pushed");
     });
     TheInterval = setInterval(() => {
         exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-
             if(error){
-                console.log("Its Error")
+                console.log("[GIT]: Pull error")
                 //console.log("error",error.message);
                 return;
             }
             if(getter){
-                console.log("Its Getter")
+                console.log("[GIT]: Pull successful")
                 return;
             }
-            console.log("Pulled");
+            console.log("[GIT]: Pulled");
         });
         CheckShop();
         exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-
             if(error){
-                console.log("Its Error")
+                console.log("[GIT]: Push error")
                 //console.log("error",error.message);
                 return;
             }
             if(getter){
-                console.log("Its Getter")
+                console.log("[GIT]: Push successful")
                 return;
             }
-            console.log("Pushed");
+            console.log("[GIT]: Pushed");
         });
     }, 900000);
 }
