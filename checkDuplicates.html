@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    With Duplicates:<br />
+    <textarea class="dirty">
+        [{
+            "testada": "ecom",
+            "iID": "27"
+        }, {
+            "testada": "alorta",
+            "iID": "27"
+        }, {
+            "testada": "france24",
+            "iID": "23"
+        }, {
+            "testada": "seloger",
+            "iID": "23"
+        }]
+</textarea><br />
+    <button class="process">Clean</button>
+    <br />
+    Without Duplicates:<br />
+    <textarea class="clean"></textarea>
+</body>
+<style>
+    textarea {
+        width: 400px;
+        height: 200px;
+    }
+</style>
+<script>
+    jQuery(".process").click(function () {
+        var dirty = JSON.parse(jQuery(".dirty").val().trim());
+        var cleaned = removeDuplicates(dirty);
+        console.log("-- Length --");
+        console.log("Dirty: " + dirty.length);
+        console.log("Cleaned: " + cleaned.length);
+
+        //console.log(cleaned);
+        jQuery(".clean").val(JSON.stringify(cleaned, null, 4));
+    });
+
+    /* 
+     * Function from http://stackoverflow.com/questions/21951115/remove-duplicate-values-from-json-data. Answered by Tushar Gupta
+     */
+    function removeDuplicates(json_all) {
+        var arr = [],
+            collection = [];
+
+        $.each(json_all, function (index, value) {
+            if ($.inArray(value.iID, arr) == -1) {
+                arr.push(value.iID);
+                collection.push(value);
+            } else {
+                console.log(value.iID)
+            }
+        });
+        return collection;
+    }
+</script>
+
+</html>

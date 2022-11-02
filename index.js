@@ -226,7 +226,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
 
     LS_content = fs.readFileSync(lastseenPath, "utf8")
     if (LS_content.length == 0) {
-        TriggerWarning("LastSeen file is empty!!!");
+        TriggerWarning("LastSeen file is empty!");
         WriteLastSeen(Feathash, DailyHash);
         return true;
         CheckShop();
