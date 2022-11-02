@@ -119,9 +119,9 @@ class DataStoring {
 
 
 StoreData = (FEATURED = null, DAILY = null) => {
-    
-console.log("----------------------------------------------")
-console.log("[index.js]: Checking RL Shop");
+
+    console.log("----------------------------------------------")
+    console.log("[index.js]: Checking RL Shop");
     var time = Date.now();
     var d = new Date();
     var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
@@ -406,86 +406,84 @@ CheckShop = () => {
 }
 
 onstart = () => {
-    exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-        if(error){
+    exec("sudo sh gitpush.sh", (error, data, getter) => {
+        if (error) {
             console.log("[GIT]: Push error")
-            TriggerWarning('Pull error - ' + error.message)
-            //console.log("error",error.message);
+            TriggerWarning('Push error - ' + error.message)
             return;
         }
-        if(getter){
+        if (getter) {
             console.log("[GIT]: Push successful")
             return;
         }
         console.log("[GIT]: Pushed");
-    });
-    exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-        if(error){
-            console.log("[GIT]: Pull error")
-            TriggerWarning('Pull error - ' + error.message)
-            //console.log("error",error.message);
-            return;
-        }
-        if(getter){
-            console.log("[GIT]: Pull successful")
-            return;
-        }
-        console.log("[GIT]: Pulled");
-    });
-    CheckShop();
-    exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-        if(error){
-            console.log("[GIT]: Push error")
-            TriggerWarning('Pull error - ' + error.message)
-            //console.log("error",error.message);
-            return;
-        }
-        if(getter){
-            console.log("[GIT]: Push successful")
-            return;
-        }
-        console.log("[GIT]: Pushed");
-    });
-    TheInterval = setInterval(() => {
-        exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-            if(error){
-                console.log("[GIT]: Push error")
-                TriggerWarning('Pull error - ' + error.message)
-                //console.log("error",error.message);
-                return;
-            }
-            if(getter){
-                console.log("[GIT]: Push successful")
-                return;
-            }
-            console.log("[GIT]: Pushed");
-        });
-        exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-            if(error){
+    }).once("close", () => {
+        exec("git pull", (error, data, getter) => {
+            if (error) {
                 console.log("[GIT]: Pull error")
                 TriggerWarning('Pull error - ' + error.message)
-                //console.log("error",error.message);
                 return;
             }
-            if(getter){
+            if (getter) {
                 console.log("[GIT]: Pull successful")
                 return;
             }
             console.log("[GIT]: Pulled");
+        }).once("close", () => {
+            CheckShop();
+            exec("sudo sh gitpush.sh", (error, data, getter) => {
+                if (error) {
+                    console.log("[GIT]: Push error")
+                    TriggerWarning('Push error - ' + error.message)
+                    return;
+                }
+                if (getter) {
+                    console.log("[GIT]: Push successful")
+                    return;
+                }
+                console.log("[GIT]: Pushed");
+            });
         });
-        CheckShop();
-        exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
-            if(error){
+    });
+    TheInterval = setInterval(() => {
+        exec("sudo sh gitpush.sh", (error, data, getter) => {
+            if (error) {
                 console.log("[GIT]: Push error")
-                TriggerWarning('Pull error - ' + error.message)
-                //console.log("error",error.message);
+                TriggerWarning('Push error - ' + error.message)
                 return;
             }
-            if(getter){
+            if (getter) {
                 console.log("[GIT]: Push successful")
                 return;
             }
             console.log("[GIT]: Pushed");
+        }).on("close", () => {
+            exec("git pull", (error, data, getter) => {
+                if (error) {
+                    console.log("[GIT]: Pull error")
+                    TriggerWarning('Pull error - ' + error.message)
+                    return;
+                }
+                if (getter) {
+                    console.log("[GIT]: Pull successful")
+                    return;
+                }
+                console.log("[GIT]: Pulled");
+            }).on("close", () => {
+                CheckShop();
+                exec("sudo sh gitpush.sh", (error, data, getter) => {
+                    if (error) {
+                        console.log("[GIT]: Push error")
+                        TriggerWarning('Push error - ' + error.message)
+                        return;
+                    }
+                    if (getter) {
+                        console.log("[GIT]: Push successful")
+                        return;
+                    }
+                    console.log("[GIT]: Pushed");
+                });
+            });
         });
     }, 900000);
 }
