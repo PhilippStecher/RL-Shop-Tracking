@@ -1,4 +1,3 @@
 git add .;
-git commit -m "New Data :)";
-git remote add origin master;
+git commit -m "New Data";
 git push;
