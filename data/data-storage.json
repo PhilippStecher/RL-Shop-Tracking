@@ -3,7 +3,7 @@
         "items": {
             "featured": [
                 {
-                    "iID": "c4e0c65eb5ce853856316dd59a999fe0"
+                    "iID": "14e0c65eb5ce853856316dd59a999fe0"
                 },
                 {
                     "iID": "ba90c1f7b5ff81ab4a1950595498abd2"
@@ -2038,5 +2038,39 @@
         },
         "pulltimeCode": 1667374657314,
         "pulltimeText": "02-11-2022 08:37:37"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "10889640e62b0f619e8862bb71fee7de"
+                },
+                {
+                    "iID": "18c108bcb992c1eb80c2c0d482b859e7"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "635b5f2365f88d0c0ad13795887d2548"
+                },
+                {
+                    "iID": "ff90a7d87300f66e97a24749151d0753"
+                },
+                {
+                    "iID": "c325aa1a2db79ad69a7ea24832335a8c"
+                },
+                {
+                    "iID": "ac1e3c4236dd60b3197300a93e19a629"
+                },
+                {
+                    "iID": "0477c45ab60bf75537b8ba9865150260"
+                },
+                {
+                    "iID": "bfcdcd9185b927ff5efc1ceea1b55bc9"
+                }
+            ]
+        },
+        "pulltimeCode": 1667375822609,
+        "pulltimeText": "02-11-2022 08:57:02"
     }
 ]
