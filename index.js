@@ -409,6 +409,7 @@ onstart = () => {
     exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
         if(error){
             console.log("[GIT]: Pull error")
+            TriggerWarning('Pull error - ' + error.message)
             //console.log("error",error.message);
             return;
         }
@@ -422,6 +423,7 @@ onstart = () => {
     exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
         if(error){
             console.log("[GIT]: Push error")
+            TriggerWarning('Pull error - ' + error.message)
             //console.log("error",error.message);
             return;
         }
@@ -435,6 +437,7 @@ onstart = () => {
         exec("git pull"/* Ich bin so 5Head lmao */, (error, data, getter) => {
             if(error){
                 console.log("[GIT]: Pull error")
+                TriggerWarning('Pull error - ' + error.message)
                 //console.log("error",error.message);
                 return;
             }
@@ -448,6 +451,7 @@ onstart = () => {
         exec("sudo sh gitpush.sh"/* Ich bin so 5Head lmao */, (error, data, getter) => {
             if(error){
                 console.log("[GIT]: Push error")
+                TriggerWarning('Pull error - ' + error.message)
                 //console.log("error",error.message);
                 return;
             }
