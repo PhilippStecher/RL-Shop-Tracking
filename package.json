@@ -1,7 +1,7 @@
 {
-  "name": "Read GTA V decompiled Scripts",
-  "version": "1.0.0",
-  "description": "",
+  "name": "RL Shop Tracker",
+  "version": "1.0.1",
+  "description": "Automatic read Rocket League Shop and save curret Shop items to database",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
