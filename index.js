@@ -43,7 +43,7 @@ FixInterval_FitPerfect = () => {
 //#region Warnsystem
 TriggerWarning = (msg) => {
     //todo
-    console.log("ERROR: " + msg)
+    console.log("[ERROR]: " + msg)
 }
 //#endregion
 
@@ -66,7 +66,6 @@ class ItemToID {
 ItemToStorage = (ItemID, ItemObj) => {
     /* console.log("A item id = " + ItemID) */
     var Itemstorage = fs.readFileSync(AllItemsPath, 'utf8');
-
 
     //!Check if Item already exists
 
@@ -94,7 +93,7 @@ ItemToStorage = (ItemID, ItemObj) => {
         ItemStorageCNT.push(ItemObj)
     }
     fs.writeFileSync(AllItemsPath, JSON.stringify(ItemStorageCNT, null, 4), "utf-8");
-    console.log("New item saved to DataBase");
+    console.log("[index.js]: New item saved to DataBase");
 
 
 }
@@ -122,7 +121,7 @@ class DataStoring {
 StoreData = (FEATURED = null, DAILY = null) => {
     
 console.log("----------------------------------------------")
-console.log("Checking RL Shop");
+console.log("[index.js]: Checking RL Shop");
     var time = Date.now();
     var d = new Date();
     var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
@@ -146,7 +145,6 @@ console.log("Checking RL Shop");
 
     var CurrentResults = fs.readFileSync(MassivStoragePath, "utf-8");
     if (CurrentResults.length == 0) {
-        console.log("ERROR: Data-Storage is empty!")
         TriggerWarning("Data-Storage file is empty!")
         var jsoncnt = [];
         jsoncnt.push(new DataStoring(new Packaging(ShrinkDataF, ShrinkDataD)))
@@ -155,7 +153,7 @@ console.log("Checking RL Shop");
         jsoncnt.push(new DataStoring(new Packaging(ShrinkDataF, ShrinkDataD)))
     }
     fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt, null, 4), "utf-8");
-    console.log("New shop content saved.");
+    console.log("[index.js]: New shop content saved.");
 }
 //#endregion
 
@@ -220,7 +218,6 @@ Github_Reload = () => {
 
 WriteLastSeen = (FEATURED, DAILY) => {
     fs.writeFileSync(lastseenPath, JSON.stringify(new lastseenData(FEATURED, DAILY), null, 4), "utf-8")
-    
 }
 
 CheckIfUpdated = (FEATURED, DAILY) => {
@@ -229,7 +226,6 @@ CheckIfUpdated = (FEATURED, DAILY) => {
 
     LS_content = fs.readFileSync(lastseenPath, "utf8")
     if (LS_content.length == 0) {
-        console.log("ERROR: Last seen file empty");
         TriggerWarning("LastSeen file is empty!!!");
         WriteLastSeen(Feathash, DailyHash);
         return true;
@@ -242,7 +238,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
         //console.log("Shop doesn't updated!");
         return false;
     } else {
-        console.log("Shop updated!");
+        console.log("[index.js]: Shop updated!");
         return true;
     }
     return false;
@@ -389,6 +385,7 @@ CheckShop = () => {
                 str += part;
             });
             resp.on('end', function (part) {
+                console.log("[index.js]: Side fetched")
                 fs.writeFileSync("./lastRequest.html", str, 'utf8');
                 ParseHTML(str)
                 /* if (str.lenght < 2) {
@@ -402,7 +399,6 @@ CheckShop = () => {
             });
 
             resp.on('error', function (e) {
-                console.log('Problem with request: ' + e.message);
                 TriggerWarning('Problem with request: ' + e.message)
             });
         }
