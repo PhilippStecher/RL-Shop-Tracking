@@ -154,6 +154,7 @@ StoreData = (FEATURED = null, DAILY = null) => {
     }
     fs.writeFileSync(MassivStoragePath, JSON.stringify(jsoncnt, null, 4), "utf-8");
     console.log("[index.js]: New shop content saved.");
+    Github_Reload();
 }
 //#endregion
 
@@ -178,42 +179,31 @@ ReturnHashes = (Obj) => {
 }
 
 Github_Reload = () => {
-    return;
-    console.log("Github update")
-    const a = "../Hidden/Gitpull_RL_Updater.json"
-    var b = fs.readFileSync(a, 'utf8');
-    if (b.length > 0) {
-        var c = JSON.parse(b);
-        exec(c.pull, (error, data, getter) => {
+    exec("sudo sh gitpush.sh", (error, data, getter) => {
+        if (error) {
+            console.log("[GIT.Reload]: Push error")
+            TriggerWarning('Push error - ' + error.message)
+            return;
+        }
+        if (getter) {
+            console.log("[GIT.Reload]: Push successful")
+            return;
+        }
+        console.log("[GIT.Reload]: Pushed");
+    }).on("close", () => {
+        exec("git pull", (error, data, getter) => {
             if (error) {
-                TriggerWarning(error.message)
+                console.log("[GIT.Reload]: Pull error")
+                TriggerWarning('Pull error - ' + error.message)
                 return;
             }
             if (getter) {
-                console.log("Sucess gitpull!");
-                exec(c.commit, (error, data, getter) => {
-                    if (error) {
-                        TriggerWarning(error.message)
-                        return;
-                    }
-                    if (getter) {
-                        console.log("Sucess commit!");
-                        exec(c.push, (error, data, getter) => {
-                            if (error) {
-                                TriggerWarning(error.message)
-                                return;
-                            }
-                            if (getter) {
-                                console.log("Sucess push!");
-                            }
-                        })
-                    }
-                })
+                console.log("[GIT.Reload]: Pull successful")
+                return;
             }
-        });
-    } else {
-        TriggerWarning("Git error 0x0023")
-    }
+            console.log("[GIT.Reload]: Pulled");
+        })
+    });
 }
 
 WriteLastSeen = (FEATURED, DAILY) => {
@@ -235,7 +225,7 @@ CheckIfUpdated = (FEATURED, DAILY) => {
     var formated = JSON.parse(LS_content);
 
     if (formated.FeaturedHash == Feathash && formated.DailyHash == DailyHash) {
-        //console.log("Shop doesn't updated!");
+        console.log("[index.js]: Shop doesn't updated!");
         return false;
     } else {
         console.log("[index.js]: Shop updated!");
@@ -273,7 +263,6 @@ class CurrItemStoring {
 
 SaveCurrItems = (Obj) => {
     fs.writeFileSync("./data/current-items.json", JSON.stringify(Obj, null, 4), "utf-8");
-    Github_Reload();
 }
 
 ParseHTML = (html) => {
@@ -406,18 +395,21 @@ CheckShop = () => {
 }
 
 onstart = () => {
-    exec("sudo sh gitpush.sh", (error, data, getter) => {
+    exec("git pull", (error, data, getter) => {
         if (error) {
-            console.log("[GIT]: Push error")
-            TriggerWarning('Push error - ' + error.message)
+            console.log("[GIT]: Pull error")
+            TriggerWarning('Pull error - ' + error.message)
             return;
         }
         if (getter) {
-            console.log("[GIT]: Push successful")
+            console.log("[GIT]: Pull successful")
             return;
         }
-        console.log("[GIT]: Pushed");
-    }).once("close", () => {
+        console.log("[GIT]: Pulled");
+    }).on("close", () => {
+        CheckShop();
+    });
+    TheInterval = setInterval(() => {
         exec("git pull", (error, data, getter) => {
             if (error) {
                 console.log("[GIT]: Pull error")
@@ -429,61 +421,8 @@ onstart = () => {
                 return;
             }
             console.log("[GIT]: Pulled");
-        }).once("close", () => {
-            CheckShop();
-            exec("sudo sh gitpush.sh", (error, data, getter) => {
-                if (error) {
-                    console.log("[GIT]: Push error")
-                    TriggerWarning('Push error - ' + error.message)
-                    return;
-                }
-                if (getter) {
-                    console.log("[GIT]: Push successful")
-                    return;
-                }
-                console.log("[GIT]: Pushed");
-            });
-        });
-    });
-    TheInterval = setInterval(() => {
-        exec("sudo sh gitpush.sh", (error, data, getter) => {
-            if (error) {
-                console.log("[GIT]: Push error")
-                TriggerWarning('Push error - ' + error.message)
-                return;
-            }
-            if (getter) {
-                console.log("[GIT]: Push successful")
-                return;
-            }
-            console.log("[GIT]: Pushed");
         }).on("close", () => {
-            exec("git pull", (error, data, getter) => {
-                if (error) {
-                    console.log("[GIT]: Pull error")
-                    TriggerWarning('Pull error - ' + error.message)
-                    return;
-                }
-                if (getter) {
-                    console.log("[GIT]: Pull successful")
-                    return;
-                }
-                console.log("[GIT]: Pulled");
-            }).on("close", () => {
-                CheckShop();
-                exec("sudo sh gitpush.sh", (error, data, getter) => {
-                    if (error) {
-                        console.log("[GIT]: Push error")
-                        TriggerWarning('Push error - ' + error.message)
-                        return;
-                    }
-                    if (getter) {
-                        console.log("[GIT]: Push successful")
-                        return;
-                    }
-                    console.log("[GIT]: Pushed");
-                });
-            });
+            CheckShop();
         });
     }, 900000);
 }
