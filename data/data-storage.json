@@ -2106,5 +2106,39 @@
         },
         "pulltimeCode": 1667416375753,
         "pulltimeText": "02-11-2022 20:12:55"
+    },
+    {
+        "items": {
+            "featured": [
+                {
+                    "iID": "15818c9e6dad3a1066c0fe0b0febfcce"
+                },
+                {
+                    "iID": "93b19ef923f97d8658fc6687911e77f1"
+                }
+            ],
+            "daily": [
+                {
+                    "iID": "77c3375cbe59db350b6a90b7c482ca68"
+                },
+                {
+                    "iID": "ccb52a34fce52fb90ecaa5621f08e3f7"
+                },
+                {
+                    "iID": "f120d45fff8a2f233a3fd008c09db8da"
+                },
+                {
+                    "iID": "948309372e9aee0952a2b3be0f6d853b"
+                },
+                {
+                    "iID": "dbe1edb8daae75d8dcd7dc41803fbe88"
+                },
+                {
+                    "iID": "800e4439411976c5a52d0db84b799510"
+                }
+            ]
+        },
+        "pulltimeCode": 1667502414826,
+        "pulltimeText": "03-11-2022 20:06:54"
     }
 ]
