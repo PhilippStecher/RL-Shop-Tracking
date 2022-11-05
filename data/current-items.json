@@ -10,8 +10,8 @@
             "iPrice": "900",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667588814796,
-            "pulltimeText": "04-11-2022 20:06:54"
+            "pulltimeCode": 1667675214727,
+            "pulltimeText": "05-11-2022 20:06:54"
         },
         {
             "iID": "465a837ca87337ef7ce308bf79a10115",
@@ -23,88 +23,88 @@
             "iPrice": "500",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667588814798,
-            "pulltimeText": "04-11-2022 20:06:54"
+            "pulltimeCode": 1667675214728,
+            "pulltimeText": "05-11-2022 20:06:54"
         }
     ],
     "DailyItems": [
         {
-            "iID": "58545580f07772a633c0a8f5b4937dc1",
-            "iName": "Takumi: Anubis",
-            "iType": "Very Rare Decal",
+            "iID": "10a6c4e2ad3330bc8c2f332f557ece2c",
+            "iName": "Takumi: Distortion",
+            "iType": "Import Decal",
             "iColor": "",
             "iCertification": null,
             "iEdition": null,
-            "iPrice": "100",
+            "iPrice": "300",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667588814800,
-            "pulltimeText": "04-11-2022 20:06:54"
+            "pulltimeCode": 1667675214729,
+            "pulltimeText": "05-11-2022 20:06:54"
         },
         {
-            "iID": "2b9941be273e64b787bf1039893b5a6b",
-            "iName": "Global: Warp Wave",
+            "iID": "cf322cf24e24d43e54cd62bf18b4343c",
+            "iName": "Global: Almagest",
             "iType": "Exotic Decal",
-            "iColor": "Sky Blue",
-            "iCertification": null,
+            "iColor": "Orange",
+            "iCertification": "Aviator",
             "iEdition": null,
             "iPrice": "900",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667588814802,
-            "pulltimeText": "04-11-2022 20:06:54"
+            "pulltimeCode": 1667675214731,
+            "pulltimeText": "05-11-2022 20:06:54"
         },
         {
-            "iID": "188697dcc924f4fefd012fd1137bab40",
-            "iName": "Binary",
-            "iType": "Very Rare Trail",
+            "iID": "6919615520570c3804308c8ed979900b",
+            "iName": "Cristiano: Infinite",
+            "iType": "Very Rare Wheels",
+            "iColor": "Titanium White",
+            "iCertification": "Sniper",
+            "iEdition": null,
+            "iPrice": "600",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667675214732,
+            "pulltimeText": "05-11-2022 20:06:54"
+        },
+        {
+            "iID": "dee6c87a2f0a3b2b459b3c68396a3364",
+            "iName": "Polygonal",
+            "iType": "Very Rare Rocket Boost",
+            "iColor": "Titanium White",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "400",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667675214734,
+            "pulltimeText": "05-11-2022 20:06:54"
+        },
+        {
+            "iID": "9ead4c84d257cb59f1aa18e46e9b9680",
+            "iName": "Zowie: Infinite",
+            "iType": "Exotic Wheels",
+            "iColor": "Purple",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "1500",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667675214736,
+            "pulltimeText": "05-11-2022 20:06:54"
+        },
+        {
+            "iID": "5c037685ac23ca50bfae4ff6f772e389",
+            "iName": "Straight-Line",
+            "iType": "Very Rare Paint",
             "iColor": "",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "200",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667588814804,
-            "pulltimeText": "04-11-2022 20:06:54"
-        },
-        {
-            "iID": "c26e83f11fa0973cd5ece592a3eb3181",
-            "iName": "Proton",
-            "iType": "Import Rocket Boost",
-            "iColor": "Titanium White",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "700",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667588814805,
-            "pulltimeText": "04-11-2022 20:06:54"
-        },
-        {
-            "iID": "9c93bf24117ac4a9469ae50a40c95a02",
-            "iName": "Infinium",
-            "iType": "Exotic Wheels",
-            "iColor": "",
-            "iCertification": "Playmaker",
-            "iEdition": null,
-            "iPrice": "900",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667588814807,
-            "pulltimeText": "04-11-2022 20:06:54"
-        },
-        {
-            "iID": "3a3439be8d13d4c52411b13f18a7d2bb",
-            "iName": "Glossy Block",
-            "iType": "Rare Paint",
-            "iColor": "",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "100",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667588814808,
-            "pulltimeText": "04-11-2022 20:06:54"
+            "pulltimeCode": 1667675214737,
+            "pulltimeText": "05-11-2022 20:06:54"
         }
     ]
 }

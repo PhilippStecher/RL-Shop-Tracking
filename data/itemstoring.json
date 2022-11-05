@@ -3494,5 +3494,53 @@
         "iColor": "",
         "iPrice": "900",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "10a6c4e2ad3330bc8c2f332f557ece2c",
+        "iName": "Takumi: Distortion",
+        "iType": "Import Decal",
+        "iColor": "",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "cf322cf24e24d43e54cd62bf18b4343c",
+        "iName": "Global: Almagest",
+        "iType": "Exotic Decal",
+        "iColor": "Orange",
+        "iPrice": "900",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "6919615520570c3804308c8ed979900b",
+        "iName": "Cristiano: Infinite",
+        "iType": "Very Rare Wheels",
+        "iColor": "Titanium White",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "dee6c87a2f0a3b2b459b3c68396a3364",
+        "iName": "Polygonal",
+        "iType": "Very Rare Rocket Boost",
+        "iColor": "Titanium White",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "9ead4c84d257cb59f1aa18e46e9b9680",
+        "iName": "Zowie: Infinite",
+        "iType": "Exotic Wheels",
+        "iColor": "Purple",
+        "iPrice": "1500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "5c037685ac23ca50bfae4ff6f772e389",
+        "iName": "Straight-Line",
+        "iType": "Very Rare Paint",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
     }
 ]
