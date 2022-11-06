@@ -3542,5 +3542,61 @@
         "iColor": "",
         "iPrice": "200",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "de173b24533f671d323dc1748c841339",
+        "iName": "Zomba",
+        "iType": "Exotic Wheels",
+        "iColor": "Grey",
+        "iPrice": "900",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "5e86b91fe4b6d5cc6184950a17185506",
+        "iName": "Takumi: Vector",
+        "iType": "Very Rare Decal",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b5a082cc4a4036cfb64651cdaf2a0585",
+        "iName": "Hex Tide",
+        "iType": "Black Market Decal",
+        "iColor": "Purple",
+        "iPrice": "2200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e3acf5955bec92490d101151c7549a77",
+        "iName": "Quimby",
+        "iType": "Very Rare Wheels",
+        "iColor": "",
+        "iPrice": "200",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0d92a9a620bbf95bc9cd8a246bb4f37e",
+        "iName": "Tachyon",
+        "iType": "Import Rocket Boost",
+        "iColor": "Sky Blue",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "a6b82c0c982eb09e70dfdf3c44771647",
+        "iName": "Spanner",
+        "iType": "Very Rare Wheels",
+        "iColor": "",
+        "iPrice": "400",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "65785385c557e6b44611762b48efd07c",
+        "iName": "Doughnut Eater",
+        "iType": "Very Rare Banner",
+        "iColor": "Cobalt",
+        "iPrice": "300",
+        "ForD": "DAILY"
     }
 ]
