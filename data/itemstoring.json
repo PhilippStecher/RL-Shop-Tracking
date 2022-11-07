@@ -3598,5 +3598,53 @@
         "iColor": "Cobalt",
         "iPrice": "300",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "fcad895056ae7c6f341744913f69fd1d",
+        "iName": "Takumi: Whizzle",
+        "iType": "Rare Decal",
+        "iColor": "",
+        "iPrice": "50",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b4b4cd3fe5eb5fbe2bf18709533b852a",
+        "iName": "Wet Paint",
+        "iType": "Black Market Decal",
+        "iColor": "Titanium White",
+        "iPrice": "2500",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "710932dc16cf9bcff49f5dd033fd4641",
+        "iName": "Saptarishi",
+        "iType": "Import Wheels",
+        "iColor": "Cobalt",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "0dd638b44a4813addbc1ce7e6b8728b1",
+        "iName": "Sun Ray",
+        "iType": "Import Rocket Boost",
+        "iColor": "Purple",
+        "iPrice": "600",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "649a15d34a0bad8cf0e7587cf149610f",
+        "iName": "FSL",
+        "iType": "Import Wheels",
+        "iColor": "Purple",
+        "iPrice": "800",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d4cfed59b9823e62bbb7b13e1809d9a7",
+        "iName": "Pixel Fire",
+        "iType": "Rare Banner",
+        "iColor": "",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]

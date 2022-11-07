@@ -10,8 +10,8 @@
             "iPrice": "900",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667761614834,
-            "pulltimeText": "06-11-2022 20:06:54"
+            "pulltimeCode": 1667848014768,
+            "pulltimeText": "07-11-2022 20:06:54"
         },
         {
             "iID": "465a837ca87337ef7ce308bf79a10115",
@@ -23,88 +23,88 @@
             "iPrice": "500",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667761614836,
-            "pulltimeText": "06-11-2022 20:06:54"
+            "pulltimeCode": 1667848014772,
+            "pulltimeText": "07-11-2022 20:06:54"
         }
     ],
     "DailyItems": [
         {
-            "iID": "5e86b91fe4b6d5cc6184950a17185506",
-            "iName": "Takumi: Vector",
-            "iType": "Very Rare Decal",
+            "iID": "fcad895056ae7c6f341744913f69fd1d",
+            "iName": "Takumi: Whizzle",
+            "iType": "Rare Decal",
+            "iColor": "",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "50",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667848014774,
+            "pulltimeText": "07-11-2022 20:06:54"
+        },
+        {
+            "iID": "b4b4cd3fe5eb5fbe2bf18709533b852a",
+            "iName": "Wet Paint",
+            "iType": "Black Market Decal",
+            "iColor": "Titanium White",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "2500",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667848014776,
+            "pulltimeText": "07-11-2022 20:06:54"
+        },
+        {
+            "iID": "710932dc16cf9bcff49f5dd033fd4641",
+            "iName": "Saptarishi",
+            "iType": "Import Wheels",
+            "iColor": "Cobalt",
+            "iCertification": "Goalkeeper",
+            "iEdition": null,
+            "iPrice": "600",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667848014778,
+            "pulltimeText": "07-11-2022 20:06:54"
+        },
+        {
+            "iID": "0dd638b44a4813addbc1ce7e6b8728b1",
+            "iName": "Sun Ray",
+            "iType": "Import Rocket Boost",
+            "iColor": "Purple",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "600",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667848014781,
+            "pulltimeText": "07-11-2022 20:06:54"
+        },
+        {
+            "iID": "649a15d34a0bad8cf0e7587cf149610f",
+            "iName": "FSL",
+            "iType": "Import Wheels",
+            "iColor": "Purple",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "800",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667848014783,
+            "pulltimeText": "07-11-2022 20:06:54"
+        },
+        {
+            "iID": "d4cfed59b9823e62bbb7b13e1809d9a7",
+            "iName": "Pixel Fire",
+            "iType": "Rare Banner",
             "iColor": "",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "100",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667761614837,
-            "pulltimeText": "06-11-2022 20:06:54"
-        },
-        {
-            "iID": "b5a082cc4a4036cfb64651cdaf2a0585",
-            "iName": "Hex Tide",
-            "iType": "Black Market Decal",
-            "iColor": "Purple",
-            "iCertification": "Turtle",
-            "iEdition": null,
-            "iPrice": "2200",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667761614838,
-            "pulltimeText": "06-11-2022 20:06:54"
-        },
-        {
-            "iID": "e3acf5955bec92490d101151c7549a77",
-            "iName": "Quimby",
-            "iType": "Very Rare Wheels",
-            "iColor": "",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "200",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667761614840,
-            "pulltimeText": "06-11-2022 20:06:54"
-        },
-        {
-            "iID": "0d92a9a620bbf95bc9cd8a246bb4f37e",
-            "iName": "Tachyon",
-            "iType": "Import Rocket Boost",
-            "iColor": "Sky Blue",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "600",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667761614841,
-            "pulltimeText": "06-11-2022 20:06:54"
-        },
-        {
-            "iID": "a6b82c0c982eb09e70dfdf3c44771647",
-            "iName": "Spanner",
-            "iType": "Very Rare Wheels",
-            "iColor": "",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "400",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667761614845,
-            "pulltimeText": "06-11-2022 20:06:54"
-        },
-        {
-            "iID": "65785385c557e6b44611762b48efd07c",
-            "iName": "Doughnut Eater",
-            "iType": "Very Rare Banner",
-            "iColor": "Cobalt",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "300",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667761614846,
-            "pulltimeText": "06-11-2022 20:06:54"
+            "pulltimeCode": 1667848014785,
+            "pulltimeText": "07-11-2022 20:06:54"
         }
     ]
 }
