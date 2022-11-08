@@ -1,110 +1,110 @@
 {
     "Featured_Items": [
         {
-            "iID": "de173b24533f671d323dc1748c841339",
-            "iName": "Zomba",
-            "iType": "Exotic Wheels",
-            "iColor": "Grey",
-            "iCertification": null,
-            "iEdition": null,
-            "iPrice": "900",
-            "iUpvote": "",
-            "iDownvote": "",
-            "pulltimeCode": 1667848014768,
-            "pulltimeText": "07-11-2022 20:06:54"
-        },
-        {
-            "iID": "465a837ca87337ef7ce308bf79a10115",
-            "iName": "Takumi",
-            "iType": "Very Rare Body",
-            "iColor": "Gold",
+            "iID": "bb8948962d95cd50ae6c054d5799e483",
+            "iName": "Global: Speeder Meter",
+            "iType": "Import Decal",
+            "iColor": "Black",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "500",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014772,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515003,
+            "pulltimeText": "08-11-2022 22:21:55"
+        },
+        {
+            "iID": "0e38eeb8f82c4ca159531f62f7d09ad7",
+            "iName": "Werewolf",
+            "iType": "Import Body",
+            "iColor": "Grey",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "700",
+            "iUpvote": "",
+            "iDownvote": "",
+            "pulltimeCode": 1667942515005,
+            "pulltimeText": "08-11-2022 22:21:55"
         }
     ],
     "DailyItems": [
         {
-            "iID": "fcad895056ae7c6f341744913f69fd1d",
-            "iName": "Takumi: Whizzle",
-            "iType": "Rare Decal",
+            "iID": "6078f02facd5bd05293312e2af64ac9f",
+            "iName": "Werewolf: Martian Wind",
+            "iType": "Import Decal",
             "iColor": "",
             "iCertification": null,
             "iEdition": null,
-            "iPrice": "50",
+            "iPrice": "300",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014774,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515008,
+            "pulltimeText": "08-11-2022 22:21:55"
         },
         {
-            "iID": "b4b4cd3fe5eb5fbe2bf18709533b852a",
-            "iName": "Wet Paint",
-            "iType": "Black Market Decal",
-            "iColor": "Titanium White",
+            "iID": "ff63185028440e196d2c4c5dc109fba4",
+            "iName": "Cutter",
+            "iType": "Very Rare Wheels",
+            "iColor": "Lime",
             "iCertification": null,
             "iEdition": null,
-            "iPrice": "2500",
+            "iPrice": "300",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014776,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515010,
+            "pulltimeText": "08-11-2022 22:21:55"
         },
         {
-            "iID": "710932dc16cf9bcff49f5dd033fd4641",
-            "iName": "Saptarishi",
-            "iType": "Import Wheels",
-            "iColor": "Cobalt",
-            "iCertification": "Goalkeeper",
+            "iID": "d8bb59a185144284e5870defd07a54b2",
+            "iName": "Ethereal",
+            "iType": "Very Rare Trail",
+            "iColor": "Crimson",
+            "iCertification": "Show-off",
             "iEdition": null,
-            "iPrice": "600",
+            "iPrice": "300",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014778,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515011,
+            "pulltimeText": "08-11-2022 22:21:55"
         },
         {
-            "iID": "0dd638b44a4813addbc1ce7e6b8728b1",
-            "iName": "Sun Ray",
+            "iID": "a85d1073f75bd7d4a9adfe2ec4e0f91d",
+            "iName": "Power-Shot",
             "iType": "Import Rocket Boost",
-            "iColor": "Purple",
+            "iColor": "Forest Green",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "600",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014781,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515012,
+            "pulltimeText": "08-11-2022 22:21:55"
         },
         {
-            "iID": "649a15d34a0bad8cf0e7587cf149610f",
-            "iName": "FSL",
-            "iType": "Import Wheels",
-            "iColor": "Purple",
+            "iID": "e55a7f09bdc703f2be91296bbb6693b4",
+            "iName": "Creeper",
+            "iType": "Exotic Wheels",
+            "iColor": "Saffron",
             "iCertification": null,
             "iEdition": null,
-            "iPrice": "800",
+            "iPrice": "1100",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014783,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515013,
+            "pulltimeText": "08-11-2022 22:21:55"
         },
         {
-            "iID": "d4cfed59b9823e62bbb7b13e1809d9a7",
-            "iName": "Pixel Fire",
-            "iType": "Rare Banner",
-            "iColor": "",
+            "iID": "b410640a1bb3c43fc2f9ab593a0a6253",
+            "iName": "Werewolf: Big Bad",
+            "iType": "Rare Decal",
+            "iColor": "Grey",
             "iCertification": null,
             "iEdition": null,
             "iPrice": "100",
             "iUpvote": "",
             "iDownvote": "",
-            "pulltimeCode": 1667848014785,
-            "pulltimeText": "07-11-2022 20:06:54"
+            "pulltimeCode": 1667942515015,
+            "pulltimeText": "08-11-2022 22:21:55"
         }
     ]
 }

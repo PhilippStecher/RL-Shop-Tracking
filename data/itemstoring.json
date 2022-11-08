@@ -3646,5 +3646,61 @@
         "iColor": "",
         "iPrice": "100",
         "ForD": "DAILY"
+    },
+    {
+        "iID": "bb8948962d95cd50ae6c054d5799e483",
+        "iName": "Global: Speeder Meter",
+        "iType": "Import Decal",
+        "iColor": "Black",
+        "iPrice": "500",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "0e38eeb8f82c4ca159531f62f7d09ad7",
+        "iName": "Werewolf",
+        "iType": "Import Body",
+        "iColor": "Grey",
+        "iPrice": "700",
+        "ForD": "FEATURED"
+    },
+    {
+        "iID": "6078f02facd5bd05293312e2af64ac9f",
+        "iName": "Werewolf: Martian Wind",
+        "iType": "Import Decal",
+        "iColor": "",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "ff63185028440e196d2c4c5dc109fba4",
+        "iName": "Cutter",
+        "iType": "Very Rare Wheels",
+        "iColor": "Lime",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "d8bb59a185144284e5870defd07a54b2",
+        "iName": "Ethereal",
+        "iType": "Very Rare Trail",
+        "iColor": "Crimson",
+        "iPrice": "300",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "e55a7f09bdc703f2be91296bbb6693b4",
+        "iName": "Creeper",
+        "iType": "Exotic Wheels",
+        "iColor": "Saffron",
+        "iPrice": "1100",
+        "ForD": "DAILY"
+    },
+    {
+        "iID": "b410640a1bb3c43fc2f9ab593a0a6253",
+        "iName": "Werewolf: Big Bad",
+        "iType": "Rare Decal",
+        "iColor": "Grey",
+        "iPrice": "100",
+        "ForD": "DAILY"
     }
 ]
