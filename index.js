@@ -73,6 +73,10 @@ HasItemsUpdated = (items) => {
 }
 
 AfterParsing = (items) => {
+    if (items.featured.length != 2 || items.daily.length != 6) {
+        TriggerWarning("HTML doesnt result in intended results");
+        //* return or exit!
+    }
     saveLib.current(items);
 
     if (HasItemsUpdated(items)) {

@@ -63,7 +63,6 @@ dailyItemParser = async () => {
     for (var x = 1; x <= 6; x++) {
         var CurrDaily = $(".rlg-item-shop__daily > a:nth-child(" + x + ")").html()
         if (CurrDaily == null || CurrDaily == undefined) {
-            console.log("ERROR: The HTML pulled is invalid!")
             TriggerWarning("The HTML pulled is invalid!")
             return;
         }
