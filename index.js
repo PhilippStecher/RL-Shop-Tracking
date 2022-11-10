@@ -7,6 +7,7 @@ const parseLib = require("./src/parse");
 const saveLib = require("./src/save");
 const paths = require('./src/path');
 
+var theInterval;
 var sideFetchCount = 0;
 
 TriggerWarning = (msg) => {
@@ -70,7 +71,7 @@ onstart = () => {
         sideFetchCount++;
         CheckShop();
     });
-    TheInterval = setInterval(() => {
+    theInterval = setInterval(() => {
         exec("git pull", (error, data, getter) => {
             if (error) {
                 TriggerWarning('Pull error - ' + error.message)
