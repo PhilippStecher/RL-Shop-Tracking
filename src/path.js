@@ -8,7 +8,7 @@ BasePath = (function () {
     var GamingPc = "C://Users/phili/Desktop/Desktop/SuaJS/Githubs/RL-Shop-Tracking/";
     var Laptop = "C://Users/Philipp Stecher/Desktop/Coding/Githubs/RL-Shop-Tracking/";
     var Laptop1 = "C://Users/Phillip Stecher/Desktop/Coding/Githubs/RL-Shop-Tracking/";
-    var Server = "~/../home/Nodejs/RL-Shop-Tracking/";
+    var Server = "/home/Nodejs/RL-Shop-Tracking/";
 
     var arr = [GamingPc, Laptop, Laptop1, Server];
 
