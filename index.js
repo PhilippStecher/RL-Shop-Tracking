@@ -89,6 +89,7 @@ ParseHtml = (html) => parseLib.parse(html, AfterParsing);
 CheckShop = () => httpLib.request(ParseHtml);
 
 onstart = () => {
+    console.log("[index.js]: Startup");
     exec("git pull", (error, data, getter) => {
         if (error) {
             TriggerWarning('Pull error - ' + error.message)
