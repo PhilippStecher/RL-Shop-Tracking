@@ -3749,32 +3749,5 @@
         "iCertification": "Striker",
         "iEdition": null,
         "iPrice": "400"
-    },
-    {
-        "iID": "b457c2bc2dfb14451e84503633a45484532135d3a5af89aa27b04ac6f13b06c5c0804a6afc1f9c38e76349c155f46ac8d833341149100e04ffbdceb89785f83a",
-        "iName": "Comet",
-        "iType": "Import Rocket Boost",
-        "iColor": "Burnt Sienna",
-        "iCertification": null,
-        "iEdition": null,
-        "iPrice": "400"
-    },
-    {
-        "iID": "29db187c72d3a8da2e6bcaea391de80f16d72ec935ffb12ea81ed2db9f3601f36d81eab91def034089641b8f45daefad90230428020e6f62a02f079ff5781379",
-        "iName": "Glaive",
-        "iType": "Very Rare Wheels",
-        "iColor": "Titanium White",
-        "iCertification": null,
-        "iEdition": null,
-        "iPrice": "600"
-    },
-    {
-        "iID": "4e0eb4dd73754e23926f806d043a1e1b0ebc3750d09acda3dd050bc1af28422da6927a27ed87510e93d1965ca2547084b6a5c2220f114f747b4a1fa9666e6651",
-        "iName": "Werewolf: Kana",
-        "iType": "Very Rare Decal",
-        "iColor": "",
-        "iCertification": null,
-        "iEdition": null,
-        "iPrice": "100"
     }
 ]
