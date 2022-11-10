@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { exit } = require("process");
+const loggerLib = require('./logger');
 
 module.exports.url = "rocket-league.com";
 module.exports.urlPath = "/items/shop/";
@@ -24,7 +25,7 @@ BasePath = (function () {
     if (!!foundDir) {
         return foundDir;
     } else {
-        console.error("E_NO_BASEPATH_FOUND");
+        loggerLib.error('E_NO_BASEPATH_FOUND', 'path.js', '0xaad19b')
         exit(1);
     }
 });

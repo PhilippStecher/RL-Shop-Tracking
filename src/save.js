@@ -1,11 +1,7 @@
 const fs = require('fs');
 const hashLib = require('./hash');
 const paths = require('./path');
-
-TriggerWarning = (msg) => {
-    console.log("[ERROR]: " + msg)
-}
-
+const loggerLib = require('./logger');
 
 class CurrItemStoring {
     constructor(featured, daily) {
@@ -43,7 +39,7 @@ StoreItem = (item) => {
     }
     var itemStorageContent
     if (itemStorage.length == 0) {
-        TriggerWarning("'item-storage.json' is empty")
+        loggerLib.warn('"item-storage.json" is empty', 'save.js', '0x15d07f');
         itemStorageContent = [
             {
                 "warn": "Missing data",
@@ -55,7 +51,7 @@ StoreItem = (item) => {
     }
     itemStorageContent.push(item)
     fs.writeFileSync(paths.itemStorageJson(), JSON.stringify(itemStorageContent, null, 4), "utf-8");
-    console.log("[index.js]: New item saved to DataBase");
+    loggerLib.info("New item saved to DataBase", 'save.js', '0x312a2f')
 }
 class DayEntry {
     constructor(featuredObj, dailyObj) {
@@ -83,7 +79,7 @@ StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) 
     var jsonContent;
     var entrys = fs.readFileSync(paths.dataStorageJson(), "utf8");
     if (entrys.length == 0) {
-        TriggerWarning("'data-storage.json' is empty")
+        loggerLib.warn('"data-storage.json" is empty', 'save.js', '0xe8b13c');
         jsonContent = [
             {
                 "warn": "Missing data",
@@ -99,7 +95,7 @@ StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) 
 }
 module.exports.storeData = (obj, callback) => {
     console.log("----------------------------------------------")
-    console.log("[index.js]: Checking RL Shop");
+    loggerLib.info('Checking RL Shop', 'save.js', '0x0a57ac')
     var featuredDayHash = hashLib.uniqueDayhash(obj.featured);
     var dailyDayHash = hashLib.uniqueDayhash(obj.daily);
 
@@ -120,7 +116,7 @@ module.exports.storeData = (obj, callback) => {
     });
 
     StoreDayData(shrinkedFeaturedData, shrinkedDailyData, featuredDayHash, dailyDayHash);
-    console.log("[index.js]: New shop content saved.");
+    loggerLib.info('New shop content saved', 'save.js', '0xe488e4')
 
     if (callback) callback();
 }

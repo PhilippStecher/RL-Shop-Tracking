@@ -1,6 +1,7 @@
 const { exec } = require("child_process");
 const cheerio = require("cheerio");
 const hashLib = require("./hash");
+const loggerLib = require('./logger');
 
 var featuredItemArr = [];
 var dailyItemArr = [];
@@ -28,7 +29,7 @@ featuredItemParser = async () => {
     for (var x = 1; x <= 2; x++) {
         var CurrFeat = $(".rlg-item-shop__featured > a:nth-child(" + x + ")").html()
         if (CurrFeat == null || CurrFeat == undefined) {
-            TriggerWarning("The HTML pulled is invalid!")
+            loggerLib.error("The HTML pulled is invalid!", 'parse.js', '0x6252b9');
             return;
         }
         CurrCheer = cheerio.load(CurrFeat.toString());
@@ -63,7 +64,7 @@ dailyItemParser = async () => {
     for (var x = 1; x <= 6; x++) {
         var CurrDaily = $(".rlg-item-shop__daily > a:nth-child(" + x + ")").html()
         if (CurrDaily == null || CurrDaily == undefined) {
-            TriggerWarning("The HTML pulled is invalid!")
+            loggerLib.error("The HTML pulled is invalid!", 'parse.js', '0xdfa04b');
             return;
         }
         CurrCheer = cheerio.load(CurrDaily.toString());

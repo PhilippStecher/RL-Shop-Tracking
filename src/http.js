@@ -1,15 +1,12 @@
 const fs = require('fs');
 const paths = require('./path');
+const loggerLib = require('./logger');
 
 var request = require('request'),
     http = require('follow-redirects').http,
     request = request.defaults({
         jar: true
     });
-
-TriggerWarning = (msg) => {
-    console.log("[ERROR]: " + msg)
-}
 
 module.exports.request = (callback) => {
     var str = '';
@@ -32,12 +29,15 @@ module.exports.request = (callback) => {
                 str += part;
             });
             resp.on('end', function (part) {
-                fs.writeFileSync("../lastRequest.html", str.toString(), 'utf8');
+                fs.writeFileSync('../lastRequest.html', str, function (err) {
+                    if(err) 
+                        loggerLib.error(err, 'http.js', '0x751528')
+                });
                 callback(str);
             });
 
             resp.on('error', function (e) {
-                TriggerWarning('Problem with request: ' + e.message)
+                loggerLib.error('Problem with request: ' + e.message, 'http.js', '0x8ce455')
             });
         }
     }).end(str);

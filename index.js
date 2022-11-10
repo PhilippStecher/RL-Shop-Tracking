@@ -6,38 +6,33 @@ const httpLib = require("./src/http");
 const parseLib = require("./src/parse");
 const saveLib = require("./src/save");
 const paths = require('./src/path');
+const loggerLib = require("./src/logger");
 
 var theInterval;
 var sideFetchCount = 0;
 
-TriggerWarning = (msg) => {
-    console.log("[ERROR]: " + msg)
-}
-
 PushChanges = () => {
     exec("sudo sh gitpush.sh", (error, data, getter) => {
         if (error) {
-            console.log("[GIT.Reload]: Push error")
-            TriggerWarning('Push error - ' + error.message)
+            loggerLib.error('GIT Push Error - ' + error.message, 'index.js', '0xc1699d')
             return;
         }
         if (getter) {
-            console.log("[GIT.Reload]: Push successful")
+            loggerLib.info('Push successful', 'index.js', '0xac99f6')
             return;
         }
-        console.log("[GIT.Reload]: Pushed");
+        loggerLib.info('Git pushed', 'index.js', '0x11a6e8')
     }).on("close", () => {
         exec("git pull", (error, data, getter) => {
             if (error) {
-                console.log("[GIT.Reload]: Pull error")
-                TriggerWarning('Pull error - ' + error.message)
+                loggerLib.error('Pull Error - ' + error.message, 'index.js', '0xd3866e')
                 return;
             }
             if (getter) {
-                console.log("[GIT.Reload]: Pull successful")
+                loggerLib.info('Pull successful', 'index.js', '0x224aa0')
                 return;
             }
-            //console.log("[GIT.Reload]: Pulled");
+            loggerLib.info('Git pulled', 'index.js', '0x1583c1')
         })
     });
 }
@@ -48,7 +43,7 @@ HasItemsUpdated = (items) => {
 
     var dataStorageContent = fs.readFileSync(paths.dataStorageJson(), 'utf8');
     if (dataStorageContent.length == 0) {
-        TriggerWarning("'data-storage.json' is empty")
+        loggerLib.warn('"data-storage.json" is empty', 'index.js', '0x7c4fd5')
 
         dataStorageContent = [
             {
@@ -66,15 +61,15 @@ HasItemsUpdated = (items) => {
         return false;
     }
 
-    console.log("[index.js]: Recent fetches: " + (sideFetchCount - 1));
+    loggerLib.info('Recent fetches: ' + (sideFetchCount - 1), 'index.js', '0xfa6b95')
     sideFetchCount = 0;
-    console.log("[index.js]: Shop updated!");
+    loggerLib.info('Shop updated!', 'index.js', '0x2df63f')
     return true;
 }
 
 AfterParsing = (items) => {
     if (items.featured.length != 2 || items.daily.length != 6) {
-        TriggerWarning("HTML doesnt result in intended results");
+        loggerLib.error('HTML doesnt result intended results', 'index.js', '0xc1fbd5')
         //* return or exit!
     }
     saveLib.current(items);
@@ -89,17 +84,17 @@ ParseHtml = (html) => parseLib.parse(html, AfterParsing);
 CheckShop = () => httpLib.request(ParseHtml);
 
 onstart = () => {
-    console.log("[index.js]: Startup");
+    loggerLib.info('Startup', 'index.js', '0x998803');
     exec("git pull", (error, data, getter) => {
         if (error) {
-            TriggerWarning('Pull error - ' + error.message)
+            loggerLib.info('Pull error - ' + error.message, 'index.js', '0xc9f5bb')
             return;
         }
         if (getter) {
-            console.log("[GIT]: Pull successful")
+            loggerLib.info('Git pulled successful', 'index.js', '0x0fb38a')
             return;
         }
-        console.log("[GIT]: Pulled");
+        loggerLib.info('Git pulled', 'index.js', '0x0677cd')
     }).on("close", () => {
         sideFetchCount++;
         CheckShop();
@@ -107,19 +102,19 @@ onstart = () => {
     theInterval = setInterval(() => {
         exec("git pull", (error, data, getter) => {
             if (error) {
-                TriggerWarning('Pull error - ' + error.message)
+                loggerLib.info('Pull error - ' + error.message, 'index.js', '0x5c9bfc')
                 return;
             }
             if (getter) {
-                console.log("[GIT]: Pull successful")
+                loggerLib.info('Git pulled successful', 'index.js', '0x959174')
                 return;
             }
-            //console.log("[GIT]: Pulled");
+            //loggerLib.info('Git pulled', 'index.js', '0x6f6bfc')
         }).on("close", () => {
             sideFetchCount++;
             CheckShop();
         });
-    }, 900000);
+    }, 5000);
 }
 
 onstart();
