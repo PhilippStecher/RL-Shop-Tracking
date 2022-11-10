@@ -53,17 +53,34 @@
      * Function from http://stackoverflow.com/questions/21951115/remove-duplicate-values-from-json-data. Answered by Tushar Gupta
      */
     function removeDuplicates(json_all) {
+        var entrys = json_all.length;
+        var totalIds = 0;
         var arr = [],
             collection = [];
 
-        $.each(json_all, function (index, value) {
-            if ($.inArray(value.iID, arr) == -1) {
-                arr.push(value.iID);
-                collection.push(value);
-            } else {
-                console.log(value.iID)
-            }
+        $.each(json_all, function (index, entry) {
+
+            $.each(entry.items.featured, function (index, value1) {
+                totalIds++;
+                if ($.inArray(value1.iID, arr) == -1) {
+                    arr.push(value1.iID);
+                    collection.push(value1);
+                } else {    
+                    console.log("Duplicate: " + value1.iID)
+                }
+            })
+
+            $.each(entry.items.daily, function (index, value1) {
+                totalIds++;
+                if ($.inArray(value1.iID, arr) == -1) {
+                    arr.push(value1.iID);
+                    collection.push(value1);
+                } else {    
+                    console.log("Duplicate: " + value1.iID)
+                }
+            })
         });
+        console.log(totalIds)
         return collection;
     }
 </script>
