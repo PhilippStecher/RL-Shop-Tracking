@@ -14,6 +14,34 @@ TriggerWarning = (msg) => {
     console.log("[ERROR]: " + msg)
 }
 
+PushChanges = () => {
+    exec("sudo sh gitpush.sh", (error, data, getter) => {
+        if (error) {
+            console.log("[GIT.Reload]: Push error")
+            TriggerWarning('Push error - ' + error.message)
+            return;
+        }
+        if (getter) {
+            console.log("[GIT.Reload]: Push successful")
+            return;
+        }
+        console.log("[GIT.Reload]: Pushed");
+    }).on("close", () => {
+        exec("git pull", (error, data, getter) => {
+            if (error) {
+                console.log("[GIT.Reload]: Pull error")
+                TriggerWarning('Pull error - ' + error.message)
+                return;
+            }
+            if (getter) {
+                console.log("[GIT.Reload]: Pull successful")
+                return;
+            }
+            //console.log("[GIT.Reload]: Pulled");
+        })
+    });
+}
+
 HasItemsUpdated = (items) => {
     var featuredHash = hashLib.uniqueDayhash(items.featured);
     var dailyHash = hashLib.uniqueDayhash(items.daily);
@@ -48,7 +76,7 @@ AfterParsing = (items) => {
     saveLib.current(items);
 
     if (HasItemsUpdated(items)) {
-        saveLib.storeData(items);
+        saveLib.storeData(items, PushChanges);
     }
 }
 

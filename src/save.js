@@ -97,7 +97,7 @@ StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) 
     jsonContent.push(new DayDataStorage(new DayEntry(shrinkedFeatured, shrinkedDaily),featuredDayHash, dailyDayHash))
     fs.writeFileSync(paths.dataStorageJson(), JSON.stringify(jsonContent, null, 4), "utf-8");
 }
-module.exports.storeData = (obj) => {
+module.exports.storeData = (obj, callback) => {
     console.log("----------------------------------------------")
     console.log("[index.js]: Checking RL Shop");
     var featuredDayHash = hashLib.uniqueDayhash(obj.featured);
@@ -121,5 +121,7 @@ module.exports.storeData = (obj) => {
 
     StoreDayData(shrinkedFeaturedData, shrinkedDailyData, featuredDayHash, dailyDayHash);
     console.log("[index.js]: New shop content saved.");
+
+    if (callback) callback();
 }
 
