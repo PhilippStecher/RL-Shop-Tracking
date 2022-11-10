@@ -2278,39 +2278,33 @@
         "pulltimeText": "07-11-2022 20:06:54"
     },
     {
-        "warn": "New Data Models",
-        "since": "09-11-2022 14:28:55"
-    },
-    {
-        "featuredHash": "e087088cbc8aeab03ce0090b15cd6e0b",
-        "dailyHash": "8a5e5410b18920a815374def331d06ab",
         "items": {
             "featured": [
                 {
-                    "iID": "196571ff7717e44d00f67a0dec065bcc8ef868538d86dad8e50496edb6af4d6008be779361b4892b6b899a8a16fa1fa20de106fa97f289ac07316d884c36e56f"
+                    "iID": "bb8948962d95cd50ae6c054d5799e483"
                 },
                 {
-                    "iID": "d0562802c3d75db7cbb911d5599afef7a557e69f1b5c586061a3f8dca0e77be66f743302acaabfe19b3eaf8b62b9b3181593f8492c306773af6ccf05057fe513"
+                    "iID": "0e38eeb8f82c4ca159531f62f7d09ad7"
                 }
             ],
             "daily": [
                 {
-                    "iID": "504d997a3cd582a46eb0ca059f483ce110417505fafdb39659c548084a1010333111b510f4341778fb834e568e0b23d68aa1b6c72ef01c40647195cf48d63d66"
+                    "iID": "6078f02facd5bd05293312e2af64ac9f"
                 },
                 {
-                    "iID": "1a7938fc626443fe37efc717b1f7bfada0943721f930278302b319e5a853c04a8f2d3e337e158a6a6897e5de116091e7b10a82aea1dc29f9d32348ea67ee8e79"
+                    "iID": "ff63185028440e196d2c4c5dc109fba4"
                 },
                 {
-                    "iID": "e9de990071fb318542f4ca489cf7c7bac4925da6a9d3a5de82accf1d9a115e45574fc852df5d682c353f3c5764e526ef46ced9c908e415752699da5bb714d631"
+                    "iID": "d8bb59a185144284e5870defd07a54b2"
                 },
                 {
-                    "iID": "236e8a5e0bc88e3c9f648f65de47d3ea515e30340a6890bc2fba2043ef17eb250564ca6526d4f34bcaa8b22ecafed514b75a892be92b0538822bf0bdcb8355b8"
+                    "iID": "a85d1073f75bd7d4a9adfe2ec4e0f91d"
                 },
                 {
-                    "iID": "6ff25c93f55204176611340e2e8f7814f0f16776d806bd27ffeb34e2ce5570f1c82e52a0fb979ce54b3364e48f68e91de8a9e645f874aebfc43c84a420885e71"
+                    "iID": "e55a7f09bdc703f2be91296bbb6693b4"
                 },
                 {
-                    "iID": "92a2f4ab865c26b1e6e4f7833a3e649c439bc655ba1331e63fe025bda8955734132cc12d5692b2c4be025170e2fb49558a1c2651b626934876eac32e219ce7ed"
+                    "iID": "b410640a1bb3c43fc2f9ab593a0a6253"
                 }
             ]
         },
@@ -2318,35 +2312,33 @@
         "pulltimeText": "08-11-2022 22:21:55"
     },
     {
-        "featuredHash": "e087088cbc8aeab03ce0090b15cd6e0b",
-        "dailyHash": "a0d8788a0bd165e212e923a84f4f362f",
         "items": {
             "featured": [
                 {
-                    "iID": "196571ff7717e44d00f67a0dec065bcc8ef868538d86dad8e50496edb6af4d6008be779361b4892b6b899a8a16fa1fa20de106fa97f289ac07316d884c36e56f"
+                    "iID": "bb8948962d95cd50ae6c054d5799e483"
                 },
                 {
-                    "iID": "d0562802c3d75db7cbb911d5599afef7a557e69f1b5c586061a3f8dca0e77be66f743302acaabfe19b3eaf8b62b9b3181593f8492c306773af6ccf05057fe513"
+                    "iID": "0e38eeb8f82c4ca159531f62f7d09ad7"
                 }
             ],
             "daily": [
                 {
-                    "iID": "c834955b29d7aba80d8c5e4afcb68dac218d801234884170c5697697640ebab582058837ba61aef38d06ac7cc2ab6824625a90a1d16eec159c0b34d5e98f69bf"
+                    "iID": "a67eeb3ef7eb721c029c1a5145175227"
                 },
                 {
-                    "iID": "0dc96f32ca4d797f04f9303ec60911a3b4886cb549bccbef308a458eccaabc4e285b14069f949802e2932732a649509a2fb9525c7299dea71aff022c5d2a22da"
+                    "iID": "22d80b10eaa07061dbfad9300a765288"
                 },
                 {
-                    "iID": "0ada808603e4a8fb229a1314ae938388478408a1924178cd823aa85345c67477ed63f2e96642ede93db0c4ecfea62490cfc2cea193f323697eda9de0463843b3"
+                    "iID": "82dedece5656fb86d0ca60e255a8277d"
                 },
                 {
-                    "iID": "b457c2bc2dfb14451e84503633a45484532135d3a5af89aa27b04ac6f13b06c5c0804a6afc1f9c38e76349c155f46ac8d833341149100e04ffbdceb89785f83a"
+                    "iID": "2cf923df31e125df307a8b8822bceec3"
                 },
                 {
-                    "iID": "29db187c72d3a8da2e6bcaea391de80f16d72ec935ffb12ea81ed2db9f3601f36d81eab91def034089641b8f45daefad90230428020e6f62a02f079ff5781379"
+                    "iID": "b79621b0b5629217220cf93c4b3d4e30"
                 },
                 {
-                    "iID": "4e0eb4dd73754e23926f806d043a1e1b0ebc3750d09acda3dd050bc1af28422da6927a27ed87510e93d1965ca2547084b6a5c2220f114f747b4a1fa9666e6651"
+                    "iID": "629f6ae4833a47cb726e3dea0358eb0f"
                 }
             ]
         },
