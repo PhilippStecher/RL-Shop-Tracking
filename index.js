@@ -7,6 +7,7 @@ const parseLib = require("./src/parse");
 const saveLib = require("./src/save");
 const paths = require('./src/path');
 const loggerLib = require("./src/logger");
+const fcmLib = require("./src/firebase");
 
 var theInterval;
 var sideFetchCount = 0;
