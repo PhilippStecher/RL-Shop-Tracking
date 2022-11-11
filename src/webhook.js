@@ -1,6 +1,5 @@
 var https = require('follow-redirects').https;
 
-
 send = (payload) => {
     const webhookUrl = '/api/webhooks/1040575138594308096/1Itajq7zOdxRmMDAG_tfkHgP1GzTkAKaNLlKN83PGZzpfFWEz3HGcjoPGltF9Wpk_Ldl';
 
@@ -49,7 +48,7 @@ module.exports.sendLog = (message) => {
                 "footer": {
                     "text": "System Message"
                 },
-                "timestamp": "2022-11-11T10:44:00.000Z"
+                "timestamp": new Date().toISOString()
             }
         ],
         "attachments": []
@@ -73,7 +72,7 @@ module.exports.sendInfo = (message) => {
                 "footer": {
                     "text": "System Message"
                 },
-                "timestamp": "2022-11-11T10:44:00.000Z"
+                "timestamp": new Date().toISOString()
             }
         ],
         "attachments": []
@@ -97,7 +96,7 @@ module.exports.sendWarn = (message) => {
                 "footer": {
                     "text": "System Message"
                 },
-                "timestamp": "2022-11-11T10:44:00.000Z"
+                "timestamp": new Date().toISOString()
             }
         ],
         "attachments": []
@@ -121,7 +120,7 @@ module.exports.sendError = (message) => {
                 "footer": {
                     "text": "System Message"
                 },
-                "timestamp": "2022-11-11T10:44:00.000Z"
+                "timestamp": new Date().toISOString()
             }
         ],
         "attachments": []
