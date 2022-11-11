@@ -63,3 +63,13 @@
 2022-11-11T12:48:32: [INFO] <index.js | 0x0677cd>: Git pulled;
 2022-11-11T12:58:32: [INFO] <index.js | 0x998803>: Startup;
 2022-11-11T12:58:33: [INFO] <index.js | 0x0677cd>: Git pulled;
+2022-11-11T14:15:02: [INFO] <index.js | 0x998803>: Startup;
+2022-11-11T14:15:02: [INFO] <index.js | 0x0677cd>: Git pulled;
+2022-11-11T21:00:05: [ERROR] <parse.js | 0x6252b9>: The HTML pulled is invalid!;
+2022-11-11T21:00:05: [ERROR] <parse.js | 0xdfa04b>: The HTML pulled is invalid!;
+2022-11-11T21:00:05: [ERROR] <index.js | 0xc1fbd5>: HTML doesnt result intended results;
+2022-11-11T21:00:05: [INFO] <index.js | 0xfa6b95>: Recent fetches: 27;
+2022-11-11T21:00:05: [INFO] <index.js | 0x2df63f>: Shop updated!;
+2022-11-11T21:00:05: ----------------------------------------------
+2022-11-11T21:00:05: [INFO] <save.js | 0x0a57ac>: Checking RL Shop;
+2022-11-11T21:00:05: [INFO] <save.js | 0xe488e4>: New shop content saved;
