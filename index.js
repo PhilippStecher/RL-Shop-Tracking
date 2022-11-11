@@ -7,7 +7,7 @@ const parseLib = require("./src/parse");
 const saveLib = require("./src/save");
 const paths = require('./src/path');
 const loggerLib = require("./src/logger");
-const fcmLib = require("./src/firebase");
+const webhookLib = require("./src/webhook");
 
 var theInterval;
 var sideFetchCount = 0;
@@ -19,10 +19,10 @@ PushChanges = () => {
             return;
         }
         if (getter) {
-            loggerLib.info('Push successful', 'index.js', '0xac99f6')
+            loggerLib.info('Push successful', 'index.js', '0xac99f6', false)
             return;
         }
-        loggerLib.info('Git pushed', 'index.js', '0x11a6e8')
+        loggerLib.info('Git pushed', 'index.js', '0x11a6e8', false)
     }).on("close", () => {
         exec("git pull", (error, data, getter) => {
             if (error) {
@@ -30,10 +30,10 @@ PushChanges = () => {
                 return;
             }
             if (getter) {
-                loggerLib.info('Pull successful', 'index.js', '0x224aa0')
+                loggerLib.info('Pull successful', 'index.js', '0x224aa0', false)
                 return;
             }
-            loggerLib.info('Git pulled', 'index.js', '0x1583c1')
+            loggerLib.info('Git pulled', 'index.js', '0x1583c1', false)
         })
     });
 }
@@ -62,7 +62,7 @@ HasItemsUpdated = (items) => {
         return false;
     }
 
-    loggerLib.info('Recent fetches: ' + (sideFetchCount - 1), 'index.js', '0xfa6b95')
+    loggerLib.info('Recent fetches: ' + (sideFetchCount - 1), 'index.js', '0xfa6b95', false)
     sideFetchCount = 0;
     loggerLib.info('Shop updated!', 'index.js', '0x2df63f')
     return true;
@@ -92,10 +92,10 @@ onstart = () => {
             return;
         }
         if (getter) {
-            loggerLib.info('Git pulled successful', 'index.js', '0x0fb38a')
+            loggerLib.info('Git pulled successful', 'index.js', '0x0fb38a', false)
             return;
         }
-        loggerLib.info('Git pulled', 'index.js', '0x0677cd')
+        loggerLib.info('Git pulled', 'index.js', '0x0677cd', false)
     }).on("close", () => {
         sideFetchCount++;
         CheckShop();
@@ -107,15 +107,15 @@ onstart = () => {
                 return;
             }
             if (getter) {
-                loggerLib.info('Git pulled successful', 'index.js', '0x959174')
+                loggerLib.info('Git pulled successful', 'index.js', '0x959174', false)
                 return;
             }
-            //loggerLib.info('Git pulled', 'index.js', '0x6f6bfc')
+            //loggerLib.info('Git pulled', 'index.js', '0x6f6bfc', false)
         }).on("close", () => {
             sideFetchCount++;
             CheckShop();
         });
-    }, 5000);
+    }, 900000);
 }
 
 onstart();

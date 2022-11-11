@@ -37,3 +37,5 @@ module.exports.currentItemJson = () => { return BasePath() + dataPath + "current
 module.exports.dataStorageJson = () => { return BasePath() + dataPath + "data-storage.json"};
 
 module.exports.itemStorageJson = () => { return BasePath() + dataPath + "item-storage.json"};
+
+module.exports.logText = () => { return BasePath() + "Logs.txt" };

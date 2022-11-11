@@ -1,4 +1,6 @@
-module.exports.log = (msg, file = null, uniquePositions = null, callback = null) => {
+const webhookLib = require('./webhook');
+
+module.exports.log = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
     var message = `[LOG] <`;
 
     if (file)
@@ -12,10 +14,12 @@ module.exports.log = (msg, file = null, uniquePositions = null, callback = null)
 
     console.log(message);
 
+    if (webhook) webhookLib.sendLog(message);
+
     if (callback) callback();
 }
 
-module.exports.warn = (msg, file = null, uniquePositions = null, callback = null) => {
+module.exports.warn = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
     var message = `[WARN] <`;
 
     if (file)
@@ -29,10 +33,12 @@ module.exports.warn = (msg, file = null, uniquePositions = null, callback = null
 
     console.log(message);
 
+    if (webhook) webhookLib.sendWarn(message);
+
     if (callback) callback();
 }
 
-module.exports.error = (msg, file = null, uniquePositions = null, callback = null) => {
+module.exports.error = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
     var message = `[ERROR] <`;
 
     if (file)
@@ -46,10 +52,12 @@ module.exports.error = (msg, file = null, uniquePositions = null, callback = nul
 
     console.log(message);
 
+    if (webhook) webhookLib.sendError(message);
+
     if (callback) callback();
 }
 
-module.exports.info = (msg, file = null, uniquePositions = null, callback = null) => {
+module.exports.info = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
     var message = `[INFO] <`;
 
     if (file)
@@ -62,6 +70,8 @@ module.exports.info = (msg, file = null, uniquePositions = null, callback = null
     message += `>: ${msg};`;
 
     console.log(message);
+
+    if (webhook) webhookLib.sendInfo(message);
 
     if (callback) callback();
 }

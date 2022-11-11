@@ -51,7 +51,7 @@ StoreItem = (item) => {
     }
     itemStorageContent.push(item)
     fs.writeFileSync(paths.itemStorageJson(), JSON.stringify(itemStorageContent, null, 4), "utf-8");
-    loggerLib.info("New item saved to DataBase", 'save.js', '0x312a2f')
+    loggerLib.info("New item saved to DataBase", 'save.js', '0x312a2f', false)
 }
 class DayEntry {
     constructor(featuredObj, dailyObj) {
@@ -95,7 +95,7 @@ StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) 
 }
 module.exports.storeData = (obj, callback) => {
     console.log("----------------------------------------------")
-    loggerLib.info('Checking RL Shop', 'save.js', '0x0a57ac')
+    loggerLib.info('Checking RL Shop', 'save.js', '0x0a57ac', false)
     var featuredDayHash = hashLib.uniqueDayhash(obj.featured);
     var dailyDayHash = hashLib.uniqueDayhash(obj.daily);
 
