@@ -1,6 +1,9 @@
 const webhookLib = require('./webhook');
+const isLoggingActive = true;
 
 module.exports.log = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
+    if (!isLoggingActive) return;
+
     var message = `[LOG] <`;
 
 
@@ -21,6 +24,8 @@ module.exports.log = (msg, file = null, uniquePositions = null, webhook = true, 
 }
 
 module.exports.warn = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
+    if (!isLoggingActive) return;
+    
     var message = `[WARN] <`;
 
     if (file)
@@ -40,6 +45,8 @@ module.exports.warn = (msg, file = null, uniquePositions = null, webhook = true,
 }
 
 module.exports.error = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
+    if (!isLoggingActive) return;
+    
     var message = `[ERROR] <`;
 
     if (file)
@@ -59,6 +66,8 @@ module.exports.error = (msg, file = null, uniquePositions = null, webhook = true
 }
 
 module.exports.info = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
+    if (!isLoggingActive) return;
+    
     var message = `[INFO] <`;
 
     if (file)

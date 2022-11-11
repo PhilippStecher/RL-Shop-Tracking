@@ -1,6 +1,9 @@
 var https = require('follow-redirects').https;
+const isWebhookActive = true;
 
 send = (payload) => {
+    if (!isWebhookActive) return;
+    
     const webhookUrl = '/api/webhooks/1040575138594308096/1Itajq7zOdxRmMDAG_tfkHgP1GzTkAKaNLlKN83PGZzpfFWEz3HGcjoPGltF9Wpk_Ldl';
 
     var options = {
