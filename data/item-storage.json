@@ -3848,5 +3848,59 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "50"
+    },
+    {
+        "iID": "359f47f6b8cc6c7deee2a946957a43c80ea5394d7e237a029b3aa8db49332185f251512db146ee12ff276a695ffae4d6e6eb4c633495f0bb4e18b18303c511d6",
+        "iName": "Jak'd: Obverse",
+        "iType": "Exotic Wheels",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "cf4232c9adadde823335d8174b595f7d535c79ccfb28e2c45123b82ba4b317dd415530a23b29655db6972f850783ab75dbefc0994e5f31fef6233d38696d6d76",
+        "iName": "Global: Z-Current",
+        "iType": "Exotic Decal",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "c10f168f8f0602df6519af6c7a776574e02321017eacf87bdd45a0d651eeeb3ba2c62d81ceb6256c9e674a8c2fc2933619adba16e9b316318f9d39f2794dae8c",
+        "iName": "Discotheque",
+        "iType": "Very Rare Trail",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "093a1b092d59d994eddc7688ccfcd68bbbc065446d71898921f5d79ac5a0872ac48729bdad6ddb9cf71f84b23b144e8e3a86c50464477b5fa3dbda3fce5675d4",
+        "iName": "Ambustion",
+        "iType": "Exotic Rocket Boost",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "800"
+    },
+    {
+        "iID": "c91afa2ba18cb415bdcd5ed0cb60047f668afe6dccf9d5ffbf2f1d7920fa408157c9249ddd034b9467d03b1a7279532ffbcd50e6896b108d44555dffb98fcf5a",
+        "iName": "Dey KC",
+        "iType": "Very Rare Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "500"
+    },
+    {
+        "iID": "550bf5ea647fff9c5a15649f3d5b9a87395088bd7be5dc7844c7af9b4cfa5aa95a0eac1a22c019e77b7002a64737b2004252c6b86725f01c8cef068fca0d477a",
+        "iName": "Shark Fin",
+        "iType": "Rare Topper",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
     }
 ]
