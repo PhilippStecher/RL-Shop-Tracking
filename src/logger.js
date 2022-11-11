@@ -3,6 +3,7 @@ const webhookLib = require('./webhook');
 module.exports.log = (msg, file = null, uniquePositions = null, webhook = true, callback = null) => {
     var message = `[LOG] <`;
 
+
     if (file)
         message += file;
 
@@ -14,7 +15,7 @@ module.exports.log = (msg, file = null, uniquePositions = null, webhook = true, 
 
     console.log(message);
 
-    if (webhook) webhookLib.sendLog(message);
+    if (webhook) webhookLib.sendLog(file, uniquePositions, msg);
 
     if (callback) callback();
 }
@@ -33,7 +34,7 @@ module.exports.warn = (msg, file = null, uniquePositions = null, webhook = true,
 
     console.log(message);
 
-    if (webhook) webhookLib.sendWarn(message);
+    if (webhook) webhookLib.sendWarn(file, uniquePositions, msg);
 
     if (callback) callback();
 }
@@ -52,7 +53,7 @@ module.exports.error = (msg, file = null, uniquePositions = null, webhook = true
 
     console.log(message);
 
-    if (webhook) webhookLib.sendError(message);
+    if (webhook) webhookLib.sendError(file, uniquePositions, msg);
 
     if (callback) callback();
 }
@@ -71,7 +72,7 @@ module.exports.info = (msg, file = null, uniquePositions = null, webhook = true,
 
     console.log(message);
 
-    if (webhook) webhookLib.sendInfo(message);
+    if (webhook) webhookLib.sendInfo(file, uniquePositions, msg);
 
     if (callback) callback();
 }

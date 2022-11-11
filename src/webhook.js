@@ -32,14 +32,29 @@ send = (payload) => {
     req.end();
 }
 
-module.exports.sendLog = (message) => {
+module.exports.sendLog = (file, id, message) => {
     const payload = {
         "content": "<@344389859378724866>",
         "embeds": [
             {
                 "title": "Log",
-                "description": message,
                 "color": 840145,
+                "fields": [
+                    {
+                        "name": "File",
+                        "value": file,
+                        "inline": true
+                    },
+                    {
+                        "name": "Unique Identifier",
+                        "value": id,
+                        "inline": true
+                    },
+                    {
+                        "name": "Message",
+                        "value": message
+                    }
+                ],
                 "author": {
                     "name": "RL-Shop-Tracking",
                     "url": "https://github.com/PhilippStecher/RL-Shop-Tracking",
@@ -56,14 +71,29 @@ module.exports.sendLog = (message) => {
     send(payload);
 }
 
-module.exports.sendInfo = (message) => {
+module.exports.sendInfo = (file, id, message) => {
     const payload = {
         "content": "<@344389859378724866>",
         "embeds": [
             {
                 "title": "Info",
-                "description": message,
                 "color": 4718336,
+                "fields": [
+                    {
+                        "name": "File",
+                        "value": file,
+                        "inline": true
+                    },
+                    {
+                        "name": "Unique Identifier",
+                        "value": id,
+                        "inline": true
+                    },
+                    {
+                        "name": "Message",
+                        "value": message
+                    }
+                ],
                 "author": {
                     "name": "RL-Shop-Tracking",
                     "url": "https://github.com/PhilippStecher/RL-Shop-Tracking",
@@ -80,14 +110,29 @@ module.exports.sendInfo = (message) => {
     send(payload);
 }
 
-module.exports.sendWarn = (message) => {
+module.exports.sendWarn = (file, id, message) => {
     const payload = {
         "content": "<@344389859378724866>",
         "embeds": [
             {
                 "title": "Warn",
-                "description": message,
                 "color": 16763904,
+                "fields": [
+                    {
+                        "name": "File",
+                        "value": file,
+                        "inline": true
+                    },
+                    {
+                        "name": "Unique Identifier",
+                        "value": id,
+                        "inline": true
+                    },
+                    {
+                        "name": "Message",
+                        "value": message
+                    }
+                ],
                 "author": {
                     "name": "RL-Shop-Tracking",
                     "url": "https://github.com/PhilippStecher/RL-Shop-Tracking",
@@ -104,14 +149,29 @@ module.exports.sendWarn = (message) => {
     send(payload);
 }
 
-module.exports.sendError = (message) => {
+module.exports.sendError = (file, id, message) => {
     const payload = {
         "content": "<@344389859378724866>",
         "embeds": [
             {
                 "title": "Error",
-                "description": message,
                 "color": 16711680,
+                "fields": [
+                    {
+                        "name": "File",
+                        "value": file,
+                        "inline": true
+                    },
+                    {
+                        "name": "Unique Identifier",
+                        "value": id,
+                        "inline": true
+                    },
+                    {
+                        "name": "Message",
+                        "value": message
+                    }
+                ],
                 "author": {
                     "name": "RL-Shop-Tracking",
                     "url": "https://github.com/PhilippStecher/RL-Shop-Tracking",
