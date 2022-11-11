@@ -12,19 +12,7 @@
 <body>
     With Duplicates:<br />
     <textarea class="dirty">
-        [{
-            "testada": "ecom",
-            "iID": "27"
-        }, {
-            "testada": "alorta",
-            "iID": "27"
-        }, {
-            "testada": "france24",
-            "iID": "23"
-        }, {
-            "testada": "seloger",
-            "iID": "23"
-        }]
+
 </textarea><br />
     <button class="process">Clean</button>
     <br />
@@ -38,7 +26,11 @@
     }
 </style>
 <script>
-    jQuery(".process").click(function () {
+    jQuery.get('./data/data-storage.json', (data) => {
+        $('.dirty').text(JSON.stringify(data));
+    })
+
+    $(".process").click(function () {
         var dirty = JSON.parse(jQuery(".dirty").val().trim());
         var cleaned = removeDuplicates(dirty);
         console.log("-- Length --");
@@ -46,7 +38,7 @@
         console.log("Cleaned: " + cleaned.length);
 
         //console.log(cleaned);
-        jQuery(".clean").val(JSON.stringify(cleaned, null, 4));
+        $(".clean").val(JSON.stringify(cleaned, null, 4));
     });
 
     /* 
@@ -60,25 +52,29 @@
 
         $.each(json_all, function (index, entry) {
 
-            $.each(entry.items.featured, function (index, value1) {
-                totalIds++;
-                if ($.inArray(value1.iID, arr) == -1) {
-                    arr.push(value1.iID);
-                    collection.push(value1);
-                } else {    
-                    console.log("Duplicate: " + value1.iID)
-                }
-            })
+            if (entry.items?.featured) {
+                $.each(entry.items.featured, function (index, value1) {
+                    totalIds++;
+                    if ($.inArray(value1.iID, arr) == -1) {
+                        arr.push(value1.iID);
+                        collection.push(value1);
+                    } else {
+                        console.log("Featured Duplicate: " + value1.iID)
+                    }
+                })
+            }
 
-            $.each(entry.items.daily, function (index, value1) {
-                totalIds++;
-                if ($.inArray(value1.iID, arr) == -1) {
-                    arr.push(value1.iID);
-                    collection.push(value1);
-                } else {    
-                    console.log("Duplicate: " + value1.iID)
-                }
-            })
+            if (entry.items?.daily) {
+                $.each(entry.items.daily, function (index, value1) {
+                    totalIds++;
+                    if ($.inArray(value1.iID, arr) == -1) {
+                        arr.push(value1.iID);
+                        collection.push(value1);
+                    } else {
+                        console.log("Daily Duplicate: " + value1.iID)
+                    }
+                })
+            }
         });
         console.log(totalIds)
         return collection;

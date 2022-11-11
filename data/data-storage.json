@@ -139,40 +139,6 @@
         "items": {
             "featured": [
                 {
-                    "iID": "b242ee7136a60f3f17c3b1f1b09a5382"
-                },
-                {
-                    "iID": "d350834990bf2015121edbd63bf1fe6e"
-                }
-            ],
-            "daily": [
-                {
-                    "iID": "03e46757a7903246ad01e1b037654d4e"
-                },
-                {
-                    "iID": "9ac280fdbef38c13df510b42e02a70c8"
-                },
-                {
-                    "iID": "734767e5009296f325b6aebe5b856ed2"
-                },
-                {
-                    "iID": "8f8de6c131f48e4c9b3504f570a05f0d"
-                },
-                {
-                    "iID": "bf797bafeae165fda20f186717a6634d"
-                },
-                {
-                    "iID": "bb5f3391c68aea95200a44e74fe18b62"
-                }
-            ]
-        },
-        "pulltimeCode": 1628350311310,
-        "pulltimeText": "07-08-2021 17:31:51"
-    },
-    {
-        "items": {
-            "featured": [
-                {
                     "iID": "9c8099a3571766c4fc8e8a16e7358604"
                 },
                 {
@@ -197,7 +163,7 @@
                 },
                 {
                     "iID": "5bd0f69cfd7c329e2521b06aabcbeaf8"
-                }
+                } 
             ]
         },
         "pulltimeCode": 1628494324980,
@@ -2038,40 +2004,6 @@
         },
         "pulltimeCode": 1667374657314,
         "pulltimeText": "02-11-2022 08:37:37"
-    },
-    {
-        "items": {
-            "featured": [
-                {
-                    "iID": "10889640e62b0f619e8862bb71fee7de"
-                },
-                {
-                    "iID": "18c108bcb992c1eb80c2c0d482b859e7"
-                }
-            ],
-            "daily": [
-                {
-                    "iID": "635b5f2365f88d0c0ad13795887d2548"
-                },
-                {
-                    "iID": "ff90a7d87300f66e97a24749151d0753"
-                },
-                {
-                    "iID": "c325aa1a2db79ad69a7ea24832335a8c"
-                },
-                {
-                    "iID": "ac1e3c4236dd60b3197300a93e19a629"
-                },
-                {
-                    "iID": "0477c45ab60bf75537b8ba9865150260"
-                },
-                {
-                    "iID": "bfcdcd9185b927ff5efc1ceea1b55bc9"
-                }
-            ]
-        },
-        "pulltimeCode": 1667375822609,
-        "pulltimeText": "02-11-2022 08:57:02"
     },
     {
         "items": {
