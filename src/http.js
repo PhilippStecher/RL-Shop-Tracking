@@ -29,10 +29,6 @@ module.exports.request = (callback) => {
                 str += part;
             });
             resp.on('end', function (part) {
-                fs.writeFileSync('../lastRequest.html', str, function (err) {
-                    if(err) 
-                        loggerLib.error(err, 'http.js', '0x751528')
-                });
                 callback(str);
             });
 

@@ -80,7 +80,10 @@ AfterParsing = (items) => {
     }
 }
 
-ParseHtml = (html) => parseLib.parse(html, AfterParsing);
+ParseHtml = (html) => {
+    fs.writeFileSync('./lastRequest.html', html, 'utf-8')
+    parseLib.parse(html, AfterParsing);
+}
 
 CheckShop = () => httpLib.request(ParseHtml);
 
