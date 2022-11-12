@@ -1,4 +1,110 @@
 {
-    "Featured": [],
-    "Daily": []
+    "Featured": [
+        {
+            "iID": "71803d2bfb38aa5751a07f317ae5ca24902f23b2b9336de939df56afe7b402995ba436369d613b2dab97e33535463bc285020c217f65c8c3806d22cdb0e15c72",
+            "iName": "Shattered",
+            "iType": "Black Market Goal Explosion",
+            "iColor": "Titanium White",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "2500",
+            "iUpvote": "589",
+            "iDownvote": "76",
+            "pulltimeCode": 1668285436039,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "62de4ceeea164a98d202a608cf3d481327fb94e6638dc94dd1b73203fa20b3a3a56358590ef19e8e6fa3927312cc57b311431a4fc27eab8ec593d58de41dcca0",
+            "iName": "RAVE",
+            "iType": "Very Rare Anthem",
+            "iColor": "",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "200",
+            "iUpvote": "459",
+            "iDownvote": "114",
+            "pulltimeCode": 1668285436044,
+            "pulltimeText": "12-11-2022 21:37:16"
+        }
+    ],
+    "Daily": [
+        {
+            "iID": "1212392c007406dc0bccec6ee043f5b1477fc592a25c54b65a744c20fbdfe5b9bc83ecf9ec8fddfce8c502af95e369aaf5dcca6a5205cc3308e81bdb2035cfe7",
+            "iName": "Santa Fe",
+            "iType": "Exotic Wheels",
+            "iColor": "Black",
+            "iCertification": "Sniper",
+            "iEdition": null,
+            "iPrice": "900",
+            "iUpvote": "281",
+            "iDownvote": "141",
+            "pulltimeCode": 1668285436050,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "1a0bf0d4bc1d1b1002d2b999f5db9bca22e4c509fa3b8c9b5d99b296f2657d01fb3e297f6348ab54d4c95f6209fb1e0f22765a24808445a3c743b8051ab7a751",
+            "iName": "Global: Waveform",
+            "iType": "Import Decal",
+            "iColor": "",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "300",
+            "iUpvote": "43",
+            "iDownvote": "314",
+            "pulltimeCode": 1668285436055,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "5d39b0449970b8e5fe3044d8b03315f59cbe6d9fae1fa63fd4e59501852d2d3889a8e2153e2f019076945b03c720bb4b2b81743db68c75357d6727cd25a7455b",
+            "iName": "Bubbly",
+            "iType": "Black Market Decal",
+            "iColor": "",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "2000",
+            "iUpvote": "85",
+            "iDownvote": "302",
+            "pulltimeCode": 1668285436059,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "3eb9f05a2b04f2adb2c5d4fb0a35d737ab1fdc06f648668fc30f1e2e6d5b3c0da18dda8b6f5d140bee9c465a1076476c9bcbf424eee79dfc81d44ab4ba60b483",
+            "iName": "Ethereal",
+            "iType": "Import Rocket Boost",
+            "iColor": "Pink",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "600",
+            "iUpvote": "36",
+            "iDownvote": "303",
+            "pulltimeCode": 1668285436064,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "55ed2577f161ca4b65932357761349c8984c2d8685ebea0bf89162c07e201672dea37ba19f44fa040ae8a3b4c3b1ebe1c85565e4216d9748e38d7305e3e4634f",
+            "iName": "Hanasha JRL",
+            "iType": "Import Wheels",
+            "iColor": "Burnt Sienna",
+            "iCertification": "Aviator",
+            "iEdition": null,
+            "iPrice": "600",
+            "iUpvote": "54",
+            "iDownvote": "322",
+            "pulltimeCode": 1668285436072,
+            "pulltimeText": "12-11-2022 21:37:16"
+        },
+        {
+            "iID": "e3c50c471578f197aecccef629757682a2acb22c2f5426a1b3b1c77ca7414cb6adacad70504c1456c71435775b71316deaa61ce979b9c00dd0ac5cc75ff7d81a",
+            "iName": "Pixelated Shades: Multichrome",
+            "iType": "Exotic Topper",
+            "iColor": "Sky Blue",
+            "iCertification": null,
+            "iEdition": null,
+            "iPrice": "300",
+            "iUpvote": "227",
+            "iDownvote": "150",
+            "pulltimeCode": 1668285436076,
+            "pulltimeText": "12-11-2022 21:37:16"
+        }
+    ]
 }
