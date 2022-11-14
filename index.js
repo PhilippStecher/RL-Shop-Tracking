@@ -15,25 +15,25 @@ var sideFetchCount = 0;
 PushChanges = () => {
     exec("sudo sh gitpush.sh", (error, data, getter) => {
         if (error) {
-            loggerLib.error('GIT Push Error - ' + error.message, 'index.js', '0xc1699d')
+            loggerLib.error('GIT Push Error - ' + error.message, 'index.js', '0xc1699d');
             return;
         }
         if (getter) {
-            loggerLib.info('Push successful', 'index.js', '0xac99f6', false)
+            loggerLib.info('Push successful', 'index.js', '0xac99f6', false);
             return;
         }
-        loggerLib.info('Git pushed', 'index.js', '0x11a6e8', false)
+        loggerLib.info('Git pushed', 'index.js', '0x11a6e8', false);
     }).on("close", () => {
         exec("git pull", (error, data, getter) => {
             if (error) {
-                loggerLib.error('Pull Error - ' + error.message, 'index.js', '0xd3866e')
+                loggerLib.error('Pull Error - ' + error.message, 'index.js', '0xd3866e');
                 return;
             }
             if (getter) {
-                loggerLib.info('Pull successful', 'index.js', '0x224aa0', false)
+                loggerLib.info('Pull successful', 'index.js', '0x224aa0', false);
                 return;
             }
-            loggerLib.info('Git pulled', 'index.js', '0x1583c1', false)
+            loggerLib.info('Git pulled', 'index.js', '0x1583c1', false);
         })
     });
 }
@@ -44,7 +44,7 @@ HasItemsUpdated = (items) => {
 
     var dataStorageContent = fs.readFileSync(paths.dataStorageJson(), 'utf8');
     if (dataStorageContent.length == 0) {
-        loggerLib.warn('"data-storage.json" is empty', 'index.js', '0x7c4fd5')
+        loggerLib.warn('"data-storage.json" is empty', 'index.js', '0x7c4fd5');
 
         dataStorageContent = [
             {
@@ -62,16 +62,15 @@ HasItemsUpdated = (items) => {
         return false;
     }
 
-    loggerLib.info('Recent fetches: ' + (sideFetchCount - 1), 'index.js', '0xfa6b95', false)
+    loggerLib.info('Recent fetches: ' + (sideFetchCount - 1), 'index.js', '0xfa6b95', false);
     sideFetchCount = 0;
-    loggerLib.info('Shop updated!', 'index.js', '0x2df63f')
+    loggerLib.info('Shop updated!', 'index.js', '0x2df63f');
     return true;
 }
 
 AfterParsing = (items) => {
     if (items.featured.length != 2 || items.daily.length != 6) {
-        loggerLib.error('HTML doesnt result intended results', 'index.js', '0xc1fbd5')
-        //* return or exit!
+        loggerLib.error('HTML doesnt result intended results', 'index.js', '0xc1fbd5');
         return;
     }
     saveLib.current(items);
@@ -82,7 +81,7 @@ AfterParsing = (items) => {
 }
 
 ParseHtml = (html) => {
-    fs.writeFileSync('./lastRequest.html', html, 'utf-8')
+    fs.writeFileSync('./lastRequest.html', html, 'utf-8');
     parseLib.parse(html, AfterParsing);
 }
 
@@ -92,14 +91,14 @@ onstart = () => {
     loggerLib.info('Startup', 'index.js', '0x998803');
     exec("git pull", (error, data, getter) => {
         if (error) {
-            loggerLib.info('Pull error - ' + error.message, 'index.js', '0xc9f5bb')
+            loggerLib.info('Pull error - ' + error.message, 'index.js', '0xc9f5bb');
             return;
         }
         if (getter) {
-            loggerLib.info('Git pulled successful', 'index.js', '0x0fb38a', false)
+            loggerLib.info('Git pulled successful', 'index.js', '0x0fb38a', false);
             return;
         }
-        loggerLib.info('Git pulled', 'index.js', '0x0677cd', false)
+        loggerLib.info('Git pulled', 'index.js', '0x0677cd', false);
     }).on("close", () => {
         sideFetchCount++;
         CheckShop();
@@ -107,11 +106,11 @@ onstart = () => {
     theInterval = setInterval(() => {
         exec("git pull", (error, data, getter) => {
             if (error) {
-                loggerLib.info('Pull error - ' + error.message, 'index.js', '0x5c9bfc')
+                loggerLib.info('Pull error - ' + error.message, 'index.js', '0x5c9bfc');
                 return;
             }
             if (getter) {
-                loggerLib.info('Git pulled successful', 'index.js', '0x959174', false)
+                loggerLib.info('Git pulled successful', 'index.js', '0x959174', false);
                 return;
             }
             //loggerLib.info('Git pulled', 'index.js', '0x6f6bfc', false)

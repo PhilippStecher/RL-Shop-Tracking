@@ -19,14 +19,12 @@ module.exports.request = (callback) => {
         method: 'GET',
         headers: {
             'User-Agent': 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
-            /* 'Cookie': cookie, */
             'Accept': '/',
             'Connection': 'keep-alive'
         }
     };
     http.request(options, function (resp) {
         resp.setEncoding('utf8');
-        // resp.statusCode = 502;
         if (resp.statusCode) {
             if (resp.statusCode == 200) {
                 failures = 0;
