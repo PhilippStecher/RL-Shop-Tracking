@@ -2332,16 +2332,6 @@
         "pulltimeText": "10-11-2022 21:35:14"
     },
     {
-        "featuredHash": "d751713988987e9331980363e24189ce",
-        "dailyHash": "d751713988987e9331980363e24189ce",
-        "items": {
-            "featured": [],
-            "daily": []
-        },
-        "pulltimeCode": 1668196805544,
-        "pulltimeText": "11-11-2022 21:00:05"
-    },
-    {
         "featuredHash": "8ba20a9864f299f7edffc61b5a3fefbe",
         "dailyHash": "16f0f08765c0c8fdda95c5be7eb44c24",
         "items": {
@@ -2414,16 +2404,6 @@
         "pulltimeText": "12-11-2022 21:04:38"
     },
     {
-        "featuredHash": "d751713988987e9331980363e24189ce",
-        "dailyHash": "d751713988987e9331980363e24189ce",
-        "items": {
-            "featured": [],
-            "daily": []
-        },
-        "pulltimeCode": 1668284595922,
-        "pulltimeText": "12-11-2022 21:23:15"
-    },
-    {
         "featuredHash": "58115e7151187e116dbf624793a8bfe1",
         "dailyHash": "afa2bd6f2a6652d037cf8cebae74df28",
         "items": {
@@ -2494,15 +2474,5 @@
         },
         "pulltimeCode": 1668370036103,
         "pulltimeText": "13-11-2022 21:07:16"
-    },
-    {
-        "featuredHash": "d751713988987e9331980363e24189ce",
-        "dailyHash": "d751713988987e9331980363e24189ce",
-        "items": {
-            "featured": [],
-            "daily": []
-        },
-        "pulltimeCode": 1668423135851,
-        "pulltimeText": "14-11-2022 11:52:15"
     }
 ]

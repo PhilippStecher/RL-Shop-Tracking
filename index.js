@@ -72,6 +72,7 @@ AfterParsing = (items) => {
     if (items.featured.length != 2 || items.daily.length != 6) {
         loggerLib.error('HTML doesnt result intended results', 'index.js', '0xc1fbd5')
         //* return or exit!
+        return;
     }
     saveLib.current(items);
 
