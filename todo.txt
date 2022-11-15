@@ -1,5 +1,9 @@
 Kein Leeren Arrays speichern wenn die Website invalid ist. Error Object speichern
 
 Kategorien einzeld speichern
+Kategorien nachträglich ändern
 
 Fetch direkt von der API?
+
+Alte daten fetchen:
+shop/items/2022-11-15
