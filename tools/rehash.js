@@ -1,7 +1,7 @@
-const hashLib = require("./src/hash");
+const hashLib = require("../src/hash");
 
-const dataStoragePath = 'data/data-storage.json';
-const itemStoringPath = 'data/itemstoring.json';
+const dataStoragePath = '../data/data-storage.json';
+const itemStoringPath = '../data/itemstoring.json';
 
 const fs = require('fs');
 const { exit } = require("process");
@@ -43,8 +43,8 @@ const walkThroughItems = (itemStoring, itemStoringJson, dataStorage, dataStorage
     });
 
     promise.then(() => {
-        fs.writeFileSync("./newHashData/itemstoring.json", itemStoring, "utf8");
-        fs.writeFileSync("./newHashData/data-storage.json", dataStorage, "utf8");
+        fs.writeFileSync("../newHashData/itemstoring.json", itemStoring, "utf8");
+        fs.writeFileSync("../newHashData/data-storage.json", dataStorage, "utf8");
         console.log("Old Ids count: " + oldIdArr.length)
         console.log("New Ids count: " + newIdArr.length)
     })
