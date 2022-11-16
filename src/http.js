@@ -10,12 +10,13 @@ var request = require('request'),
 
 var failures = 0;
 
-module.exports.request = (callback) => {
+module.exports.request = (callback, urlParam = null) => {
+    urlParam = urlParam || "";
     var str = '';
 
     var options = {
         hostname: paths.url,
-        path: paths.urlPath + '?' + new Date().getTime(),
+        path: paths.urlPath + urlParam + '?' + new Date().getTime(),
         method: 'GET',
         headers: {
             'User-Agent': 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',

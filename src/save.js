@@ -28,6 +28,7 @@ StoreItem = (item) => {
         tempParse.forEach((tempItem, index, array) => {
             if (tempItem.iID == item.iID) {
                 doesItemExists = true;
+                console.log("Duplicate: " + item.iID)
                 return;
             }
         })
@@ -51,7 +52,7 @@ StoreItem = (item) => {
     }
     itemStorageContent.push(item)
     fs.writeFileSync(paths.itemStorageJson(), JSON.stringify(itemStorageContent, null, 4), "utf-8");
-    loggerLib.info("New item saved to DataBase", 'save.js', '0x312a2f', false)
+    //loggerLib.info("New item saved to DataBase", 'save.js', '0x312a2f', false)
 }
 class DayEntry {
     constructor(featuredObj, dailyObj) {
@@ -60,18 +61,31 @@ class DayEntry {
     }
 }
 class DayDataStorage {
-    constructor(thePackedObj, featuredDayHash, dailyDayHash) {
+    constructor(thePackedObj, featuredDayHash, dailyDayHash, owDate) {
         this.featuredHash = featuredDayHash;
         this.dailyHash = dailyDayHash;
         this.items = thePackedObj
-        var d = new Date();
-        this.pulltimeCode = Date.now();
-        var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
-            d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
-        this.pulltimeText = datestring
+
+
+        if (owDate) {
+            this.pulltimeCode = owDate.getTime();
+
+            var d = owDate;
+            var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
+                d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+            this.pulltimeText = datestring
+        } else {
+            var d = new Date();
+            this.pulltimeCode = Date.now();
+            var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
+                d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
+            this.pulltimeText = datestring
+        }
+
+
     }
 }
-StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) => {
+StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash, owDate) => {
     var d = new Date();
     var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
         d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
@@ -90,10 +104,10 @@ StoreDayData = (shrinkedFeatured, shrinkedDaily, featuredDayHash, dailyDayHash) 
     } else {
         jsonContent = JSON.parse(entrys);
     }
-    jsonContent.push(new DayDataStorage(new DayEntry(shrinkedFeatured, shrinkedDaily),featuredDayHash, dailyDayHash))
+    jsonContent.push(new DayDataStorage(new DayEntry(shrinkedFeatured, shrinkedDaily), featuredDayHash, dailyDayHash, owDate))
     fs.writeFileSync(paths.dataStorageJson(), JSON.stringify(jsonContent, null, 4), "utf-8");
 }
-module.exports.storeData = (obj, callback) => {
+module.exports.storeData = (obj, callback, owDate = null) => {
     console.log("----------------------------------------------")
     loggerLib.info('Checking RL Shop', 'save.js', '0x0a57ac', false)
     var featuredDayHash = hashLib.uniqueDayhash(obj.featured);
@@ -115,7 +129,7 @@ module.exports.storeData = (obj, callback) => {
         StoreItem(item);
     });
 
-    StoreDayData(shrinkedFeaturedData, shrinkedDailyData, featuredDayHash, dailyDayHash);
+    StoreDayData(shrinkedFeaturedData, shrinkedDailyData, featuredDayHash, dailyDayHash, owDate);
     loggerLib.info('New shop content saved', 'save.js', '0xe488e4')
 
     if (callback) callback();
