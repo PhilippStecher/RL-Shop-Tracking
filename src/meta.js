@@ -9,19 +9,26 @@ exports.quality = [
     "Black Market",
     "Limited",
     "Legacy",
-    "Certified"
+    "Certified",
+    "Premium"
 ]
 
 exports.category = [
     "Antenna",
     "Anthem",
+    "Avatar",
+    "Avatar Border",
     "Banner",
     "Body",
     "Boost",
+    "Crate",
     "Decal",
+    "Engine Audio",
     "Goal explosion",
     "Paint",
     "Rocket boost",
+    "Sticker",
+    "Title",
     "Topper",
     "Trail",
     "Wheels"
