@@ -1,8 +1,11 @@
+const fs = require('fs');
 const metaData = require('../src/meta');
+const paths = require('../src/path');
+const loggerLib = require('../src/logger');
 
 class ItemConstructor {
-    constructor(iName, iType, iCategory, iQuality, iColor, iCertification, iEdition, iPrice, iUpvote, iDownvote) {
-        this.iID = hashLib.itemHash(iName, iType, iColor, iPrice, iCertification, iEdition)
+    constructor(iID, iName, iType, iCategory, iQuality, iColor, iCertification, iEdition, iPrice) {
+        this.iID = iID;
         this.iName = iName;
         this.iType = iType;
         this.iQuality = iQuality;
@@ -11,13 +14,6 @@ class ItemConstructor {
         this.iCertification = iCertification;
         this.iEdition = iEdition;
         this.iPrice = iPrice;
-        this.iUpvote = iUpvote;
-        this.iDownvote = iDownvote;
-        var d = new Date();
-        this.pulltimeCode = Date.now();
-        var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" +
-            d.getFullYear() + " " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + ":" + ("0" + d.getSeconds()).slice(-2);
-        this.pulltimeText = datestring
     }
 }
 
@@ -39,7 +35,7 @@ var splitType = (iType) => {
     })
 
     if (!iQuality || !iCategory) {
-        loggerLib.warn("Quality or category of items couldnt be parsed.\nCheck manuelly!", "parse.js", "0xf0a0ff")
+        loggerLib.warn("Quality or category of items couldnt be parsed.\nCheck manuelly!", "reSort.js", "0x74a5fe")
     }
 
     return {
@@ -47,3 +43,45 @@ var splitType = (iType) => {
         iQuality: iQuality
     }
 }
+
+
+init = () => {
+    var items = fs.readFileSync(paths.itemStorageJson(), "utf-8");
+
+    if (items.length <= 2) {
+        loggerLib.warn("Contents of Items is Empty", "reSort.js", "0xabcdef", false);
+        return;
+    }
+
+    items = JSON.parse(items);
+
+    var newItemArr = [];
+
+    items.forEach((item) => {
+        if (item.hasOwnProperty("iID") ) {
+            if (item.hasOwnProperty("iType")) {
+                var splittet = splitType(item.iType);
+                if (!splittet.iQuality || !splittet.iCategory) {
+                    loggerLib.warn("Parse Error: " + JSON.stringify(item), "reSort.js", "0xacd34f", false)
+                }
+                var newItem = new ItemConstructor(item.iID, item.iName, item.iType, splittet.iCategory, splittet.iQuality, item.iColor, item.iCertification, item.iEdition, item.iPrice)
+                newItemArr.push(newItem);
+            } else {
+                loggerLib.error("Item Jumped: " + JSON.stringify(item), "reSort.js", "0x15a3c7", false);
+                newItemArr.push(item);
+            }
+        } else {
+            loggerLib.error("Item Jumped: " + JSON.stringify(item), "reSort.js", "0xa5c34b", false);
+            newItemArr.push(item);
+        }
+    });
+
+    if (items.length == newItemArr.length) {
+        fs.writeFileSync(paths.itemStorageJson(), JSON.stringify(newItemArr, null, 4), "utf-8");
+    } else {
+        loggerLib.error("Array length missmatch\n- 'items' length: " + items.length + "\n- 'newItemsArr' length: " + newItemArr.length, "reSort.js", "0x9a8d8b", false);
+    }
+    loggerLib.info("Complete", "reSort.js", "aeb58a", false);
+}
+
+init();

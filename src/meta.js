@@ -20,7 +20,7 @@ exports.category = [
     "Boost",
     "Decal",
     "Goal explosion",
-    "Paint finish",
+    "Paint",
     "Rocket boost",
     "Topper",
     "Trail",
