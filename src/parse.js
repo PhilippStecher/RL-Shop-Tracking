@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 const hashLib = require("./hash");
 const loggerLib = require('./logger');
 const metaData = require('./meta');
+const { exit } = require("process");
 
 var featuredItemArr = [];
 var dailyItemArr = [];
@@ -46,7 +47,8 @@ var splitType = (iType) => {
     })
 
     if (!iQuality || !iCategory) {
-        loggerLib.warn("Quality or category of items couldnt be parsed.\nCheck manuelly!", "parse.js", "0xf0a0ff")
+        loggerLib.warn("Quality or category of items couldnt be parsed.\n- Check manuelly: " + iType, "parse.js", "0xf0a0ff")
+        exit(1);
     }
 
     return {
