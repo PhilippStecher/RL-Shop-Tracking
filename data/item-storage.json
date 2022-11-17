@@ -91445,5 +91445,71 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2000"
+    },
+    {
+        "iID": "ebabb5f0a19e77b182e97411fea256ace50ade3713706b58c06e60eaa7368c5d60ba13242866f1e75dc52d7da956fd6a8c9c23348fb535e137126d4d17156d83",
+        "iName": "Octane: Slimline",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "50"
+    },
+    {
+        "iID": "b8d5e49403ad6b6f9e055268ffb9354bdbc95ad1167e62c7a98df960497535672532822baa9042aca46732b087b8026d8134a064a708424bdbedf9c7a3460b9b",
+        "iName": "20XX",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2000"
+    },
+    {
+        "iID": "8d5c9ed1db05eac2b7d67c6abc1b7908805d3f6b5b630fefd887efddbb271011705a5ca6230bd9f0024a38e22a15e082e6520c5b218e7595cd351b2d47c8a4e0",
+        "iName": "ARA-51",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "d42d657d5a64e83574b94e5cc34ea06ec4d4be94b60fa2c2b4cd9a62a2b433cd91cbcc6f107edcbee14a30c8eebbc6e87942e468a0851862400f9adeda730d54",
+        "iName": "Xenosplash",
+        "iType": "Very Rare Rocket Boost",
+        "iQuality": "Very Rare",
+        "iCategory": "Rocket boost",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "039180e3d46102d2767c7481b26c7bc663da3f04d9746a51eec2f3b6ea3e7d11d3c0004fe9dcc7d771f8e8a54e0f08975bd60775e46ec1c8e61cedf7016482b5",
+        "iName": "Ultralex",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1200"
+    },
+    {
+        "iID": "f5e5b6aac378bf5e641514e5e3fcf4f71859591df4765d2c7c514a34acd715012561b19b4d4b220fb14af9dcc73404f5238da9ac45a9c02afcf3559257420f1c",
+        "iName": "Beach Party",
+        "iType": "Exotic Goal Explosion",
+        "iQuality": "Exotic",
+        "iCategory": "Goal explosion",
+        "iColor": "",
+        "iCertification": "Tactician",
+        "iEdition": null,
+        "iPrice": "800"
     }
 ]
