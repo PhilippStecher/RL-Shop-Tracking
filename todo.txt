@@ -11,3 +11,5 @@ shop/items/2022-11-15
 Re add: ForD [DAILY/FEATURED] [IMPORTANT]
 
 Webserver
+
+Let the script check for new Date() >= 21Uhr und nicht neuer Shop content!
