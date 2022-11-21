@@ -91687,5 +91687,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "600"
+    },
+    {
+        "iID": "6ea8186d1f02137ae1e4b1e7c227ed078e349cf5ac7935184132e43b735e0fda0e63d0ae13431d0b631715c7b3bac40d9cde1430ae77498fc1be4b4f1f209eb5",
+        "iName": "Looper",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "bc5b3d0842163988973dfc7e86c3374ae61f2dc90b6451da5cb5d4980a7fea6231249230d6ef8c3261ce61fe831351f32fad434a14a323695ecfccefbbfa0e67",
+        "iName": "Lightspeed",
+        "iType": "Very Rare Trail",
+        "iQuality": "Very Rare",
+        "iCategory": "Trail",
+        "iColor": "Forest Green",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "75c647fea26e2b03d7dd6060b7850e2c7e2f3f59dc5a97c278fd20ceb260f0596c7f6dea4f173df7765a0286b7f1fe039b03a208e1c3f2be02d800e891b2b75c",
+        "iName": "Toon",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2000"
     }
 ]
