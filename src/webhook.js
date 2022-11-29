@@ -1,5 +1,5 @@
 var https = require('follow-redirects').https;
-const isWebhookActive = true;
+const isWebhookActive = false;
 
 send = (payload) => {
     if (!isWebhookActive) return;
