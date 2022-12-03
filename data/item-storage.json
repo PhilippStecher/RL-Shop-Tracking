@@ -92237,5 +92237,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "800"
+    },
+    {
+        "iID": "500dc6a8c5191aa7bc7aba59e83221e7cec88b1ea2c3c58b865e424bb7ebe024d52ced6fbdcd33f9381a931f8cf32bea1203b85e5235d1eddb7c84653c5cd76b",
+        "iName": "Insidio: Silencer",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "c7c47d7aed4b74331031e3ac17041ae28e8d775310c728d27c6d3a4a8ea0559499da021483f32ff80d5e253e2026e36bf4059452712bdf32ce48820e41530e45",
+        "iName": "Friction",
+        "iType": "Very Rare Trail",
+        "iQuality": "Very Rare",
+        "iCategory": "Trail",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "58ba938d12a9e1203734d56d27b3134a47485b3cae7a61822cd555ac1cab5bb72cb7f7981dab542396abd140bc26696c20a175ad24fc8733abe5ad799b1c03c9",
+        "iName": "Insidio: Mr. Coney",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
     }
 ]
