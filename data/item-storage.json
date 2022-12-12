@@ -92589,5 +92589,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "600"
+    },
+    {
+        "iID": "baa94b41834c1d5288734d4d69b4622d108b27a30fa747445c79cf5f232d3443b56e564d0437addcb916335a9c715a080dd57aa0f4d677466e140f9541a5a711",
+        "iName": "Dueling Dragons",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Gold",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2500"
+    },
+    {
+        "iID": "9448b67d9af27c10fc437d47b8b11ae045b20304ad9b3aa7ebb48b6b98403345a0bff67a14d47c39be4e50b81123585e66e9040b3c174ed0e7041ed9458bed7f",
+        "iName": "Pigeon",
+        "iType": "Very Rare Topper",
+        "iQuality": "Very Rare",
+        "iCategory": "Topper",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": "Anodized",
+        "iPrice": "100"
+    },
+    {
+        "iID": "66e68d5d1c2e02a916e113388b976367d0c74aa6e4bf88263c6727b372fe310cd32e3daaa3761de5ed0e777f880192bd7921354bc29390e64e1c3cc4439e74a7",
+        "iName": "Reactor",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "9982c9ddd348f8e93ca881288e133344049b97860e45935685124a244ecdce0cecd565c700169113e506fd0c3a55e834d2bf79e1c38dbdefa0e70d84f49a81da",
+        "iName": "Vulcan",
+        "iType": "Rare Wheels",
+        "iQuality": "Rare",
+        "iCategory": "Wheels",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
     }
 ]
