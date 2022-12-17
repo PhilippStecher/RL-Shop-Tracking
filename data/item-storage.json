@@ -92864,5 +92864,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "100"
+    },
+    {
+        "iID": "a7880961af6dfb0870c8cb1bf509954a70fdf6b5ac6ea20e5480ea7e8e6ee20aa1f9411df575dfc92961d0e72956b541285d7e836325b87acc43fd564025c9e2",
+        "iName": "Pyrrhos",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "7c50fa6fa3dde1a451e72c9375b0f399083eba3db962cdcbfc6f906f4fff0c7b1d92346c628ba2044668011cd98dee420f225d8d30bc4c5f188a4c5e9145134c",
+        "iName": "Dissolver",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2000"
+    },
+    {
+        "iID": "32d1b6c1aa3ef390cbaf5b1d59664fd0db925ea8dc07745ff95a468feac23fba7aa7ee28260710f2816db679c4bdfdb6d0f094bae6cbc420976fcb9a36d3f66a",
+        "iName": "Twista: Infinite",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Crimson",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "800"
     }
 ]
