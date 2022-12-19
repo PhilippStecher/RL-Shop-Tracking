@@ -92930,5 +92930,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "500"
+    },
+    {
+        "iID": "a167e202f2d7ac645c1bc27df5df8b2e393d840ad74b04d2c2a634ebd855efd51bb559cf83a6690e20160eeb80df69117185207e1f567cc3f021b19eaa57eac6",
+        "iName": "Hikari P5",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "44cb4d20141cf96fb76ccc8d88a872d5dfcd80223f90a587d93fe5e8c1c91f8b6dce4fcd80f13ab849c4d2df9193ca4ca61807b0893ece2bd9731f377e6088ae",
+        "iName": "Canister",
+        "iType": "Rare Wheels",
+        "iQuality": "Rare",
+        "iCategory": "Wheels",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "f8df92e642b02d996ea97c8ea1ce5da7d8e749dc216153e9e8cfa9504400581ccb4795bab89cbb8bf392cb47ae6d021e3da78a7420c735af605af5bcf014de28",
+        "iName": "Comet",
+        "iType": "Import Rocket Boost",
+        "iQuality": "Import",
+        "iCategory": "Rocket boost",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
     }
 ]
