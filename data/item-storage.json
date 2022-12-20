@@ -92963,5 +92963,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "600"
+    },
+    {
+        "iID": "7097ed2e8077a4a2e3479d3797c224a9ee9a95fc72218e395bcf64102aedef54efddd3a8ec3d0fa6a9d77d0401188ee26dd2d387a8242d9788be5136e30a29e6",
+        "iName": "Wet Paint",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2000"
+    },
+    {
+        "iID": "843522acc2e95f9f22b4798bb4a2ed68209cf842a3f6dd660ab711f5362e07e685a09bd74314fdc3bffdbdf3a8b05e4b195f8b28dae36bd7a750d2caf5b0206b",
+        "iName": "Wonderment",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "da3774eaa00a2b65af66e579e2459828b2cac3bbb8747da99b75dc4943f17dd7bd467b697e8c6cf9ff63b62b13e6e1c99f5886c45ff80e60f2caabb7710392f3",
+        "iName": "Hypnotik",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "f9b93d557bc7cb5c7dad6d0b372b80a523dfdfc28375427f659b337c80e57ee4aae1fc2858ea1ea1cdcb63805c6094e1fae187f4d7bf78f211f243fe54fc41c5",
+        "iName": "Dey KC: Schematized",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Orange",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "800"
     }
 ]
