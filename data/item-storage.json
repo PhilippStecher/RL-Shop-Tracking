@@ -93227,5 +93227,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "200"
+    },
+    {
+        "iID": "363a79fe8dad09c339e0437029e58128ca2ccbf62f04eed1be6d7cf283c369a9ccdcced0a6f93cf666a1b5d861ad40db8020148f682c808cf25fbaf8608662d1",
+        "iName": "Christmas Cocoa",
+        "iType": "Very Rare Topper",
+        "iQuality": "Very Rare",
+        "iCategory": "Topper",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "4d5ddd08277a33946f9e63d97cff8bda89fab4963d22981eec53d18a20fd8afd546606fcb5faaccbecd511f96d96a36b9bc52bb114339d2b50a990ff6d1950c3",
+        "iName": "Octane: Abtruse",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "250"
+    },
+    {
+        "iID": "1dff5e2ca7e675e78c7a068a604c86ebf6ce00a58cce15244a98f0ae350c5ad8187c30d277654db13a3099dc26e4b7c7b73aca9851855be43e96f2c6f778b50d",
+        "iName": "Spectral",
+        "iType": "Rare Banner",
+        "iQuality": "Rare",
+        "iCategory": "Banner",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
     }
 ]
