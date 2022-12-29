@@ -93403,5 +93403,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "300"
+    },
+    {
+        "iID": "3360702808b5651d4fd073e4ccb16a8466b7758171e64e76c55f5fad436155306b00722832795170a2640990358dcb7af21b6b837d96440bf3f2ed145c182e26",
+        "iName": "Octane: Vertebrate",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "388129e9992041159309666439789426566f773cd16206780d30e113f59b44009c4f3460049f2d34638a7be79b1a498a15f2ddf9fa01031f6a2c0754ae2b6768",
+        "iName": "Jak'd: Obverse",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "f768d6ec27f54a4243d251cdbb445eaa6afc03d1b6d838b8bb3af873bf08ad08c054615fe4abed893b4e6ebb2b4e81d463c780286a40655b1b42fe6c7d2a795f",
+        "iName": "Xenosplash",
+        "iType": "Very Rare Rocket Boost",
+        "iQuality": "Very Rare",
+        "iCategory": "Rocket boost",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "200"
+    },
+    {
+        "iID": "f1cda1eb1c23c879ad92ee8f09d67f274c7a9b860af2608e8073362c2c7cc850634307938c0997eb0a6d302f71ac43de1d406408afd6d56c683b431f33ba1678",
+        "iName": "Octane: Windblast",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "250"
     }
 ]
