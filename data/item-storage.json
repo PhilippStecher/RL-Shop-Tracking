@@ -93447,5 +93447,71 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "250"
+    },
+    {
+        "iID": "dab65b9de951a3e5f3c4d2fcf9eb0f3bb1d62e6fd2d7a242f2ac51a406a89ed42ad5debb4559decf57590c0b409dbf826cecbd57c4dbe1c4dffc2becc008a25a",
+        "iName": "Octane: Fancy Formal",
+        "iType": "Very Rare Decal",
+        "iQuality": "Very Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "c5d07f87b80818092357bec14bbc072e6463d8afb660183e7ea3678766df9fe1982273fbb4d6a8e7a2342284777f16600e66cd7eff1dcab4a131328070609398",
+        "iName": "Reaper: Inverted",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
+    },
+    {
+        "iID": "23fda7ff0933719c60518f96850f8603bee095fcf247b53208cff92c2aae4fece35074dfdae8c2b126f6e259b5e7d39dcd31046a272bad8530ffb30ece005ae4",
+        "iName": "Octane: Sticker Bomb",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "830e4f1c8709ef2a595ba1ea803a0a002e06c4e33c6d543e37e700c67c305343c995c1b6c6e6ea552add0bef9b7774cca73fd8171abae704945fbaf932e1f4a5",
+        "iName": "Hexphase",
+        "iType": "Very Rare Rocket Boost",
+        "iQuality": "Very Rare",
+        "iCategory": "Rocket boost",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "200"
+    },
+    {
+        "iID": "f16869361add91c2db0f60e0495b6a14cbd4a5a8c4f20901806c9ce4daeb454eab5f3326f650b593ff870c04d20040b70d64de83662394fda7482e33a3629889",
+        "iName": "Octane: MG-88",
+        "iType": "Import Decal",
+        "iQuality": "Import",
+        "iCategory": "Decal",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "800"
+    },
+    {
+        "iID": "960e1eda1b67bcaacd28b49149ef865d88a84a3c4f0cef138585939f137e589d46375fd125f9a6d900d1cd750c8c26578165719a210a36739f6eee129a8db3c0",
+        "iName": "Neuro-Agitator",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2500"
     }
 ]
