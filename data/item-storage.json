@@ -93513,5 +93513,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2500"
+    },
+    {
+        "iID": "37f79a6294a1fc51e721047d0d20dc812187ca33136eb6737905b173cfa854325a631c6107b9c81d6c07429c729e35f30ceee6ebe81262b52abf66abb9c47483",
+        "iName": "Octane: Venus Trapper",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "50"
+    },
+    {
+        "iID": "fe7e2944a20fd7f9c3e87ed2c81bb8913d1ad0f3b86bd0f87d5e731ff97683b08360044620315b7f9d61a8405ef82025510f18015d492fadc996ed287be34922",
+        "iName": "Startrack",
+        "iType": "Import Rocket Boost",
+        "iQuality": "Import",
+        "iCategory": "Rocket boost",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "10ae9362a5889208e0bd099fdc456106bddc532e3efb19b1ca294fd84de09f7775a1bd4858fcededdfbc691b3fa9bc4e9f3be49dd949c1e3628ffbf4775b17dd",
+        "iName": "Octane: Buzz Kill",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "250"
     }
 ]
