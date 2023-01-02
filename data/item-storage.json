@@ -93579,5 +93579,60 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "900"
+    },
+    {
+        "iID": "a0602eecc1fe04bffe7f8c0d234129ddbacd549a5ab8a8703c69fe0d0d848ea4c65b534380abe72fdff4aa5cc44c97eb7d6f9eca27fedf9a5e565defaf95f15a",
+        "iName": "Lobo",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Forest Green",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "a5f9894597287b394517b5c8bdc41c3e8803d334de3f41b3dccd12a5d93d5c07492253d7e840714431e7ff33ad9c9a21c6827592f0b93ba1ed3b44ad3d8d1322",
+        "iName": "Glitch",
+        "iType": "Very Rare Wheels",
+        "iQuality": "Very Rare",
+        "iCategory": "Wheels",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "c7a3ef7ebf4ea6582a51390b6012f6125606e659b9d02174111280989c034c1c2952306a0bf72b748ee47405f0f8cb4b9309dfe1167f9b5fdfbf59f82e5c620d",
+        "iName": "Burnout",
+        "iType": "Import Rocket Boost",
+        "iQuality": "Import",
+        "iCategory": "Rocket boost",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
+    },
+    {
+        "iID": "3ee966aa7a11819682dfafad219fb3e488a954bf636dc41af5b47da6b1dccf03a5fed02bd273ee43dcd053f66996fcf62637c83eccb60ef6c8a5cd1b58a4df64",
+        "iName": "Zefram",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Grey",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
+    },
+    {
+        "iID": "22ac038b21c72a1d8cd989b9e990cdcb33102c5b8ddc2958ffdb6cca9fd0831c87466aaf39609893b0ce6da167f53e32a851761c4b469781eef48d6bfc77b368",
+        "iName": "Global: Warp Wave",
+        "iType": "Exotic Decal",
+        "iQuality": "Exotic",
+        "iCategory": "Decal",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
     }
 ]
