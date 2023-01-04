@@ -93689,5 +93689,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "100"
+    },
+    {
+        "iID": "6793314944bb240ddb6a0898a6bea319a1dfc73925ef8da8c6f15154ffc26edf0aaa7d4337599855488db94271d5747009d9e5b22c00a307e4102663bb2b424a",
+        "iName": "Jäger 619: Mister Monsoon",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "814c2f7361aa55f371573d4458565f2888ff1ca12b8a3683276ab4656ae961ae27d847c76cca4e51e5fb61161948a7b4f6aa140db7925bd6ee68e2750e55122a",
+        "iName": "Jäger 619: StarLighter",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "e861d4559506cd49f07bf783cb82844249e75c6780d1de971cae6e9d25abe52d3fc74081a74e51fe4bb92ebc6cb993b01dccbe0923c9e0526d45c1a1bc0039af",
+        "iName": "Hot Rocks",
+        "iType": "Very Rare Trail",
+        "iQuality": "Very Rare",
+        "iCategory": "Trail",
+        "iColor": "Forest Green",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "e9728e41a9f270a7687bd651b76cd91d70515c94504dcb8d6b602f371d47b315107fba37e1806bab000594dbc38d85185254770f502ad91a37afcc5ff9f479b6",
+        "iName": "Voltaic",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Grey",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
     }
 ]
