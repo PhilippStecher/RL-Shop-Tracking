@@ -93799,5 +93799,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2200"
+    },
+    {
+        "iID": "3424583981cf6eedcff780b9af7cd6e630fb76902f46fb08d039086c88fd8e061de23866878f2d2dad0cfab092481cf1d017977a192334bf45b0ff2bc8a0855c",
+        "iName": "Cruxe",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "fdb3f11d1298342bd9bffaefff395a298df0851f42626dd6174bcb283d72e4822a65b5d7348b8a33c15ee794fde372354770f2852a56e82331b3c19ebd6ab9e4",
+        "iName": "Hex Tide",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2000"
+    },
+    {
+        "iID": "1cf7437c882b00606f900c82a3e27104f48583a0c12e100579f1769bd3560de55f686ba54164e0385ef845e7476e9287fbd55261e84df33fc267bee4afa8d3ef",
+        "iName": "Shortquarter: Inverted",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Crimson",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "800"
     }
 ]
