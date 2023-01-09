@@ -93920,5 +93920,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "100"
+    },
+    {
+        "iID": "0e50ae0cadde761442b3f382662ab08c81e9c9af03d0a034eba80404ada91fa8f531ba45003efc842d9ccc92f448a2baca778db8bb10d545457d3b351a4b6b84",
+        "iName": "Centio",
+        "iType": "Import Body",
+        "iQuality": "Import",
+        "iCategory": "Body",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "c83050ade8db83e1fe54f8c8dd081bba66c6b93d30a9de7901fdeeb0c1ceb25d2e3179a7951e7d78e6773e9058e93fafde537a1ee58f1090561923caf721170c",
+        "iName": "Centio: Splashback",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "4c4fd02015431298c55a58eb987dd5b958997226217d1efe4a240580a348618e2a5790fd760e5e426b809a08a0932cb24b82058585360e947c35e68e3fbbeb70",
+        "iName": "Centio: Machina",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "2712132d680d6fb417f512c02a8c34c75d972cefc4688c1c8cf9a86be8d723937a708a8a38919e1e0bb810fa169747b01741653cd4679283e3e93769c241ad9c",
+        "iName": "Shattered",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2200"
     }
 ]
