@@ -93964,5 +93964,60 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2200"
+    },
+    {
+        "iID": "649079b1c7303d603aaaae6f412cfcab3e95d9498f23088b77343cba2b9d21194da490050939e7f12579314cbb9a2cfaaf3687c7eb4e191a0d43cf000cc31fe2",
+        "iName": "Centio: Gigapede",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "50"
+    },
+    {
+        "iID": "d77018f5babcbefcf21912ab43dacd842387618415f7916ab7f01f016f04caed2ebe884584c9b32a425c6a92e4d415cb3b8f84fd37074c1533b37c8fdc88325d",
+        "iName": "Centio: Pollinator",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "50"
+    },
+    {
+        "iID": "708c0192bea5e688b05a25e7726336e1b15af34eb1f618bdc61fba9e43ffc45149944cbc0bdab9a22cba0df014b3fa10cacad6f50014df5e1803924db744fa67",
+        "iName": "Zigzag",
+        "iType": "Very Rare Trail",
+        "iQuality": "Very Rare",
+        "iCategory": "Trail",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "400"
+    },
+    {
+        "iID": "7ac2e91a249c4c79b04f64e2abe0ac97197c5bde85905124e1e85b3a399754d0fa1996cdc9f58a35961f40a2f55f96b1899bbbdf255db2a53cf8acc9adcdc10f",
+        "iName": "ARA-51",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
+    },
+    {
+        "iID": "19019bd5bb8881933f5e2f216fec8774550ab9c5f8e678580beb289c828abc7c1f594b4e51a9cda82a5fc4b02765dcfee367511c8c0ee71c91c504e18531803c",
+        "iName": "Toon",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2200"
     }
 ]
