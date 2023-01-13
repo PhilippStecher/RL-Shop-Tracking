@@ -94085,5 +94085,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "200"
+    },
+    {
+        "iID": "15794dfaeeb86f197e42e8bdb29806d7d8f48657f2844fe913a329ff5c669e53e1208491eea289359a656c906142cf0dccf1f5ebf92c68d87bf96cb34a3ada76",
+        "iName": "Fennec: Oozy",
+        "iType": "Import Decal",
+        "iQuality": "Import",
+        "iCategory": "Decal",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
+    },
+    {
+        "iID": "d00757bbee634b4b12766a4e417230ff851d8024fe3b7731a68587fb737cf1938e5d1860274e02b3cacfca119030fe9fa948fb7d6e7de996d714271df354a9ea",
+        "iName": "Triplex",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
+    },
+    {
+        "iID": "7cd3239a05e692eb7ec45c2be2757eba82c50b4c0bd3daeeb416a89ef7b33a918d245d258c02cae1c3f0ef626c530977c856e470d8825f49aeacade1d18a0470",
+        "iName": "Grass",
+        "iType": "Uncommon Rocket Boost",
+        "iQuality": "Uncommon",
+        "iCategory": "Rocket boost",
+        "iColor": "Titanium White",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "c80f53d085d6c8515d37118a8bd794747b1ee207ddd540e5c6322ab148cfdc3bae39cfc5ceb4111dc32e18c81bf8454a3589e69a93e449a2ba1813b6c69566d1",
+        "iName": "Fútbol",
+        "iType": "Very Rare Antenna",
+        "iQuality": "Very Rare",
+        "iCategory": "Antenna",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "200"
     }
 ]
