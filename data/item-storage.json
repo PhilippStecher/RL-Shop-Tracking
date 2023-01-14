@@ -94129,5 +94129,16 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "200"
+    },
+    {
+        "iID": "41a96e30ce61a06fd645ca1256830ff9fdbb4180c760fda9aeb83e4dbf1535b16017f3b8a361f15e3c65737cafc6c6f608193ac84094a03e535df78fe8f0abbb",
+        "iName": "Fennec: Edge Burst",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
     }
 ]
