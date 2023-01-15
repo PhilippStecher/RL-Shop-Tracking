@@ -94140,5 +94140,60 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "100"
+    },
+    {
+        "iID": "aea2bfeedac27e060915bd544718d3aedba6456790369d51eb9c5bc4a41ee761da630288aa3971af5649a00417d1bec4396a4c84530a3bf1590203aea3a8b774",
+        "iName": "Masamune",
+        "iType": "Very Rare Body",
+        "iQuality": "Very Rare",
+        "iCategory": "Body",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "400"
+    },
+    {
+        "iID": "7ec3b3722a21799f2f97dbfd1e2cc44c3a91a2746020ac8f3164c62578ce0266aeca1c24cc6b6146342d368be2260e5ea5be64b7fd55e69a5aa7f295d2673718",
+        "iName": "Pyrrhos",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "ec683b43d1209c780a13e6d14303dd1d5dae4f86d981c1a8ce1c8b22677a8598e113152ab6ca2fe0379e77641cf0c5e96fce4a99c3f2a881b720c9d62c4502ba",
+        "iName": "Masamune: Tumbling Blocks",
+        "iType": "Import Decal",
+        "iQuality": "Import",
+        "iCategory": "Decal",
+        "iColor": "Crimson",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "500"
+    },
+    {
+        "iID": "4e604f078e4729b6b177fbc8f513a8120de24f879399493ebdabed28812f100c4660edd9b2ccdfcf4cf7c29a48a2eee0eafa978fdc59f35c399a6f3a30f4e1fa",
+        "iName": "Apparatus",
+        "iType": "Import Wheels",
+        "iQuality": "Import",
+        "iCategory": "Wheels",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "600"
+    },
+    {
+        "iID": "d801bbcfff935ae0a35f6bec8025e8d2fd0f82dd314521805b4d12c76008e4ada8369cfecd38bd7ab84e5567d9a65055bc33d259eee6c8cba05d028704c05b30",
+        "iName": "Discotheque",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
     }
 ]
