@@ -94195,5 +94195,60 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "1100"
+    },
+    {
+        "iID": "3117a7d6e47bf7dc0a144cb694e2c125a38841cc8f9ff1a88453d8eb965a439eaf4a7d380da2726570db283e6fc3f623e633431337377f4d5b3776c2f13182e1",
+        "iName": "Masamune: Kawaii",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Orange",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "974adda65de4ff5b346d68518a69dfac721d43b5e33fd5ec0b56d66773b0f7831575e8b737dbf0f53483e60c819fe19707d0524d118e82c24fce1c6a234893d4",
+        "iName": "Masamune: Trihedron",
+        "iType": "Rare Decal",
+        "iQuality": "Rare",
+        "iCategory": "Decal",
+        "iColor": "Sky Blue",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
+    },
+    {
+        "iID": "40337c57726bb9b3536cf2ce7e4c31153b6d94227d275c696102af3e8665da1756bd79e942ef0a0a3568cc55c55412391f47f812ac27a267aadfef8d797330c0",
+        "iName": "Truth Beam",
+        "iType": "Very Rare Trail",
+        "iQuality": "Very Rare",
+        "iCategory": "Trail",
+        "iColor": "Black",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "300"
+    },
+    {
+        "iID": "6359131313934c8d3daff01b22e6943bdf2bf958c7f43cf8b5abbce97dca0eb2424bcadc76f5aaafd0d6dae933d119aeadb034757526eb51778ebefea875b4b7",
+        "iName": "Looper",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "63f70e05de5cc4acdde505d17ca90ef47b5e9db9ab1b0e9e413e5fbf533f617abba0f953ee9dcbc2d08ef33f4e1846c50137538555224a2ca490098344d63989",
+        "iName": "Solar Flare",
+        "iType": "Black Market Goal Explosion",
+        "iQuality": "Black Market",
+        "iCategory": "Goal explosion",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2200"
     }
 ]
