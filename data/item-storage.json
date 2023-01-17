@@ -94250,5 +94250,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2200"
+    },
+    {
+        "iID": "45ee5fbf60746f522e6c528faf4a2e76d2e236382fc973c78108f4b7267c9e17f7482b5466624ca7c45ed5d5b5d6253603da2bd7cf8c84ab253b4927bdae61b4",
+        "iName": "Equalizer",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "74c20f06ec18f88ac18c075b1167c543cf20115a8a0de0605824db2c7abb167cc738dbd3cdf90efc976b300fd00f437b6528d6f70baaf35984ab36877e38af31",
+        "iName": "Encryption",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2200"
+    },
+    {
+        "iID": "b11eec0b06025682597568e3e36fbbcf25029e492a6cf1fa1ba078bb6b0e01d5b0a51542b7a60736633ed188b8c5b70a8be59b5a2e7dd0da9bfd90b1b98424d7",
+        "iName": "Bravado: Infinite",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
     }
 ]
