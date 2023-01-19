@@ -94316,5 +94316,60 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "2200"
+    },
+    {
+        "iID": "c5a84d834d8b0d84fc8a486193fd4fded718b57ee7dce251fe9ca4a582b7923733e3a340e603dc08d737396d2ca6b0561811dc072cc254882eab2397a9fab9af",
+        "iName": "Octane",
+        "iType": "Import Body",
+        "iQuality": "Import",
+        "iCategory": "Body",
+        "iColor": "Saffron",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "6ecfa06c8519e6deef12e30fc7c67f6ab7d7aabc488487f1fafc5850bb0a120a45d67f0e290ca178771d3f9c64f0e7a4547d3940f0bd253a89e6b91d9c5cab53",
+        "iName": "Roulette",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "84c62420bcff83a10afe364c66957263f4ffecbf1c05246c71e4a92d7e27437b73e39e1c06794a73e90b0e465c6f1085f51d01dd0265cf2706d5909ebff4ed7b",
+        "iName": "20XX",
+        "iType": "Black Market Decal",
+        "iQuality": "Black Market",
+        "iCategory": "Decal",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "2200"
+    },
+    {
+        "iID": "45180a301ade2849bbc4147b3ec5460d646d5e9348528fb39cc7150bd2c34bf9bbafd29b033d88b065f2f6bdc5b10d22b7a0300b782c7d7b212aa8d28de9ca2f",
+        "iName": "Clockwork",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
+    },
+    {
+        "iID": "d302d30840b1da7639fb98a6e3d75ef63f5b046076837e65aa959b50052821b930d8defe7c541588a25e7e10d3a38fcc532ef28a6fc767a838eeeb4738bab3eb",
+        "iName": "Bomb Pole",
+        "iType": "Uncommon Antenna",
+        "iQuality": "Uncommon",
+        "iCategory": "Antenna",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "50"
     }
 ]
