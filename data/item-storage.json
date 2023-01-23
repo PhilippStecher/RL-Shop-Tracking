@@ -94448,5 +94448,49 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "500"
+    },
+    {
+        "iID": "7ce7eb08c4bf448f5475247d57fbf3123a7f856459711dea2b60160491dbb09987576ce6ced6a42374f1f96eab24a311d206e5a60e241d1d6e601b9f075ed32c",
+        "iName": "Pixelated Shades",
+        "iType": "Exotic Topper",
+        "iQuality": "Exotic",
+        "iCategory": "Topper",
+        "iColor": "Purple",
+        "iCertification": null,
+        "iEdition": "Multichrome",
+        "iPrice": "300"
+    },
+    {
+        "iID": "4eadca69d3f57aded359c1f63d1dd9a86b744900aa1858d3f4d750f3b71712909fffd36f6946a36da0eb72e807c2f0c97752989ea11bce65294656a867353709",
+        "iName": "Hypnotik",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "df24aac1487da6aa64716666235546c5b72f07e9d333712cc953aebff8626119b82f4189de06a1540356bbbc558996a4ddccb36276c2390f371fa720d51025c7",
+        "iName": "Zowie",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "fb471688eddc3ca6e1c9c8fa54b65c0e67adac9ab3ce85ca2843e406e93d14ef6dad9f38d6714344019f63fc7a9247a4e96fa22f8ee4b71dbb8acf09c36ad956",
+        "iName": "Pulsus",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Forest Green",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
     }
 ]
