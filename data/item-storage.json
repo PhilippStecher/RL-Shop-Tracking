@@ -94492,5 +94492,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "1100"
+    },
+    {
+        "iID": "25bb21e6eb78c6be025d4fc3868df876df0130eab9ad34e45275ec9db8bdb42e95e5b68612b34062719457a0bdac9939cc9b698d8dbfd2188edc6bce65e5414e",
+        "iName": "Astro-CSX: Inverted",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Cobalt",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "8654d0fab3c4d6dee604c18509735a9923994134c04c718f54d9814d06a59cc959d3d9b08531418f803baec3e391f4b8417c5a888d7d53e8af04e397bc1aa141",
+        "iName": "Creeper",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Burnt Sienna",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "700"
+    },
+    {
+        "iID": "6d886d1eaa8185a167553f78b9a35103569511212ab5f9766f6aba7febff2ff49fc9e8d362e2bae0af9aca92809f440e5c1d2a0fd45c1083b6e9d08743d9baf1",
+        "iName": "Troika: Roasted",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Lime",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
     }
 ]
