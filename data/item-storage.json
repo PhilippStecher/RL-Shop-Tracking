@@ -94525,5 +94525,38 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "1100"
+    },
+    {
+        "iID": "1f10f52933ea2d2970685eb49df3a2f3e45b43c7dfb968070074e2e12388b695534dd5281d19ad8278dbe0d655cbeeba6ef186d0796c108c4de4ed232ed81f2f",
+        "iName": "Dominus",
+        "iType": "Exotic Body",
+        "iQuality": "Exotic",
+        "iCategory": "Body",
+        "iColor": "Gold",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "1100"
+    },
+    {
+        "iID": "c9b6afb9486ad15f6aa06d09c85ac6d0756bc7a6788967e34f9a31e0ea5e77ec62ee757a2dbd34491c71f3e7032f152979cd94ebd7d3ca2ff5360dfb50ab0ad2",
+        "iName": "POCKET ROCKET",
+        "iType": "Very Rare Anthem",
+        "iQuality": "Very Rare",
+        "iCategory": "Anthem",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "200"
+    },
+    {
+        "iID": "5da97721325d71a7bfc2729828c6ee615b071b851b910a85d650c283ae8804fd22867b50d4ee6f4a6efc0fc46322f4cb167edb286208aeb4f1c621ed841b6cf3",
+        "iName": "Dominus: Snakeskin",
+        "iType": "Very Rare Decal",
+        "iQuality": "Very Rare",
+        "iCategory": "Decal",
+        "iColor": "",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "100"
     }
 ]
