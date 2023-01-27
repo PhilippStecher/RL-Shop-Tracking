@@ -94602,5 +94602,27 @@
         "iCertification": null,
         "iEdition": null,
         "iPrice": "300"
+    },
+    {
+        "iID": "f7fcce01ff9f5bffefb74f6c7745be19cf09306c33c87ca765e5bf20eaaea9ebb9917a30c521c55b9fe703ce34fb25627b7cf7e3768f0d74caa90b058868f475",
+        "iName": "Dire Wolf",
+        "iType": "Exotic Wheels",
+        "iQuality": "Exotic",
+        "iCategory": "Wheels",
+        "iColor": "Pink",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "900"
+    },
+    {
+        "iID": "f6a311d745b01fcc65de7688d5ac40b54d533404add56a3aa60ad5b30f5efa857076a5c278bf822d85821af782f7310da8b105ce02534df833aea0a7e8ff7d30",
+        "iName": "Mothership Pro: Inverted",
+        "iType": "Very Rare Wheels",
+        "iQuality": "Very Rare",
+        "iCategory": "Wheels",
+        "iColor": "Crimson",
+        "iCertification": null,
+        "iEdition": null,
+        "iPrice": "500"
     }
 ]
