@@ -13,3 +13,8 @@ Re add: ForD [DAILY/FEATURED] [IMPORTANT]
 Webserver
 
 Let the script check for new Date() >= 21Uhr und nicht neuer Shop content!
+
+
+
+Safe unsaved dates as error objects
+fetchRecentData über die DB laufen lassen und nur nicht gefetchte tage nachfetchen. [Daten reduzierung]
